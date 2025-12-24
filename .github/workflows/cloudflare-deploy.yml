@@ -62,8 +62,9 @@ jobs:
           directory: dist
 
       - name: Deploy Worker
-        uses: cloudflare/wrangler-action@2
+        uses: cloudflare/wrangler-action@v1
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           workingDirectory: ./worker
           environment: "production"
+
