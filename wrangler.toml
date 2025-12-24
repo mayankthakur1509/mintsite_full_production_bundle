@@ -9,14 +9,13 @@ RENDER_MODE = "react"
 [assets]
 directory = "./dist"
 
-# KV NAMESPACES - Use the array of tables syntax
+# This is the correct format. Both production and local IDs are here.
 [[kv_namespaces]]
 binding = "ACTION_E_LOG"
-id = "2a60ad97002542bbb6b06480ed21c770"          # Your production ID
-preview_id = "0573bb979ed149d5a24f1cd78f79be2c"  # Your new preview ID
+id = "2a60ad97002542bbb6b06480ed21c770"          # Production ID
+preview_id = "0573bb979ed149d5a24f1cd78f79be2c"  # Local/Preview ID
 
 [[kv_namespaces]]
 binding = "SESSION_STORE"
-id = "daf67e9652774ee9b3992924f46d9c7e"          # Your production ID
-preview_id = "2611ce3e82ac493b9a0eae8837eef11d"  # Your new preview ID
-
+id = "daf67e9652774ee9b3992924f46d9c7e"          # Production ID
+preview_id = "2611ce3e82ac493b9a0eae8837eef11d"  # Local/Preview ID
