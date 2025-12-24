@@ -25,6 +25,22 @@ export default {
 
     const persona = url.searchParams.get("p") || "default";
 
+
+    // Safe KV bindings (use real env in prod, mock in dev)
+    const ACTION_E_LOG = env.ACTION_E_LOG || {
+      get: async (key) => null,
+      put: async (key, value) => { },
+      list: async () => ({ keys: [] })
+    };
+
+    const SESSION_STORE = env.SESSION_STORE || {
+      get: async (key) => null,
+      put: async (key, value) => { },
+      list: async () => ({ keys: [] })
+    };
+
+
+
     // -------------------------------
     // STEP 4 — FORM SUBMIT FINALIZATION
     // -------------------------------
@@ -32,7 +48,7 @@ export default {
       const body = await req.json();
       console.log("body", body)
 
-      await env.ACTION_E_LOG.put(
+      await ACTION_E_LOG.put(
         `outcome:${sessionId}:${Date.now()}`,
         JSON.stringify({
           session_id: sessionId,
@@ -42,17 +58,17 @@ export default {
         })
       );
 
-      await env.ACTION_E_LOG.put(
+      await ACTION_E_LOG.put(
         `terminal:${sessionId}`,
         JSON.stringify({ status: "converted", ts: Date.now() })
       );
 
-      await env.ACTION_E_LOG.put(
+      await ACTION_E_LOG.put(
         `cooldown:${sessionId}`,
         JSON.stringify({ until: Date.now() + 1000 * 60 * 60 * 24, reason: "form_submitted" })
       );
 
-      await env.ACTION_E_LOG.put(
+      await ACTION_E_LOG.put(
         `lead:${sessionId}`,
         JSON.stringify({
           session_id: sessionId,
@@ -113,12 +129,12 @@ export default {
     let signals = [];
 
     try {
-      const list = await env.ACTION_E_LOG.list({
+      const list = await ACTION_E_LOG.list({
         prefix: `signal:${sessionId}:`
       });
 
       for (const k of list.keys) {
-        const val = await env.ACTION_E_LOG.get(k.name);
+        const val = await ACTION_E_LOG.get(k.name);
         if (val) signals.push(JSON.parse(val));
       }
     } catch (e) {
@@ -129,12 +145,12 @@ export default {
     let outcomes = [];
 
     try {
-      const list = await env.ACTION_E_LOG.list({
+      const list = await ACTION_E_LOG.list({
         prefix: `outcome:${sessionId}:`
       });
 
       for (const k of list.keys) {
-        const val = await env.ACTION_E_LOG.get(k.name);
+        const val = await ACTION_E_LOG.get(k.name);
         if (val) outcomes.push(JSON.parse(val));
       }
     } catch (e) {
@@ -158,7 +174,7 @@ export default {
     if (intentStage === "HIGH_INTENT" || intentStage === "DECISION") {
       const activationKey = `activation:${sessionId}`;
 
-      const alreadyActivated = await env.ACTION_E_LOG.get(activationKey);
+      const alreadyActivated = await ACTION_E_LOG.get(activationKey);
       console.log("🔥 alreadyActivated:", alreadyActivated);
 
       if (!alreadyActivated) {
@@ -172,7 +188,7 @@ export default {
           ts: Date.now()
         };
 
-        await env.ACTION_E_LOG.put(
+        await ACTION_E_LOG.put(
           activationKey,
           JSON.stringify(activationPayload)
         );
@@ -181,7 +197,7 @@ export default {
       }
     }
 
-    const terminal = await env.ACTION_E_LOG.get(`terminal:${sessionId}`);
+    const terminal = await ACTION_E_LOG.get(`terminal:${sessionId}`);
 
 
     const action = resolveAction({
@@ -206,7 +222,7 @@ export default {
     // ACTIVATION COOLDOWN GUARD
     // -------------------------------
     const cooldownKey = `cooldown:${sessionId}:${action}`;
-    const cooldownRaw = await env.ACTION_E_LOG.get(cooldownKey);
+    const cooldownRaw = await ACTION_E_LOG.get(cooldownKey);
 
     if (!terminal && action !== "NO_ACTION") {
       let canExecute = true;
@@ -223,7 +239,7 @@ export default {
         await executeAction({ action, signal, env });
 
         // Set cooldown for this action
-        await env.ACTION_E_LOG.put(
+        await ACTION_E_LOG.put(
           cooldownKey,
           JSON.stringify({
             until: Date.now() + 1000 * 60 * 10, // 10 min
@@ -238,7 +254,7 @@ export default {
     if (drift) {
       console.log("🌊 INTENT DRIFT DETECTED:", drift);
 
-      await env.ACTION_E_LOG.put(
+      await ACTION_E_LOG.put(
         `outcome:${sessionId}:${Date.now()}`,
         JSON.stringify({
           session_id: sessionId,
@@ -249,7 +265,7 @@ export default {
       );
 
       // Cooldown is only for drift, separate from actions
-      await env.ACTION_E_LOG.put(
+      await ACTION_E_LOG.put(
         `cooldown:${sessionId}:DRIFT`,
         JSON.stringify({
           until: Date.now() + 1000 * 60 * 5, // 5 min drift cooldown
