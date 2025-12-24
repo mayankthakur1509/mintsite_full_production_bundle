@@ -19,3 +19,9 @@ preview_id = "0573bb979ed149d5a24f1cd78f79be2c"  # Local/Preview ID
 binding = "SESSION_STORE"
 id = "daf67e9652774ee9b3992924f46d9c7e"          # Production ID
 preview_id = "2611ce3e82ac493b9a0eae8837eef11d"  # Local/Preview ID
+
+[env.production]
+kv_namespaces = [
+  { binding = "ACTION_E_LOG", id = "2a60ad97002542bbb6b06480ed21c770" },
+  { binding = "SESSION_STORE", id = "daf67e9652774ee9b3992924f46d9c7e" }
+]
