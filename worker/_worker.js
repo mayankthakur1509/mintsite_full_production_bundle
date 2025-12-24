@@ -27,17 +27,18 @@ export default {
 
 
     // Safe KV bindings (use real env in prod, mock in dev)
-    const ACTION_E_LOG = env.ACTION_E_LOG || {
+    const ACTION_E_LOG = env.ACTION_E_LOG ?? {
       get: async (key) => null,
       put: async (key, value) => { },
-      list: async () => ({ keys: [] })
+      list: async (opts) => ({ keys: [] })  // <- accept opts argument
     };
 
-    const SESSION_STORE = env.SESSION_STORE || {
+    const SESSION_STORE = env.SESSION_STORE ?? {
       get: async (key) => null,
       put: async (key, value) => { },
-      list: async () => ({ keys: [] })
+      list: async (opts) => ({ keys: [] })  // <- accept opts argument
     };
+
 
 
 

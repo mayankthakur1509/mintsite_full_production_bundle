@@ -14,6 +14,12 @@ kv_namespaces = [
   { binding = "SESSION_STORE", id = "daf67e9652774ee9b3992924f46d9c7e" }
 ]
 
+[dev]
+kv_namespaces = [
+  { binding = "ACTION_E_LOG", id = "2a60ad97002542bbb6b06480ed21c770" },
+  { binding = "SESSION_STORE", id = "daf67e9652774ee9b3992924f46d9c7e" }
+]
+
 [env.production]
 kv_namespaces = [
   { binding = "ACTION_E_LOG", id = "2a60ad97002542bbb6b06480ed21c770" },
