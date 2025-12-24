@@ -97,6 +97,12 @@ console.log("🧠 Lawyers:", out.model.lawyers.length);
 console.log("🧠 Practices:", out.model.practices.length);
 console.log("🧠 Personas:", out.model.site.personas?.length || 0);
 
+const DIST_DIR = path.dirname(DIST_FILE);
+
+if (!fs.existsSync(DIST_DIR)) {
+  fs.mkdirSync(DIST_DIR, { recursive: true });
+}
+
 fs.writeFileSync(
   DIST_FILE,
   JSON.stringify(
