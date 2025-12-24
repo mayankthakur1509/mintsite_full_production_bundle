@@ -1,23 +1,37 @@
-//
+// //
+// import React from "react";
+// import ValuePillars from "./ValuePillars";
+// import OutcomeBlock from "./OutcomeBlock";
+// import CaseStudies from "./CaseStudies";
+// import FormFreeActions from "../components/FormFreeActions";
+
+
+// export default function VFLP_CFO({ persona, lawyer, practice, model }) {
+//   return (
+//     <div className="mintsite">
+//       <section className="hero">
+//         <h1>{practice.name} — CFO View</h1>
+//         <p>Financial clarity, compliance, risk mitigation.</p>
+//       </section>
+
+//       <ValuePillars pillars={model.value_map} />
+//       <OutcomeBlock outcomes={model.outcomes} />
+//       {/* <Differentiators items={model.value_map} /> */}
+//       <CaseStudies items={model.case_studies} persona="cfo" />
+
+//         {/* Form-Free Action injected by the worker */}
+//       <FormFreeActions __mintAction={__mintAction} />
+
+//       {/* <CTA /> */}
+//     </div>
+//   );
+// }
+
+
 import React from "react";
-import ValuePillars from "./ValuePillars";
-import OutcomeBlock from "./OutcomeBlock";
-import CaseStudies from "./CaseStudies";
 
-export default function VFLP_CFO({ persona, lawyer, practice, model }) {
-  return (
-    <div className="mintsite">
-      <section className="hero">
-        <h1>{practice.name} — CFO View</h1>
-        <p>Financial clarity, compliance, risk mitigation.</p>
-      </section>
+import VFLP_Template from "./VFLP_Template";
 
-      <ValuePillars pillars={model.value_map} />
-      <OutcomeBlock outcomes={model.outcomes} />
-      {/* <Differentiators items={model.value_map} /> */}
-      <CaseStudies items={model.case_studies} persona="cfo" />
-
-      {/* <CTA /> */}
-    </div>
-  );
+export default function VFLP_CFO(props) {
+  return <VFLP_Template {...props} />;
 }

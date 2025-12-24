@@ -351,7 +351,7 @@
     },
     {
       "route": "/lawyers/john-smith/expat-tax/vflp/cfo",
-      "component": "VFLP_CFO",
+      "component": "VFLP_Template",
       "props": {
         "persona": {
           "id": "cfo"
@@ -477,7 +477,7 @@
     },
     {
       "route": "/lawyers/john-smith/expat-tax/vflp/ceo",
-      "component": "VFLP_CEO",
+      "component": "VFLP_Template",
       "props": {
         "persona": {
           "id": "ceo"
@@ -603,7 +603,7 @@
     },
     {
       "route": "/lawyers/john-smith/expat-tax/vflp/gc",
-      "component": "VFLP_GC",
+      "component": "VFLP_Template",
       "props": {
         "persona": {
           "id": "gc"
@@ -729,7 +729,7 @@
     },
     {
       "route": "/lawyers/john-smith/expat-tax/vflp/tax_director",
-      "component": "VFLP_TAX_DIRECTOR",
+      "component": "VFLP_Template",
       "props": {
         "persona": {
           "id": "tax_director"
@@ -978,7 +978,7 @@
     },
     {
       "route": "/lawyers/john-smith/international-compliance/vflp/cfo",
-      "component": "VFLP_CFO",
+      "component": "VFLP_Template",
       "props": {
         "persona": {
           "id": "cfo"
@@ -1104,7 +1104,7 @@
     },
     {
       "route": "/lawyers/john-smith/international-compliance/vflp/ceo",
-      "component": "VFLP_CEO",
+      "component": "VFLP_Template",
       "props": {
         "persona": {
           "id": "ceo"
@@ -1230,7 +1230,7 @@
     },
     {
       "route": "/lawyers/john-smith/international-compliance/vflp/gc",
-      "component": "VFLP_GC",
+      "component": "VFLP_Template",
       "props": {
         "persona": {
           "id": "gc"
@@ -1356,7 +1356,7 @@
     },
     {
       "route": "/lawyers/john-smith/international-compliance/vflp/tax_director",
-      "component": "VFLP_TAX_DIRECTOR",
+      "component": "VFLP_Template",
       "props": {
         "persona": {
           "id": "tax_director"
@@ -1722,7 +1722,7 @@
     },
     {
       "route": "/lawyers/sarah-lee/global-mobility/vflp/cfo",
-      "component": "VFLP_CFO",
+      "component": "VFLP_Template",
       "props": {
         "persona": {
           "id": "cfo"
@@ -1847,7 +1847,7 @@
     },
     {
       "route": "/lawyers/sarah-lee/global-mobility/vflp/ceo",
-      "component": "VFLP_CEO",
+      "component": "VFLP_Template",
       "props": {
         "persona": {
           "id": "ceo"
@@ -1972,7 +1972,7 @@
     },
     {
       "route": "/lawyers/sarah-lee/global-mobility/vflp/gc",
-      "component": "VFLP_GC",
+      "component": "VFLP_Template",
       "props": {
         "persona": {
           "id": "gc"
@@ -2097,7 +2097,7 @@
     },
     {
       "route": "/lawyers/sarah-lee/global-mobility/vflp/tax_director",
-      "component": "VFLP_TAX_DIRECTOR",
+      "component": "VFLP_Template",
       "props": {
         "persona": {
           "id": "tax_director"
@@ -2464,7 +2464,7 @@
     },
     {
       "route": "/lawyers/John-doe/global-mobility/vflp/cfo",
-      "component": "VFLP_CFO",
+      "component": "VFLP_Template",
       "props": {
         "persona": {
           "id": "cfo"
@@ -2590,7 +2590,7 @@
     },
     {
       "route": "/lawyers/John-doe/global-mobility/vflp/ceo",
-      "component": "VFLP_CEO",
+      "component": "VFLP_Template",
       "props": {
         "persona": {
           "id": "ceo"
@@ -2716,7 +2716,7 @@
     },
     {
       "route": "/lawyers/John-doe/global-mobility/vflp/gc",
-      "component": "VFLP_GC",
+      "component": "VFLP_Template",
       "props": {
         "persona": {
           "id": "gc"
@@ -2842,7 +2842,7 @@
     },
     {
       "route": "/lawyers/John-doe/global-mobility/vflp/tax_director",
-      "component": "VFLP_TAX_DIRECTOR",
+      "component": "VFLP_Template",
       "props": {
         "persona": {
           "id": "tax_director"
@@ -3091,7 +3091,7 @@
     },
     {
       "route": "/lawyers/John-doe/international-compliance/vflp/cfo",
-      "component": "VFLP_CFO",
+      "component": "VFLP_Template",
       "props": {
         "persona": {
           "id": "cfo"
@@ -3217,7 +3217,7 @@
     },
     {
       "route": "/lawyers/John-doe/international-compliance/vflp/ceo",
-      "component": "VFLP_CEO",
+      "component": "VFLP_Template",
       "props": {
         "persona": {
           "id": "ceo"
@@ -3343,7 +3343,7 @@
     },
     {
       "route": "/lawyers/John-doe/international-compliance/vflp/gc",
-      "component": "VFLP_GC",
+      "component": "VFLP_Template",
       "props": {
         "persona": {
           "id": "gc"
@@ -3469,7 +3469,7 @@
     },
     {
       "route": "/lawyers/John-doe/international-compliance/vflp/tax_director",
-      "component": "VFLP_TAX_DIRECTOR",
+      "component": "VFLP_Template",
       "props": {
         "persona": {
           "id": "tax_director"
@@ -3624,5 +3624,5 @@
     "/lawyers/John-doe/international-compliance/vflp/gc",
     "/lawyers/John-doe/international-compliance/vflp/tax_director"
   ],
-  "timestamp": "2025-12-24T05:36:45.045Z"
+  "timestamp": "2025-12-24T07:21:02.450Z"
 }

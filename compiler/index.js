@@ -53,7 +53,14 @@ export function generatePages(model) {
       routes.push(pracRt);
       (model.site.personas || []).forEach(ps => {
         const r = `${pracRt}/vflp/${ps.id}`;
-        pages.push({ route: r, component: `VFLP_${ps.id.toUpperCase()}`, props: { persona: ps, lawyer: l, practice: p, model } });
+        // pages.push({ route: r, component: `VFLP_${ps.id.toUpperCase()}`, props: { persona: ps, lawyer: l, practice: p, model } });
+        // Use:
+        pages.push({
+          route: r,
+          component: "VFLP_Template",
+          props: { persona: ps, lawyer: l, practice: p, model }
+        });
+
         routes.push(r);
       });
     });

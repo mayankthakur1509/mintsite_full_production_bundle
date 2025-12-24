@@ -1,19 +1,20 @@
-name = "mintsite-enterprise"
+name = "mintsite-full-production-bundle"
 main = "worker/_worker.js"
-compatibility_date = "2025-12-23"
+compatibility_date = "2024-12-01"
 
-[build]
-command = "node compiler/index.js" # builds manifest.json
+kv_namespaces = [
+  { binding = "ACTION_E_LOG", id = "fb5f44399b0f43fd92abd8a16b90abb2" },
+  { binding = "SESSION_STORE", id = "88d4022d459c4b75940a88fb19725e66" }
+]
 
 [vars]
-# Add environment variables here if needed, like RENDERER, SUPABASE, etc.
-[[kv_namespaces]]
-binding = "ACTIONE"       # matches env.ACTIONE in logEvent
-id = "e25aef80cf0f43848ce054d8367185d1"
+CF_PROJECT_NAME = "mintsite-full-production-bundle"
+RENDER_MODE = "react"
 
-[[kv_namespaces]]
-binding = "SESSION_STORE" # matches env.SESSION_STORE in your Worker
-id = "88d4022d459c4b75940a88fb19725e66"
+[assets]
+directory = "./dist"    
 
-[site]
-bucket = "./public"
+[observability]
+enabled = true
+
+

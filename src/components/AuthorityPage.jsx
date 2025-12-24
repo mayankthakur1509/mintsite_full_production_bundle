@@ -6,6 +6,8 @@ import OutcomeBlock from "./OutcomeBlock";
 import CaseStudies from "./CaseStudies";
 
 export default function AuthorityPage({ site, lawyers, practices, value_map, outcomes, case_studies }) {
+
+
   return (
     <div className="mintsi-container">
       <header className="mintsite-hero">
