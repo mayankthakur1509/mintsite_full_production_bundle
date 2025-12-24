@@ -1,15 +1,69 @@
-name: MintSite Deploy
+name: Build & Deploy MintSite Enterprise
+
 on:
   push:
-    branches: [ main ]
+    branches:
+      - main
+    paths:
+      - "compiler/**"
+      - "engine/**"
+      - "worker/**"
+      - "src/**"
+      - "yaml/**"
+      - "semantic/**"
+      - "package.json"
+      - ".github/workflows/**"
+
+permissions:
+  contents: write
+
 jobs:
-  deploy:
+  build-and-deploy:
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v3
-      - name: Install
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install dependencies
         run: npm install
-      - name: Build
-        run: npm run build
-      - name: Publish
-        run: npx wrangler pages publish dist
+
+      - name: Clean previous dist
+        run: rm -rf dist
+
+      - name: Compile MintSite (YAML → Manifest)
+        run: node compiler/index.js
+
+      - name: Commit compiled output
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -f dist
+          if git diff --cached --quiet; then
+            echo "No changes in dist/"
+            exit 0
+          fi
+          git commit -m "Auto-compiled MintSite output [skip ci]"
+          git push origin main
+
+      - name: Deploy to Cloudflare Pages
+        uses: cloudflare/pages-action@v1
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          projectName: ${{ secrets.CLOUDFLARE_PAGES_PROJECT }}
+          directory: dist
+
+      - name: Deploy Worker
+        uses: cloudflare/wrangler-action@2
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          workingDirectory: ./worker
+          environment: "production"
