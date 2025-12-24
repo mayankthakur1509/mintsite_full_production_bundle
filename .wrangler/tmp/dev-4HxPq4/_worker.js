@@ -16552,10 +16552,10 @@ var require_server_edge = __commonJS({
   }
 });
 
-// .wrangler/tmp/bundle-KnAxX1/middleware-loader.entry.ts
+// .wrangler/tmp/bundle-ewiS5a/middleware-loader.entry.ts
 init_modules_watch_stub();
 
-// .wrangler/tmp/bundle-KnAxX1/middleware-insertion-facade.js
+// .wrangler/tmp/bundle-ewiS5a/middleware-insertion-facade.js
 init_modules_watch_stub();
 
 // worker/_worker.js
@@ -16620,8 +16620,8 @@ var manifest_default = {
             ]
           },
           {
-            id: "maria",
-            name: "Maria",
+            id: "mariaa",
+            name: "Mariaa",
             title: "Global Mobility Tax Specialist",
             bio: "Big4-trained global mobility leader.",
             practices: [
@@ -16748,8 +16748,8 @@ var manifest_default = {
               ]
             },
             {
-              id: "maria",
-              name: "Maria",
+              id: "mariaa",
+              name: "Mariaa",
               title: "Global Mobility Tax Specialist",
               bio: "Big4-trained global mobility leader.",
               practices: [
@@ -16881,8 +16881,8 @@ var manifest_default = {
               ]
             },
             {
-              id: "maria",
-              name: "Maria",
+              id: "mariaa",
+              name: "Mariaa",
               title: "Global Mobility Tax Specialist",
               bio: "Big4-trained global mobility leader.",
               practices: [
@@ -17017,8 +17017,8 @@ var manifest_default = {
               ]
             },
             {
-              id: "maria",
-              name: "Maria",
+              id: "mariaa",
+              name: "Mariaa",
               title: "Global Mobility Tax Specialist",
               bio: "Big4-trained global mobility leader.",
               practices: [
@@ -17153,8 +17153,8 @@ var manifest_default = {
               ]
             },
             {
-              id: "maria",
-              name: "Maria",
+              id: "mariaa",
+              name: "Mariaa",
               title: "Global Mobility Tax Specialist",
               bio: "Big4-trained global mobility leader.",
               practices: [
@@ -17289,8 +17289,8 @@ var manifest_default = {
               ]
             },
             {
-              id: "maria",
-              name: "Maria",
+              id: "mariaa",
+              name: "Mariaa",
               title: "Global Mobility Tax Specialist",
               bio: "Big4-trained global mobility leader.",
               practices: [
@@ -17425,8 +17425,8 @@ var manifest_default = {
               ]
             },
             {
-              id: "maria",
-              name: "Maria",
+              id: "mariaa",
+              name: "Mariaa",
               title: "Global Mobility Tax Specialist",
               bio: "Big4-trained global mobility leader.",
               practices: [
@@ -17558,8 +17558,8 @@ var manifest_default = {
               ]
             },
             {
-              id: "maria",
-              name: "Maria",
+              id: "mariaa",
+              name: "Mariaa",
               title: "Global Mobility Tax Specialist",
               bio: "Big4-trained global mobility leader.",
               practices: [
@@ -17694,8 +17694,8 @@ var manifest_default = {
               ]
             },
             {
-              id: "maria",
-              name: "Maria",
+              id: "mariaa",
+              name: "Mariaa",
               title: "Global Mobility Tax Specialist",
               bio: "Big4-trained global mobility leader.",
               practices: [
@@ -17830,8 +17830,8 @@ var manifest_default = {
               ]
             },
             {
-              id: "maria",
-              name: "Maria",
+              id: "mariaa",
+              name: "Mariaa",
               title: "Global Mobility Tax Specialist",
               bio: "Big4-trained global mobility leader.",
               practices: [
@@ -17966,8 +17966,8 @@ var manifest_default = {
               ]
             },
             {
-              id: "maria",
-              name: "Maria",
+              id: "mariaa",
+              name: "Mariaa",
               title: "Global Mobility Tax Specialist",
               bio: "Big4-trained global mobility leader.",
               practices: [
@@ -18102,8 +18102,8 @@ var manifest_default = {
               ]
             },
             {
-              id: "maria",
-              name: "Maria",
+              id: "mariaa",
+              name: "Mariaa",
               title: "Global Mobility Tax Specialist",
               bio: "Big4-trained global mobility leader.",
               practices: [
@@ -18230,8 +18230,8 @@ var manifest_default = {
               ]
             },
             {
-              id: "maria",
-              name: "Maria",
+              id: "mariaa",
+              name: "Mariaa",
               title: "Global Mobility Tax Specialist",
               bio: "Big4-trained global mobility leader.",
               practices: [
@@ -18362,8 +18362,8 @@ var manifest_default = {
               ]
             },
             {
-              id: "maria",
-              name: "Maria",
+              id: "mariaa",
+              name: "Mariaa",
               title: "Global Mobility Tax Specialist",
               bio: "Big4-trained global mobility leader.",
               practices: [
@@ -18497,8 +18497,8 @@ var manifest_default = {
               ]
             },
             {
-              id: "maria",
-              name: "Maria",
+              id: "mariaa",
+              name: "Mariaa",
               title: "Global Mobility Tax Specialist",
               bio: "Big4-trained global mobility leader.",
               practices: [
@@ -18632,8 +18632,8 @@ var manifest_default = {
               ]
             },
             {
-              id: "maria",
-              name: "Maria",
+              id: "mariaa",
+              name: "Mariaa",
               title: "Global Mobility Tax Specialist",
               bio: "Big4-trained global mobility leader.",
               practices: [
@@ -18767,8 +18767,8 @@ var manifest_default = {
               ]
             },
             {
-              id: "maria",
-              name: "Maria",
+              id: "mariaa",
+              name: "Mariaa",
               title: "Global Mobility Tax Specialist",
               bio: "Big4-trained global mobility leader.",
               practices: [
@@ -18902,8 +18902,8 @@ var manifest_default = {
               ]
             },
             {
-              id: "maria",
-              name: "Maria",
+              id: "mariaa",
+              name: "Mariaa",
               title: "Global Mobility Tax Specialist",
               bio: "Big4-trained global mobility leader.",
               practices: [
@@ -19031,8 +19031,8 @@ var manifest_default = {
               ]
             },
             {
-              id: "maria",
-              name: "Maria",
+              id: "mariaa",
+              name: "Mariaa",
               title: "Global Mobility Tax Specialist",
               bio: "Big4-trained global mobility leader.",
               practices: [
@@ -19164,8 +19164,8 @@ var manifest_default = {
               ]
             },
             {
-              id: "maria",
-              name: "Maria",
+              id: "mariaa",
+              name: "Mariaa",
               title: "Global Mobility Tax Specialist",
               bio: "Big4-trained global mobility leader.",
               practices: [
@@ -19300,8 +19300,8 @@ var manifest_default = {
               ]
             },
             {
-              id: "maria",
-              name: "Maria",
+              id: "mariaa",
+              name: "Mariaa",
               title: "Global Mobility Tax Specialist",
               bio: "Big4-trained global mobility leader.",
               practices: [
@@ -19436,8 +19436,8 @@ var manifest_default = {
               ]
             },
             {
-              id: "maria",
-              name: "Maria",
+              id: "mariaa",
+              name: "Mariaa",
               title: "Global Mobility Tax Specialist",
               bio: "Big4-trained global mobility leader.",
               practices: [
@@ -19572,8 +19572,8 @@ var manifest_default = {
               ]
             },
             {
-              id: "maria",
-              name: "Maria",
+              id: "mariaa",
+              name: "Mariaa",
               title: "Global Mobility Tax Specialist",
               bio: "Big4-trained global mobility leader.",
               practices: [
@@ -19708,8 +19708,8 @@ var manifest_default = {
               ]
             },
             {
-              id: "maria",
-              name: "Maria",
+              id: "mariaa",
+              name: "Mariaa",
               title: "Global Mobility Tax Specialist",
               bio: "Big4-trained global mobility leader.",
               practices: [
@@ -19841,8 +19841,8 @@ var manifest_default = {
               ]
             },
             {
-              id: "maria",
-              name: "Maria",
+              id: "mariaa",
+              name: "Mariaa",
               title: "Global Mobility Tax Specialist",
               bio: "Big4-trained global mobility leader.",
               practices: [
@@ -19977,8 +19977,8 @@ var manifest_default = {
               ]
             },
             {
-              id: "maria",
-              name: "Maria",
+              id: "mariaa",
+              name: "Mariaa",
               title: "Global Mobility Tax Specialist",
               bio: "Big4-trained global mobility leader.",
               practices: [
@@ -20113,8 +20113,8 @@ var manifest_default = {
               ]
             },
             {
-              id: "maria",
-              name: "Maria",
+              id: "mariaa",
+              name: "Mariaa",
               title: "Global Mobility Tax Specialist",
               bio: "Big4-trained global mobility leader.",
               practices: [
@@ -20249,8 +20249,8 @@ var manifest_default = {
               ]
             },
             {
-              id: "maria",
-              name: "Maria",
+              id: "mariaa",
+              name: "Mariaa",
               title: "Global Mobility Tax Specialist",
               bio: "Big4-trained global mobility leader.",
               practices: [
@@ -20385,8 +20385,8 @@ var manifest_default = {
               ]
             },
             {
-              id: "maria",
-              name: "Maria",
+              id: "mariaa",
+              name: "Mariaa",
               title: "Global Mobility Tax Specialist",
               bio: "Big4-trained global mobility leader.",
               practices: [
@@ -20451,12 +20451,12 @@ var manifest_default = {
       }
     },
     {
-      route: "/lawyers/maria",
+      route: "/lawyers/mariaa",
       component: "LawyerProfile",
       props: {
         lawyer: {
-          id: "maria",
-          name: "Maria",
+          id: "mariaa",
+          name: "Mariaa",
           title: "Global Mobility Tax Specialist",
           bio: "Big4-trained global mobility leader.",
           practices: [
@@ -20514,8 +20514,8 @@ var manifest_default = {
               ]
             },
             {
-              id: "maria",
-              name: "Maria",
+              id: "mariaa",
+              name: "Mariaa",
               title: "Global Mobility Tax Specialist",
               bio: "Big4-trained global mobility leader.",
               practices: [
@@ -20580,12 +20580,12 @@ var manifest_default = {
       }
     },
     {
-      route: "/lawyers/maria/global-mobility",
+      route: "/lawyers/mariaa/global-mobility",
       component: "PracticePage",
       props: {
         lawyer: {
-          id: "maria",
-          name: "Maria",
+          id: "mariaa",
+          name: "Mariaa",
           title: "Global Mobility Tax Specialist",
           bio: "Big4-trained global mobility leader.",
           practices: [
@@ -20647,8 +20647,8 @@ var manifest_default = {
               ]
             },
             {
-              id: "maria",
-              name: "Maria",
+              id: "mariaa",
+              name: "Mariaa",
               title: "Global Mobility Tax Specialist",
               bio: "Big4-trained global mobility leader.",
               practices: [
@@ -20713,15 +20713,15 @@ var manifest_default = {
       }
     },
     {
-      route: "/lawyers/maria/global-mobility/vflp/cfo",
+      route: "/lawyers/mariaa/global-mobility/vflp/cfo",
       component: "VFLP_Template",
       props: {
         persona: {
           id: "cfo"
         },
         lawyer: {
-          id: "maria",
-          name: "Maria",
+          id: "mariaa",
+          name: "Mariaa",
           title: "Global Mobility Tax Specialist",
           bio: "Big4-trained global mobility leader.",
           practices: [
@@ -20783,8 +20783,8 @@ var manifest_default = {
               ]
             },
             {
-              id: "maria",
-              name: "Maria",
+              id: "mariaa",
+              name: "Mariaa",
               title: "Global Mobility Tax Specialist",
               bio: "Big4-trained global mobility leader.",
               practices: [
@@ -20849,15 +20849,15 @@ var manifest_default = {
       }
     },
     {
-      route: "/lawyers/maria/global-mobility/vflp/ceo",
+      route: "/lawyers/mariaa/global-mobility/vflp/ceo",
       component: "VFLP_Template",
       props: {
         persona: {
           id: "ceo"
         },
         lawyer: {
-          id: "maria",
-          name: "Maria",
+          id: "mariaa",
+          name: "Mariaa",
           title: "Global Mobility Tax Specialist",
           bio: "Big4-trained global mobility leader.",
           practices: [
@@ -20919,8 +20919,8 @@ var manifest_default = {
               ]
             },
             {
-              id: "maria",
-              name: "Maria",
+              id: "mariaa",
+              name: "Mariaa",
               title: "Global Mobility Tax Specialist",
               bio: "Big4-trained global mobility leader.",
               practices: [
@@ -20985,15 +20985,15 @@ var manifest_default = {
       }
     },
     {
-      route: "/lawyers/maria/global-mobility/vflp/gc",
+      route: "/lawyers/mariaa/global-mobility/vflp/gc",
       component: "VFLP_Template",
       props: {
         persona: {
           id: "gc"
         },
         lawyer: {
-          id: "maria",
-          name: "Maria",
+          id: "mariaa",
+          name: "Mariaa",
           title: "Global Mobility Tax Specialist",
           bio: "Big4-trained global mobility leader.",
           practices: [
@@ -21055,8 +21055,8 @@ var manifest_default = {
               ]
             },
             {
-              id: "maria",
-              name: "Maria",
+              id: "mariaa",
+              name: "Mariaa",
               title: "Global Mobility Tax Specialist",
               bio: "Big4-trained global mobility leader.",
               practices: [
@@ -21121,15 +21121,15 @@ var manifest_default = {
       }
     },
     {
-      route: "/lawyers/maria/global-mobility/vflp/tax_director",
+      route: "/lawyers/mariaa/global-mobility/vflp/tax_director",
       component: "VFLP_Template",
       props: {
         persona: {
           id: "tax_director"
         },
         lawyer: {
-          id: "maria",
-          name: "Maria",
+          id: "mariaa",
+          name: "Mariaa",
           title: "Global Mobility Tax Specialist",
           bio: "Big4-trained global mobility leader.",
           practices: [
@@ -21191,8 +21191,8 @@ var manifest_default = {
               ]
             },
             {
-              id: "maria",
-              name: "Maria",
+              id: "mariaa",
+              name: "Mariaa",
               title: "Global Mobility Tax Specialist",
               bio: "Big4-trained global mobility leader.",
               practices: [
@@ -21257,12 +21257,12 @@ var manifest_default = {
       }
     },
     {
-      route: "/lawyers/maria/international-compliance",
+      route: "/lawyers/mariaa/international-compliance",
       component: "PracticePage",
       props: {
         lawyer: {
-          id: "maria",
-          name: "Maria",
+          id: "mariaa",
+          name: "Mariaa",
           title: "Global Mobility Tax Specialist",
           bio: "Big4-trained global mobility leader.",
           practices: [
@@ -21324,8 +21324,8 @@ var manifest_default = {
               ]
             },
             {
-              id: "maria",
-              name: "Maria",
+              id: "mariaa",
+              name: "Mariaa",
               title: "Global Mobility Tax Specialist",
               bio: "Big4-trained global mobility leader.",
               practices: [
@@ -21390,15 +21390,15 @@ var manifest_default = {
       }
     },
     {
-      route: "/lawyers/maria/international-compliance/vflp/cfo",
+      route: "/lawyers/mariaa/international-compliance/vflp/cfo",
       component: "VFLP_Template",
       props: {
         persona: {
           id: "cfo"
         },
         lawyer: {
-          id: "maria",
-          name: "Maria",
+          id: "mariaa",
+          name: "Mariaa",
           title: "Global Mobility Tax Specialist",
           bio: "Big4-trained global mobility leader.",
           practices: [
@@ -21460,8 +21460,8 @@ var manifest_default = {
               ]
             },
             {
-              id: "maria",
-              name: "Maria",
+              id: "mariaa",
+              name: "Mariaa",
               title: "Global Mobility Tax Specialist",
               bio: "Big4-trained global mobility leader.",
               practices: [
@@ -21526,15 +21526,15 @@ var manifest_default = {
       }
     },
     {
-      route: "/lawyers/maria/international-compliance/vflp/ceo",
+      route: "/lawyers/mariaa/international-compliance/vflp/ceo",
       component: "VFLP_Template",
       props: {
         persona: {
           id: "ceo"
         },
         lawyer: {
-          id: "maria",
-          name: "Maria",
+          id: "mariaa",
+          name: "Mariaa",
           title: "Global Mobility Tax Specialist",
           bio: "Big4-trained global mobility leader.",
           practices: [
@@ -21596,8 +21596,8 @@ var manifest_default = {
               ]
             },
             {
-              id: "maria",
-              name: "Maria",
+              id: "mariaa",
+              name: "Mariaa",
               title: "Global Mobility Tax Specialist",
               bio: "Big4-trained global mobility leader.",
               practices: [
@@ -21662,15 +21662,15 @@ var manifest_default = {
       }
     },
     {
-      route: "/lawyers/maria/international-compliance/vflp/gc",
+      route: "/lawyers/mariaa/international-compliance/vflp/gc",
       component: "VFLP_Template",
       props: {
         persona: {
           id: "gc"
         },
         lawyer: {
-          id: "maria",
-          name: "Maria",
+          id: "mariaa",
+          name: "Mariaa",
           title: "Global Mobility Tax Specialist",
           bio: "Big4-trained global mobility leader.",
           practices: [
@@ -21732,8 +21732,8 @@ var manifest_default = {
               ]
             },
             {
-              id: "maria",
-              name: "Maria",
+              id: "mariaa",
+              name: "Mariaa",
               title: "Global Mobility Tax Specialist",
               bio: "Big4-trained global mobility leader.",
               practices: [
@@ -21798,15 +21798,15 @@ var manifest_default = {
       }
     },
     {
-      route: "/lawyers/maria/international-compliance/vflp/tax_director",
+      route: "/lawyers/mariaa/international-compliance/vflp/tax_director",
       component: "VFLP_Template",
       props: {
         persona: {
           id: "tax_director"
         },
         lawyer: {
-          id: "maria",
-          name: "Maria",
+          id: "mariaa",
+          name: "Mariaa",
           title: "Global Mobility Tax Specialist",
           bio: "Big4-trained global mobility leader.",
           practices: [
@@ -21868,8 +21868,8 @@ var manifest_default = {
               ]
             },
             {
-              id: "maria",
-              name: "Maria",
+              id: "mariaa",
+              name: "Mariaa",
               title: "Global Mobility Tax Specialist",
               bio: "Big4-trained global mobility leader.",
               practices: [
@@ -21963,19 +21963,19 @@ var manifest_default = {
     "/lawyers/John-doe/international-compliance/vflp/ceo",
     "/lawyers/John-doe/international-compliance/vflp/gc",
     "/lawyers/John-doe/international-compliance/vflp/tax_director",
-    "/lawyers/maria",
-    "/lawyers/maria/global-mobility",
-    "/lawyers/maria/global-mobility/vflp/cfo",
-    "/lawyers/maria/global-mobility/vflp/ceo",
-    "/lawyers/maria/global-mobility/vflp/gc",
-    "/lawyers/maria/global-mobility/vflp/tax_director",
-    "/lawyers/maria/international-compliance",
-    "/lawyers/maria/international-compliance/vflp/cfo",
-    "/lawyers/maria/international-compliance/vflp/ceo",
-    "/lawyers/maria/international-compliance/vflp/gc",
-    "/lawyers/maria/international-compliance/vflp/tax_director"
+    "/lawyers/mariaa",
+    "/lawyers/mariaa/global-mobility",
+    "/lawyers/mariaa/global-mobility/vflp/cfo",
+    "/lawyers/mariaa/global-mobility/vflp/ceo",
+    "/lawyers/mariaa/global-mobility/vflp/gc",
+    "/lawyers/mariaa/global-mobility/vflp/tax_director",
+    "/lawyers/mariaa/international-compliance",
+    "/lawyers/mariaa/international-compliance/vflp/cfo",
+    "/lawyers/mariaa/international-compliance/vflp/ceo",
+    "/lawyers/mariaa/international-compliance/vflp/gc",
+    "/lawyers/mariaa/international-compliance/vflp/tax_director"
   ],
-  timestamp: "2025-12-24T11:25:15.157Z"
+  timestamp: "2025-12-24T11:30:36.408Z"
 };
 
 // engine/router.js
@@ -22633,7 +22633,7 @@ var jsonError = /* @__PURE__ */ __name(async (request, env, _ctx, middlewareCtx)
 }, "jsonError");
 var middleware_miniflare3_json_error_default = jsonError;
 
-// .wrangler/tmp/bundle-KnAxX1/middleware-insertion-facade.js
+// .wrangler/tmp/bundle-ewiS5a/middleware-insertion-facade.js
 var __INTERNAL_WRANGLER_MIDDLEWARE__ = [
   middleware_ensure_req_body_drained_default,
   middleware_miniflare3_json_error_default
@@ -22666,7 +22666,7 @@ function __facade_invoke__(request, env, ctx, dispatch, finalMiddleware) {
 }
 __name(__facade_invoke__, "__facade_invoke__");
 
-// .wrangler/tmp/bundle-KnAxX1/middleware-loader.entry.ts
+// .wrangler/tmp/bundle-ewiS5a/middleware-loader.entry.ts
 var __Facade_ScheduledController__ = class ___Facade_ScheduledController__ {
   constructor(scheduledTime, cron, noRetry) {
     this.scheduledTime = scheduledTime;
