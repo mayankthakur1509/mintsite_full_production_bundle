@@ -22,7 +22,7 @@ lawyers:
       - global-mobility    
       - international-compliance
 
-  - id: "testing"
+  - id: "test"
     name: "Test"
     title: "Global Mobility Tax Specialist"
     bio: "Big4-trained global mobility leader."
