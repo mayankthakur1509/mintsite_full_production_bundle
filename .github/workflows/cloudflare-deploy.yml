@@ -62,9 +62,12 @@ jobs:
           directory: dist
 
       - name: Deploy Worker
-        uses: cloudflare/wrangler-action@v1
+        uses: cloudflare/wrangler-action@v3
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          workingDirectory: ./worker
-          environment: "production"
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          workingDirectory: "./worker"
+          # optional: run specific command
+          command: deploy --env production
+
 
