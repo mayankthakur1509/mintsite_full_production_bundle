@@ -9,19 +9,14 @@ RENDER_MODE = "react"
 [assets]
 directory = "./dist"
 
-kv_namespaces = [
-  { binding = "ACTION_E_LOG", id = "2a60ad97002542bbb6b06480ed21c770" },
-  { binding = "SESSION_STORE", id = "daf67e9652774ee9b3992924f46d9c7e" }
-]
+# KV NAMESPACES - Use the array of tables syntax
+[[kv_namespaces]]
+binding = "ACTION_E_LOG"
+id = "2a60ad97002542bbb6b06480ed21c770"          # Your production ID
+preview_id = "0573bb979ed149d5a24f1cd78f79be2c"  # Your new preview ID
 
-[dev]
-kv_namespaces = [
-  { binding = "ACTION_E_LOG", id = "2a60ad97002542bbb6b06480ed21c770" },
-  { binding = "SESSION_STORE", id = "daf67e9652774ee9b3992924f46d9c7e" }
-]
+[[kv_namespaces]]
+binding = "SESSION_STORE"
+id = "daf67e9652774ee9b3992924f46d9c7e"          # Your production ID
+preview_id = "2611ce3e82ac493b9a0eae8837eef11d"  # Your new preview ID
 
-[env.production]
-kv_namespaces = [
-  { binding = "ACTION_E_LOG", id = "2a60ad97002542bbb6b06480ed21c770" },
-  { binding = "SESSION_STORE", id = "daf67e9652774ee9b3992924f46d9c7e" }
-]
