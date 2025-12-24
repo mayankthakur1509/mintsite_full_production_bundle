@@ -1,0 +1,3628 @@
+{
+  "pages": [
+    {
+      "route": "/",
+      "component": "AuthorityPage",
+      "props": {
+        "site": {
+          "firm_name": "WiggMax Tax Law",
+          "theme": "mintsite",
+          "personas": [
+            {
+              "id": "cfo"
+            },
+            {
+              "id": "ceo"
+            },
+            {
+              "id": "gc"
+            },
+            {
+              "id": "tax_director"
+            }
+          ]
+        },
+        "lawyers": [
+          {
+            "id": "john-smith",
+            "name": "John Smith",
+            "title": "International Tax Attorney",
+            "bio": "20 years cross-border experience.",
+            "practices": [
+              "expat-tax",
+              "international-compliance"
+            ]
+          },
+          {
+            "id": "sarah-lee",
+            "name": "Sarah Lee",
+            "title": "Global Mobility Tax Specialist",
+            "bio": "Big4-trained global mobility leader.",
+            "practices": [
+              "global-mobility"
+            ]
+          },
+          {
+            "id": "John-doe",
+            "name": "John Doe",
+            "title": "Global Mobility Tax Specialist",
+            "bio": "Big4-trained global mobility leader.",
+            "practices": [
+              "global-mobility",
+              "international-compliance"
+            ]
+          }
+        ],
+        "practices": [
+          {
+            "id": "expat-tax",
+            "name": "Expat Tax Advisory"
+          },
+          {
+            "id": "international-compliance",
+            "name": "Cross-Border Compliance"
+          },
+          {
+            "id": "global-mobility",
+            "name": "Global Mobility Tax Planning"
+          }
+        ],
+        "value_map": [
+          {
+            "pillar": "Risk Reduction",
+            "signals": [
+              "Lower audit exposure",
+              "Stronger treaty position"
+            ]
+          },
+          {
+            "pillar": "Efficiency",
+            "signals": [
+              "Faster filings",
+              "Reduced manual remediation"
+            ]
+          }
+        ],
+        "outcomes": [
+          {
+            "id": "audit-drop",
+            "text": "Reduce audit risk by 28%"
+          },
+          {
+            "id": "cost-reduction",
+            "text": "Lower annual tax prep costs by 15%"
+          }
+        ],
+        "case_studies": [
+          {
+            "id": "expat-savings",
+            "persona": "cfo",
+            "headline": "Saved $43,000 in U.S. expat taxes",
+            "summary": "Optimized treaty usage and filing path.",
+            "outcomes": [
+              "audit-drop",
+              "cost-reduction"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "route": "/lawyers/john-smith",
+      "component": "LawyerProfile",
+      "props": {
+        "lawyer": {
+          "id": "john-smith",
+          "name": "John Smith",
+          "title": "International Tax Attorney",
+          "bio": "20 years cross-border experience.",
+          "practices": [
+            "expat-tax",
+            "international-compliance"
+          ]
+        },
+        "model": {
+          "site": {
+            "firm_name": "WiggMax Tax Law",
+            "theme": "mintsite",
+            "personas": [
+              {
+                "id": "cfo"
+              },
+              {
+                "id": "ceo"
+              },
+              {
+                "id": "gc"
+              },
+              {
+                "id": "tax_director"
+              }
+            ]
+          },
+          "lawyers": [
+            {
+              "id": "john-smith",
+              "name": "John Smith",
+              "title": "International Tax Attorney",
+              "bio": "20 years cross-border experience.",
+              "practices": [
+                "expat-tax",
+                "international-compliance"
+              ]
+            },
+            {
+              "id": "sarah-lee",
+              "name": "Sarah Lee",
+              "title": "Global Mobility Tax Specialist",
+              "bio": "Big4-trained global mobility leader.",
+              "practices": [
+                "global-mobility"
+              ]
+            },
+            {
+              "id": "John-doe",
+              "name": "John Doe",
+              "title": "Global Mobility Tax Specialist",
+              "bio": "Big4-trained global mobility leader.",
+              "practices": [
+                "global-mobility",
+                "international-compliance"
+              ]
+            }
+          ],
+          "practices": [
+            {
+              "id": "expat-tax",
+              "name": "Expat Tax Advisory"
+            },
+            {
+              "id": "international-compliance",
+              "name": "Cross-Border Compliance"
+            },
+            {
+              "id": "global-mobility",
+              "name": "Global Mobility Tax Planning"
+            }
+          ],
+          "value_map": [
+            {
+              "pillar": "Risk Reduction",
+              "signals": [
+                "Lower audit exposure",
+                "Stronger treaty position"
+              ]
+            },
+            {
+              "pillar": "Efficiency",
+              "signals": [
+                "Faster filings",
+                "Reduced manual remediation"
+              ]
+            }
+          ],
+          "outcomes": [
+            {
+              "id": "audit-drop",
+              "text": "Reduce audit risk by 28%"
+            },
+            {
+              "id": "cost-reduction",
+              "text": "Lower annual tax prep costs by 15%"
+            }
+          ],
+          "case_studies": [
+            {
+              "id": "expat-savings",
+              "persona": "cfo",
+              "headline": "Saved $43,000 in U.S. expat taxes",
+              "summary": "Optimized treaty usage and filing path.",
+              "outcomes": [
+                "audit-drop",
+                "cost-reduction"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "route": "/lawyers/john-smith/expat-tax",
+      "component": "PracticePage",
+      "props": {
+        "lawyer": {
+          "id": "john-smith",
+          "name": "John Smith",
+          "title": "International Tax Attorney",
+          "bio": "20 years cross-border experience.",
+          "practices": [
+            "expat-tax",
+            "international-compliance"
+          ]
+        },
+        "practice": {
+          "id": "expat-tax",
+          "name": "Expat Tax Advisory"
+        },
+        "model": {
+          "site": {
+            "firm_name": "WiggMax Tax Law",
+            "theme": "mintsite",
+            "personas": [
+              {
+                "id": "cfo"
+              },
+              {
+                "id": "ceo"
+              },
+              {
+                "id": "gc"
+              },
+              {
+                "id": "tax_director"
+              }
+            ]
+          },
+          "lawyers": [
+            {
+              "id": "john-smith",
+              "name": "John Smith",
+              "title": "International Tax Attorney",
+              "bio": "20 years cross-border experience.",
+              "practices": [
+                "expat-tax",
+                "international-compliance"
+              ]
+            },
+            {
+              "id": "sarah-lee",
+              "name": "Sarah Lee",
+              "title": "Global Mobility Tax Specialist",
+              "bio": "Big4-trained global mobility leader.",
+              "practices": [
+                "global-mobility"
+              ]
+            },
+            {
+              "id": "John-doe",
+              "name": "John Doe",
+              "title": "Global Mobility Tax Specialist",
+              "bio": "Big4-trained global mobility leader.",
+              "practices": [
+                "global-mobility",
+                "international-compliance"
+              ]
+            }
+          ],
+          "practices": [
+            {
+              "id": "expat-tax",
+              "name": "Expat Tax Advisory"
+            },
+            {
+              "id": "international-compliance",
+              "name": "Cross-Border Compliance"
+            },
+            {
+              "id": "global-mobility",
+              "name": "Global Mobility Tax Planning"
+            }
+          ],
+          "value_map": [
+            {
+              "pillar": "Risk Reduction",
+              "signals": [
+                "Lower audit exposure",
+                "Stronger treaty position"
+              ]
+            },
+            {
+              "pillar": "Efficiency",
+              "signals": [
+                "Faster filings",
+                "Reduced manual remediation"
+              ]
+            }
+          ],
+          "outcomes": [
+            {
+              "id": "audit-drop",
+              "text": "Reduce audit risk by 28%"
+            },
+            {
+              "id": "cost-reduction",
+              "text": "Lower annual tax prep costs by 15%"
+            }
+          ],
+          "case_studies": [
+            {
+              "id": "expat-savings",
+              "persona": "cfo",
+              "headline": "Saved $43,000 in U.S. expat taxes",
+              "summary": "Optimized treaty usage and filing path.",
+              "outcomes": [
+                "audit-drop",
+                "cost-reduction"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "route": "/lawyers/john-smith/expat-tax/vflp/cfo",
+      "component": "VFLP_CFO",
+      "props": {
+        "persona": {
+          "id": "cfo"
+        },
+        "lawyer": {
+          "id": "john-smith",
+          "name": "John Smith",
+          "title": "International Tax Attorney",
+          "bio": "20 years cross-border experience.",
+          "practices": [
+            "expat-tax",
+            "international-compliance"
+          ]
+        },
+        "practice": {
+          "id": "expat-tax",
+          "name": "Expat Tax Advisory"
+        },
+        "model": {
+          "site": {
+            "firm_name": "WiggMax Tax Law",
+            "theme": "mintsite",
+            "personas": [
+              {
+                "id": "cfo"
+              },
+              {
+                "id": "ceo"
+              },
+              {
+                "id": "gc"
+              },
+              {
+                "id": "tax_director"
+              }
+            ]
+          },
+          "lawyers": [
+            {
+              "id": "john-smith",
+              "name": "John Smith",
+              "title": "International Tax Attorney",
+              "bio": "20 years cross-border experience.",
+              "practices": [
+                "expat-tax",
+                "international-compliance"
+              ]
+            },
+            {
+              "id": "sarah-lee",
+              "name": "Sarah Lee",
+              "title": "Global Mobility Tax Specialist",
+              "bio": "Big4-trained global mobility leader.",
+              "practices": [
+                "global-mobility"
+              ]
+            },
+            {
+              "id": "John-doe",
+              "name": "John Doe",
+              "title": "Global Mobility Tax Specialist",
+              "bio": "Big4-trained global mobility leader.",
+              "practices": [
+                "global-mobility",
+                "international-compliance"
+              ]
+            }
+          ],
+          "practices": [
+            {
+              "id": "expat-tax",
+              "name": "Expat Tax Advisory"
+            },
+            {
+              "id": "international-compliance",
+              "name": "Cross-Border Compliance"
+            },
+            {
+              "id": "global-mobility",
+              "name": "Global Mobility Tax Planning"
+            }
+          ],
+          "value_map": [
+            {
+              "pillar": "Risk Reduction",
+              "signals": [
+                "Lower audit exposure",
+                "Stronger treaty position"
+              ]
+            },
+            {
+              "pillar": "Efficiency",
+              "signals": [
+                "Faster filings",
+                "Reduced manual remediation"
+              ]
+            }
+          ],
+          "outcomes": [
+            {
+              "id": "audit-drop",
+              "text": "Reduce audit risk by 28%"
+            },
+            {
+              "id": "cost-reduction",
+              "text": "Lower annual tax prep costs by 15%"
+            }
+          ],
+          "case_studies": [
+            {
+              "id": "expat-savings",
+              "persona": "cfo",
+              "headline": "Saved $43,000 in U.S. expat taxes",
+              "summary": "Optimized treaty usage and filing path.",
+              "outcomes": [
+                "audit-drop",
+                "cost-reduction"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "route": "/lawyers/john-smith/expat-tax/vflp/ceo",
+      "component": "VFLP_CEO",
+      "props": {
+        "persona": {
+          "id": "ceo"
+        },
+        "lawyer": {
+          "id": "john-smith",
+          "name": "John Smith",
+          "title": "International Tax Attorney",
+          "bio": "20 years cross-border experience.",
+          "practices": [
+            "expat-tax",
+            "international-compliance"
+          ]
+        },
+        "practice": {
+          "id": "expat-tax",
+          "name": "Expat Tax Advisory"
+        },
+        "model": {
+          "site": {
+            "firm_name": "WiggMax Tax Law",
+            "theme": "mintsite",
+            "personas": [
+              {
+                "id": "cfo"
+              },
+              {
+                "id": "ceo"
+              },
+              {
+                "id": "gc"
+              },
+              {
+                "id": "tax_director"
+              }
+            ]
+          },
+          "lawyers": [
+            {
+              "id": "john-smith",
+              "name": "John Smith",
+              "title": "International Tax Attorney",
+              "bio": "20 years cross-border experience.",
+              "practices": [
+                "expat-tax",
+                "international-compliance"
+              ]
+            },
+            {
+              "id": "sarah-lee",
+              "name": "Sarah Lee",
+              "title": "Global Mobility Tax Specialist",
+              "bio": "Big4-trained global mobility leader.",
+              "practices": [
+                "global-mobility"
+              ]
+            },
+            {
+              "id": "John-doe",
+              "name": "John Doe",
+              "title": "Global Mobility Tax Specialist",
+              "bio": "Big4-trained global mobility leader.",
+              "practices": [
+                "global-mobility",
+                "international-compliance"
+              ]
+            }
+          ],
+          "practices": [
+            {
+              "id": "expat-tax",
+              "name": "Expat Tax Advisory"
+            },
+            {
+              "id": "international-compliance",
+              "name": "Cross-Border Compliance"
+            },
+            {
+              "id": "global-mobility",
+              "name": "Global Mobility Tax Planning"
+            }
+          ],
+          "value_map": [
+            {
+              "pillar": "Risk Reduction",
+              "signals": [
+                "Lower audit exposure",
+                "Stronger treaty position"
+              ]
+            },
+            {
+              "pillar": "Efficiency",
+              "signals": [
+                "Faster filings",
+                "Reduced manual remediation"
+              ]
+            }
+          ],
+          "outcomes": [
+            {
+              "id": "audit-drop",
+              "text": "Reduce audit risk by 28%"
+            },
+            {
+              "id": "cost-reduction",
+              "text": "Lower annual tax prep costs by 15%"
+            }
+          ],
+          "case_studies": [
+            {
+              "id": "expat-savings",
+              "persona": "cfo",
+              "headline": "Saved $43,000 in U.S. expat taxes",
+              "summary": "Optimized treaty usage and filing path.",
+              "outcomes": [
+                "audit-drop",
+                "cost-reduction"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "route": "/lawyers/john-smith/expat-tax/vflp/gc",
+      "component": "VFLP_GC",
+      "props": {
+        "persona": {
+          "id": "gc"
+        },
+        "lawyer": {
+          "id": "john-smith",
+          "name": "John Smith",
+          "title": "International Tax Attorney",
+          "bio": "20 years cross-border experience.",
+          "practices": [
+            "expat-tax",
+            "international-compliance"
+          ]
+        },
+        "practice": {
+          "id": "expat-tax",
+          "name": "Expat Tax Advisory"
+        },
+        "model": {
+          "site": {
+            "firm_name": "WiggMax Tax Law",
+            "theme": "mintsite",
+            "personas": [
+              {
+                "id": "cfo"
+              },
+              {
+                "id": "ceo"
+              },
+              {
+                "id": "gc"
+              },
+              {
+                "id": "tax_director"
+              }
+            ]
+          },
+          "lawyers": [
+            {
+              "id": "john-smith",
+              "name": "John Smith",
+              "title": "International Tax Attorney",
+              "bio": "20 years cross-border experience.",
+              "practices": [
+                "expat-tax",
+                "international-compliance"
+              ]
+            },
+            {
+              "id": "sarah-lee",
+              "name": "Sarah Lee",
+              "title": "Global Mobility Tax Specialist",
+              "bio": "Big4-trained global mobility leader.",
+              "practices": [
+                "global-mobility"
+              ]
+            },
+            {
+              "id": "John-doe",
+              "name": "John Doe",
+              "title": "Global Mobility Tax Specialist",
+              "bio": "Big4-trained global mobility leader.",
+              "practices": [
+                "global-mobility",
+                "international-compliance"
+              ]
+            }
+          ],
+          "practices": [
+            {
+              "id": "expat-tax",
+              "name": "Expat Tax Advisory"
+            },
+            {
+              "id": "international-compliance",
+              "name": "Cross-Border Compliance"
+            },
+            {
+              "id": "global-mobility",
+              "name": "Global Mobility Tax Planning"
+            }
+          ],
+          "value_map": [
+            {
+              "pillar": "Risk Reduction",
+              "signals": [
+                "Lower audit exposure",
+                "Stronger treaty position"
+              ]
+            },
+            {
+              "pillar": "Efficiency",
+              "signals": [
+                "Faster filings",
+                "Reduced manual remediation"
+              ]
+            }
+          ],
+          "outcomes": [
+            {
+              "id": "audit-drop",
+              "text": "Reduce audit risk by 28%"
+            },
+            {
+              "id": "cost-reduction",
+              "text": "Lower annual tax prep costs by 15%"
+            }
+          ],
+          "case_studies": [
+            {
+              "id": "expat-savings",
+              "persona": "cfo",
+              "headline": "Saved $43,000 in U.S. expat taxes",
+              "summary": "Optimized treaty usage and filing path.",
+              "outcomes": [
+                "audit-drop",
+                "cost-reduction"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "route": "/lawyers/john-smith/expat-tax/vflp/tax_director",
+      "component": "VFLP_TAX_DIRECTOR",
+      "props": {
+        "persona": {
+          "id": "tax_director"
+        },
+        "lawyer": {
+          "id": "john-smith",
+          "name": "John Smith",
+          "title": "International Tax Attorney",
+          "bio": "20 years cross-border experience.",
+          "practices": [
+            "expat-tax",
+            "international-compliance"
+          ]
+        },
+        "practice": {
+          "id": "expat-tax",
+          "name": "Expat Tax Advisory"
+        },
+        "model": {
+          "site": {
+            "firm_name": "WiggMax Tax Law",
+            "theme": "mintsite",
+            "personas": [
+              {
+                "id": "cfo"
+              },
+              {
+                "id": "ceo"
+              },
+              {
+                "id": "gc"
+              },
+              {
+                "id": "tax_director"
+              }
+            ]
+          },
+          "lawyers": [
+            {
+              "id": "john-smith",
+              "name": "John Smith",
+              "title": "International Tax Attorney",
+              "bio": "20 years cross-border experience.",
+              "practices": [
+                "expat-tax",
+                "international-compliance"
+              ]
+            },
+            {
+              "id": "sarah-lee",
+              "name": "Sarah Lee",
+              "title": "Global Mobility Tax Specialist",
+              "bio": "Big4-trained global mobility leader.",
+              "practices": [
+                "global-mobility"
+              ]
+            },
+            {
+              "id": "John-doe",
+              "name": "John Doe",
+              "title": "Global Mobility Tax Specialist",
+              "bio": "Big4-trained global mobility leader.",
+              "practices": [
+                "global-mobility",
+                "international-compliance"
+              ]
+            }
+          ],
+          "practices": [
+            {
+              "id": "expat-tax",
+              "name": "Expat Tax Advisory"
+            },
+            {
+              "id": "international-compliance",
+              "name": "Cross-Border Compliance"
+            },
+            {
+              "id": "global-mobility",
+              "name": "Global Mobility Tax Planning"
+            }
+          ],
+          "value_map": [
+            {
+              "pillar": "Risk Reduction",
+              "signals": [
+                "Lower audit exposure",
+                "Stronger treaty position"
+              ]
+            },
+            {
+              "pillar": "Efficiency",
+              "signals": [
+                "Faster filings",
+                "Reduced manual remediation"
+              ]
+            }
+          ],
+          "outcomes": [
+            {
+              "id": "audit-drop",
+              "text": "Reduce audit risk by 28%"
+            },
+            {
+              "id": "cost-reduction",
+              "text": "Lower annual tax prep costs by 15%"
+            }
+          ],
+          "case_studies": [
+            {
+              "id": "expat-savings",
+              "persona": "cfo",
+              "headline": "Saved $43,000 in U.S. expat taxes",
+              "summary": "Optimized treaty usage and filing path.",
+              "outcomes": [
+                "audit-drop",
+                "cost-reduction"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "route": "/lawyers/john-smith/international-compliance",
+      "component": "PracticePage",
+      "props": {
+        "lawyer": {
+          "id": "john-smith",
+          "name": "John Smith",
+          "title": "International Tax Attorney",
+          "bio": "20 years cross-border experience.",
+          "practices": [
+            "expat-tax",
+            "international-compliance"
+          ]
+        },
+        "practice": {
+          "id": "international-compliance",
+          "name": "Cross-Border Compliance"
+        },
+        "model": {
+          "site": {
+            "firm_name": "WiggMax Tax Law",
+            "theme": "mintsite",
+            "personas": [
+              {
+                "id": "cfo"
+              },
+              {
+                "id": "ceo"
+              },
+              {
+                "id": "gc"
+              },
+              {
+                "id": "tax_director"
+              }
+            ]
+          },
+          "lawyers": [
+            {
+              "id": "john-smith",
+              "name": "John Smith",
+              "title": "International Tax Attorney",
+              "bio": "20 years cross-border experience.",
+              "practices": [
+                "expat-tax",
+                "international-compliance"
+              ]
+            },
+            {
+              "id": "sarah-lee",
+              "name": "Sarah Lee",
+              "title": "Global Mobility Tax Specialist",
+              "bio": "Big4-trained global mobility leader.",
+              "practices": [
+                "global-mobility"
+              ]
+            },
+            {
+              "id": "John-doe",
+              "name": "John Doe",
+              "title": "Global Mobility Tax Specialist",
+              "bio": "Big4-trained global mobility leader.",
+              "practices": [
+                "global-mobility",
+                "international-compliance"
+              ]
+            }
+          ],
+          "practices": [
+            {
+              "id": "expat-tax",
+              "name": "Expat Tax Advisory"
+            },
+            {
+              "id": "international-compliance",
+              "name": "Cross-Border Compliance"
+            },
+            {
+              "id": "global-mobility",
+              "name": "Global Mobility Tax Planning"
+            }
+          ],
+          "value_map": [
+            {
+              "pillar": "Risk Reduction",
+              "signals": [
+                "Lower audit exposure",
+                "Stronger treaty position"
+              ]
+            },
+            {
+              "pillar": "Efficiency",
+              "signals": [
+                "Faster filings",
+                "Reduced manual remediation"
+              ]
+            }
+          ],
+          "outcomes": [
+            {
+              "id": "audit-drop",
+              "text": "Reduce audit risk by 28%"
+            },
+            {
+              "id": "cost-reduction",
+              "text": "Lower annual tax prep costs by 15%"
+            }
+          ],
+          "case_studies": [
+            {
+              "id": "expat-savings",
+              "persona": "cfo",
+              "headline": "Saved $43,000 in U.S. expat taxes",
+              "summary": "Optimized treaty usage and filing path.",
+              "outcomes": [
+                "audit-drop",
+                "cost-reduction"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "route": "/lawyers/john-smith/international-compliance/vflp/cfo",
+      "component": "VFLP_CFO",
+      "props": {
+        "persona": {
+          "id": "cfo"
+        },
+        "lawyer": {
+          "id": "john-smith",
+          "name": "John Smith",
+          "title": "International Tax Attorney",
+          "bio": "20 years cross-border experience.",
+          "practices": [
+            "expat-tax",
+            "international-compliance"
+          ]
+        },
+        "practice": {
+          "id": "international-compliance",
+          "name": "Cross-Border Compliance"
+        },
+        "model": {
+          "site": {
+            "firm_name": "WiggMax Tax Law",
+            "theme": "mintsite",
+            "personas": [
+              {
+                "id": "cfo"
+              },
+              {
+                "id": "ceo"
+              },
+              {
+                "id": "gc"
+              },
+              {
+                "id": "tax_director"
+              }
+            ]
+          },
+          "lawyers": [
+            {
+              "id": "john-smith",
+              "name": "John Smith",
+              "title": "International Tax Attorney",
+              "bio": "20 years cross-border experience.",
+              "practices": [
+                "expat-tax",
+                "international-compliance"
+              ]
+            },
+            {
+              "id": "sarah-lee",
+              "name": "Sarah Lee",
+              "title": "Global Mobility Tax Specialist",
+              "bio": "Big4-trained global mobility leader.",
+              "practices": [
+                "global-mobility"
+              ]
+            },
+            {
+              "id": "John-doe",
+              "name": "John Doe",
+              "title": "Global Mobility Tax Specialist",
+              "bio": "Big4-trained global mobility leader.",
+              "practices": [
+                "global-mobility",
+                "international-compliance"
+              ]
+            }
+          ],
+          "practices": [
+            {
+              "id": "expat-tax",
+              "name": "Expat Tax Advisory"
+            },
+            {
+              "id": "international-compliance",
+              "name": "Cross-Border Compliance"
+            },
+            {
+              "id": "global-mobility",
+              "name": "Global Mobility Tax Planning"
+            }
+          ],
+          "value_map": [
+            {
+              "pillar": "Risk Reduction",
+              "signals": [
+                "Lower audit exposure",
+                "Stronger treaty position"
+              ]
+            },
+            {
+              "pillar": "Efficiency",
+              "signals": [
+                "Faster filings",
+                "Reduced manual remediation"
+              ]
+            }
+          ],
+          "outcomes": [
+            {
+              "id": "audit-drop",
+              "text": "Reduce audit risk by 28%"
+            },
+            {
+              "id": "cost-reduction",
+              "text": "Lower annual tax prep costs by 15%"
+            }
+          ],
+          "case_studies": [
+            {
+              "id": "expat-savings",
+              "persona": "cfo",
+              "headline": "Saved $43,000 in U.S. expat taxes",
+              "summary": "Optimized treaty usage and filing path.",
+              "outcomes": [
+                "audit-drop",
+                "cost-reduction"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "route": "/lawyers/john-smith/international-compliance/vflp/ceo",
+      "component": "VFLP_CEO",
+      "props": {
+        "persona": {
+          "id": "ceo"
+        },
+        "lawyer": {
+          "id": "john-smith",
+          "name": "John Smith",
+          "title": "International Tax Attorney",
+          "bio": "20 years cross-border experience.",
+          "practices": [
+            "expat-tax",
+            "international-compliance"
+          ]
+        },
+        "practice": {
+          "id": "international-compliance",
+          "name": "Cross-Border Compliance"
+        },
+        "model": {
+          "site": {
+            "firm_name": "WiggMax Tax Law",
+            "theme": "mintsite",
+            "personas": [
+              {
+                "id": "cfo"
+              },
+              {
+                "id": "ceo"
+              },
+              {
+                "id": "gc"
+              },
+              {
+                "id": "tax_director"
+              }
+            ]
+          },
+          "lawyers": [
+            {
+              "id": "john-smith",
+              "name": "John Smith",
+              "title": "International Tax Attorney",
+              "bio": "20 years cross-border experience.",
+              "practices": [
+                "expat-tax",
+                "international-compliance"
+              ]
+            },
+            {
+              "id": "sarah-lee",
+              "name": "Sarah Lee",
+              "title": "Global Mobility Tax Specialist",
+              "bio": "Big4-trained global mobility leader.",
+              "practices": [
+                "global-mobility"
+              ]
+            },
+            {
+              "id": "John-doe",
+              "name": "John Doe",
+              "title": "Global Mobility Tax Specialist",
+              "bio": "Big4-trained global mobility leader.",
+              "practices": [
+                "global-mobility",
+                "international-compliance"
+              ]
+            }
+          ],
+          "practices": [
+            {
+              "id": "expat-tax",
+              "name": "Expat Tax Advisory"
+            },
+            {
+              "id": "international-compliance",
+              "name": "Cross-Border Compliance"
+            },
+            {
+              "id": "global-mobility",
+              "name": "Global Mobility Tax Planning"
+            }
+          ],
+          "value_map": [
+            {
+              "pillar": "Risk Reduction",
+              "signals": [
+                "Lower audit exposure",
+                "Stronger treaty position"
+              ]
+            },
+            {
+              "pillar": "Efficiency",
+              "signals": [
+                "Faster filings",
+                "Reduced manual remediation"
+              ]
+            }
+          ],
+          "outcomes": [
+            {
+              "id": "audit-drop",
+              "text": "Reduce audit risk by 28%"
+            },
+            {
+              "id": "cost-reduction",
+              "text": "Lower annual tax prep costs by 15%"
+            }
+          ],
+          "case_studies": [
+            {
+              "id": "expat-savings",
+              "persona": "cfo",
+              "headline": "Saved $43,000 in U.S. expat taxes",
+              "summary": "Optimized treaty usage and filing path.",
+              "outcomes": [
+                "audit-drop",
+                "cost-reduction"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "route": "/lawyers/john-smith/international-compliance/vflp/gc",
+      "component": "VFLP_GC",
+      "props": {
+        "persona": {
+          "id": "gc"
+        },
+        "lawyer": {
+          "id": "john-smith",
+          "name": "John Smith",
+          "title": "International Tax Attorney",
+          "bio": "20 years cross-border experience.",
+          "practices": [
+            "expat-tax",
+            "international-compliance"
+          ]
+        },
+        "practice": {
+          "id": "international-compliance",
+          "name": "Cross-Border Compliance"
+        },
+        "model": {
+          "site": {
+            "firm_name": "WiggMax Tax Law",
+            "theme": "mintsite",
+            "personas": [
+              {
+                "id": "cfo"
+              },
+              {
+                "id": "ceo"
+              },
+              {
+                "id": "gc"
+              },
+              {
+                "id": "tax_director"
+              }
+            ]
+          },
+          "lawyers": [
+            {
+              "id": "john-smith",
+              "name": "John Smith",
+              "title": "International Tax Attorney",
+              "bio": "20 years cross-border experience.",
+              "practices": [
+                "expat-tax",
+                "international-compliance"
+              ]
+            },
+            {
+              "id": "sarah-lee",
+              "name": "Sarah Lee",
+              "title": "Global Mobility Tax Specialist",
+              "bio": "Big4-trained global mobility leader.",
+              "practices": [
+                "global-mobility"
+              ]
+            },
+            {
+              "id": "John-doe",
+              "name": "John Doe",
+              "title": "Global Mobility Tax Specialist",
+              "bio": "Big4-trained global mobility leader.",
+              "practices": [
+                "global-mobility",
+                "international-compliance"
+              ]
+            }
+          ],
+          "practices": [
+            {
+              "id": "expat-tax",
+              "name": "Expat Tax Advisory"
+            },
+            {
+              "id": "international-compliance",
+              "name": "Cross-Border Compliance"
+            },
+            {
+              "id": "global-mobility",
+              "name": "Global Mobility Tax Planning"
+            }
+          ],
+          "value_map": [
+            {
+              "pillar": "Risk Reduction",
+              "signals": [
+                "Lower audit exposure",
+                "Stronger treaty position"
+              ]
+            },
+            {
+              "pillar": "Efficiency",
+              "signals": [
+                "Faster filings",
+                "Reduced manual remediation"
+              ]
+            }
+          ],
+          "outcomes": [
+            {
+              "id": "audit-drop",
+              "text": "Reduce audit risk by 28%"
+            },
+            {
+              "id": "cost-reduction",
+              "text": "Lower annual tax prep costs by 15%"
+            }
+          ],
+          "case_studies": [
+            {
+              "id": "expat-savings",
+              "persona": "cfo",
+              "headline": "Saved $43,000 in U.S. expat taxes",
+              "summary": "Optimized treaty usage and filing path.",
+              "outcomes": [
+                "audit-drop",
+                "cost-reduction"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "route": "/lawyers/john-smith/international-compliance/vflp/tax_director",
+      "component": "VFLP_TAX_DIRECTOR",
+      "props": {
+        "persona": {
+          "id": "tax_director"
+        },
+        "lawyer": {
+          "id": "john-smith",
+          "name": "John Smith",
+          "title": "International Tax Attorney",
+          "bio": "20 years cross-border experience.",
+          "practices": [
+            "expat-tax",
+            "international-compliance"
+          ]
+        },
+        "practice": {
+          "id": "international-compliance",
+          "name": "Cross-Border Compliance"
+        },
+        "model": {
+          "site": {
+            "firm_name": "WiggMax Tax Law",
+            "theme": "mintsite",
+            "personas": [
+              {
+                "id": "cfo"
+              },
+              {
+                "id": "ceo"
+              },
+              {
+                "id": "gc"
+              },
+              {
+                "id": "tax_director"
+              }
+            ]
+          },
+          "lawyers": [
+            {
+              "id": "john-smith",
+              "name": "John Smith",
+              "title": "International Tax Attorney",
+              "bio": "20 years cross-border experience.",
+              "practices": [
+                "expat-tax",
+                "international-compliance"
+              ]
+            },
+            {
+              "id": "sarah-lee",
+              "name": "Sarah Lee",
+              "title": "Global Mobility Tax Specialist",
+              "bio": "Big4-trained global mobility leader.",
+              "practices": [
+                "global-mobility"
+              ]
+            },
+            {
+              "id": "John-doe",
+              "name": "John Doe",
+              "title": "Global Mobility Tax Specialist",
+              "bio": "Big4-trained global mobility leader.",
+              "practices": [
+                "global-mobility",
+                "international-compliance"
+              ]
+            }
+          ],
+          "practices": [
+            {
+              "id": "expat-tax",
+              "name": "Expat Tax Advisory"
+            },
+            {
+              "id": "international-compliance",
+              "name": "Cross-Border Compliance"
+            },
+            {
+              "id": "global-mobility",
+              "name": "Global Mobility Tax Planning"
+            }
+          ],
+          "value_map": [
+            {
+              "pillar": "Risk Reduction",
+              "signals": [
+                "Lower audit exposure",
+                "Stronger treaty position"
+              ]
+            },
+            {
+              "pillar": "Efficiency",
+              "signals": [
+                "Faster filings",
+                "Reduced manual remediation"
+              ]
+            }
+          ],
+          "outcomes": [
+            {
+              "id": "audit-drop",
+              "text": "Reduce audit risk by 28%"
+            },
+            {
+              "id": "cost-reduction",
+              "text": "Lower annual tax prep costs by 15%"
+            }
+          ],
+          "case_studies": [
+            {
+              "id": "expat-savings",
+              "persona": "cfo",
+              "headline": "Saved $43,000 in U.S. expat taxes",
+              "summary": "Optimized treaty usage and filing path.",
+              "outcomes": [
+                "audit-drop",
+                "cost-reduction"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "route": "/lawyers/sarah-lee",
+      "component": "LawyerProfile",
+      "props": {
+        "lawyer": {
+          "id": "sarah-lee",
+          "name": "Sarah Lee",
+          "title": "Global Mobility Tax Specialist",
+          "bio": "Big4-trained global mobility leader.",
+          "practices": [
+            "global-mobility"
+          ]
+        },
+        "model": {
+          "site": {
+            "firm_name": "WiggMax Tax Law",
+            "theme": "mintsite",
+            "personas": [
+              {
+                "id": "cfo"
+              },
+              {
+                "id": "ceo"
+              },
+              {
+                "id": "gc"
+              },
+              {
+                "id": "tax_director"
+              }
+            ]
+          },
+          "lawyers": [
+            {
+              "id": "john-smith",
+              "name": "John Smith",
+              "title": "International Tax Attorney",
+              "bio": "20 years cross-border experience.",
+              "practices": [
+                "expat-tax",
+                "international-compliance"
+              ]
+            },
+            {
+              "id": "sarah-lee",
+              "name": "Sarah Lee",
+              "title": "Global Mobility Tax Specialist",
+              "bio": "Big4-trained global mobility leader.",
+              "practices": [
+                "global-mobility"
+              ]
+            },
+            {
+              "id": "John-doe",
+              "name": "John Doe",
+              "title": "Global Mobility Tax Specialist",
+              "bio": "Big4-trained global mobility leader.",
+              "practices": [
+                "global-mobility",
+                "international-compliance"
+              ]
+            }
+          ],
+          "practices": [
+            {
+              "id": "expat-tax",
+              "name": "Expat Tax Advisory"
+            },
+            {
+              "id": "international-compliance",
+              "name": "Cross-Border Compliance"
+            },
+            {
+              "id": "global-mobility",
+              "name": "Global Mobility Tax Planning"
+            }
+          ],
+          "value_map": [
+            {
+              "pillar": "Risk Reduction",
+              "signals": [
+                "Lower audit exposure",
+                "Stronger treaty position"
+              ]
+            },
+            {
+              "pillar": "Efficiency",
+              "signals": [
+                "Faster filings",
+                "Reduced manual remediation"
+              ]
+            }
+          ],
+          "outcomes": [
+            {
+              "id": "audit-drop",
+              "text": "Reduce audit risk by 28%"
+            },
+            {
+              "id": "cost-reduction",
+              "text": "Lower annual tax prep costs by 15%"
+            }
+          ],
+          "case_studies": [
+            {
+              "id": "expat-savings",
+              "persona": "cfo",
+              "headline": "Saved $43,000 in U.S. expat taxes",
+              "summary": "Optimized treaty usage and filing path.",
+              "outcomes": [
+                "audit-drop",
+                "cost-reduction"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "route": "/lawyers/sarah-lee/global-mobility",
+      "component": "PracticePage",
+      "props": {
+        "lawyer": {
+          "id": "sarah-lee",
+          "name": "Sarah Lee",
+          "title": "Global Mobility Tax Specialist",
+          "bio": "Big4-trained global mobility leader.",
+          "practices": [
+            "global-mobility"
+          ]
+        },
+        "practice": {
+          "id": "global-mobility",
+          "name": "Global Mobility Tax Planning"
+        },
+        "model": {
+          "site": {
+            "firm_name": "WiggMax Tax Law",
+            "theme": "mintsite",
+            "personas": [
+              {
+                "id": "cfo"
+              },
+              {
+                "id": "ceo"
+              },
+              {
+                "id": "gc"
+              },
+              {
+                "id": "tax_director"
+              }
+            ]
+          },
+          "lawyers": [
+            {
+              "id": "john-smith",
+              "name": "John Smith",
+              "title": "International Tax Attorney",
+              "bio": "20 years cross-border experience.",
+              "practices": [
+                "expat-tax",
+                "international-compliance"
+              ]
+            },
+            {
+              "id": "sarah-lee",
+              "name": "Sarah Lee",
+              "title": "Global Mobility Tax Specialist",
+              "bio": "Big4-trained global mobility leader.",
+              "practices": [
+                "global-mobility"
+              ]
+            },
+            {
+              "id": "John-doe",
+              "name": "John Doe",
+              "title": "Global Mobility Tax Specialist",
+              "bio": "Big4-trained global mobility leader.",
+              "practices": [
+                "global-mobility",
+                "international-compliance"
+              ]
+            }
+          ],
+          "practices": [
+            {
+              "id": "expat-tax",
+              "name": "Expat Tax Advisory"
+            },
+            {
+              "id": "international-compliance",
+              "name": "Cross-Border Compliance"
+            },
+            {
+              "id": "global-mobility",
+              "name": "Global Mobility Tax Planning"
+            }
+          ],
+          "value_map": [
+            {
+              "pillar": "Risk Reduction",
+              "signals": [
+                "Lower audit exposure",
+                "Stronger treaty position"
+              ]
+            },
+            {
+              "pillar": "Efficiency",
+              "signals": [
+                "Faster filings",
+                "Reduced manual remediation"
+              ]
+            }
+          ],
+          "outcomes": [
+            {
+              "id": "audit-drop",
+              "text": "Reduce audit risk by 28%"
+            },
+            {
+              "id": "cost-reduction",
+              "text": "Lower annual tax prep costs by 15%"
+            }
+          ],
+          "case_studies": [
+            {
+              "id": "expat-savings",
+              "persona": "cfo",
+              "headline": "Saved $43,000 in U.S. expat taxes",
+              "summary": "Optimized treaty usage and filing path.",
+              "outcomes": [
+                "audit-drop",
+                "cost-reduction"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "route": "/lawyers/sarah-lee/global-mobility/vflp/cfo",
+      "component": "VFLP_CFO",
+      "props": {
+        "persona": {
+          "id": "cfo"
+        },
+        "lawyer": {
+          "id": "sarah-lee",
+          "name": "Sarah Lee",
+          "title": "Global Mobility Tax Specialist",
+          "bio": "Big4-trained global mobility leader.",
+          "practices": [
+            "global-mobility"
+          ]
+        },
+        "practice": {
+          "id": "global-mobility",
+          "name": "Global Mobility Tax Planning"
+        },
+        "model": {
+          "site": {
+            "firm_name": "WiggMax Tax Law",
+            "theme": "mintsite",
+            "personas": [
+              {
+                "id": "cfo"
+              },
+              {
+                "id": "ceo"
+              },
+              {
+                "id": "gc"
+              },
+              {
+                "id": "tax_director"
+              }
+            ]
+          },
+          "lawyers": [
+            {
+              "id": "john-smith",
+              "name": "John Smith",
+              "title": "International Tax Attorney",
+              "bio": "20 years cross-border experience.",
+              "practices": [
+                "expat-tax",
+                "international-compliance"
+              ]
+            },
+            {
+              "id": "sarah-lee",
+              "name": "Sarah Lee",
+              "title": "Global Mobility Tax Specialist",
+              "bio": "Big4-trained global mobility leader.",
+              "practices": [
+                "global-mobility"
+              ]
+            },
+            {
+              "id": "John-doe",
+              "name": "John Doe",
+              "title": "Global Mobility Tax Specialist",
+              "bio": "Big4-trained global mobility leader.",
+              "practices": [
+                "global-mobility",
+                "international-compliance"
+              ]
+            }
+          ],
+          "practices": [
+            {
+              "id": "expat-tax",
+              "name": "Expat Tax Advisory"
+            },
+            {
+              "id": "international-compliance",
+              "name": "Cross-Border Compliance"
+            },
+            {
+              "id": "global-mobility",
+              "name": "Global Mobility Tax Planning"
+            }
+          ],
+          "value_map": [
+            {
+              "pillar": "Risk Reduction",
+              "signals": [
+                "Lower audit exposure",
+                "Stronger treaty position"
+              ]
+            },
+            {
+              "pillar": "Efficiency",
+              "signals": [
+                "Faster filings",
+                "Reduced manual remediation"
+              ]
+            }
+          ],
+          "outcomes": [
+            {
+              "id": "audit-drop",
+              "text": "Reduce audit risk by 28%"
+            },
+            {
+              "id": "cost-reduction",
+              "text": "Lower annual tax prep costs by 15%"
+            }
+          ],
+          "case_studies": [
+            {
+              "id": "expat-savings",
+              "persona": "cfo",
+              "headline": "Saved $43,000 in U.S. expat taxes",
+              "summary": "Optimized treaty usage and filing path.",
+              "outcomes": [
+                "audit-drop",
+                "cost-reduction"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "route": "/lawyers/sarah-lee/global-mobility/vflp/ceo",
+      "component": "VFLP_CEO",
+      "props": {
+        "persona": {
+          "id": "ceo"
+        },
+        "lawyer": {
+          "id": "sarah-lee",
+          "name": "Sarah Lee",
+          "title": "Global Mobility Tax Specialist",
+          "bio": "Big4-trained global mobility leader.",
+          "practices": [
+            "global-mobility"
+          ]
+        },
+        "practice": {
+          "id": "global-mobility",
+          "name": "Global Mobility Tax Planning"
+        },
+        "model": {
+          "site": {
+            "firm_name": "WiggMax Tax Law",
+            "theme": "mintsite",
+            "personas": [
+              {
+                "id": "cfo"
+              },
+              {
+                "id": "ceo"
+              },
+              {
+                "id": "gc"
+              },
+              {
+                "id": "tax_director"
+              }
+            ]
+          },
+          "lawyers": [
+            {
+              "id": "john-smith",
+              "name": "John Smith",
+              "title": "International Tax Attorney",
+              "bio": "20 years cross-border experience.",
+              "practices": [
+                "expat-tax",
+                "international-compliance"
+              ]
+            },
+            {
+              "id": "sarah-lee",
+              "name": "Sarah Lee",
+              "title": "Global Mobility Tax Specialist",
+              "bio": "Big4-trained global mobility leader.",
+              "practices": [
+                "global-mobility"
+              ]
+            },
+            {
+              "id": "John-doe",
+              "name": "John Doe",
+              "title": "Global Mobility Tax Specialist",
+              "bio": "Big4-trained global mobility leader.",
+              "practices": [
+                "global-mobility",
+                "international-compliance"
+              ]
+            }
+          ],
+          "practices": [
+            {
+              "id": "expat-tax",
+              "name": "Expat Tax Advisory"
+            },
+            {
+              "id": "international-compliance",
+              "name": "Cross-Border Compliance"
+            },
+            {
+              "id": "global-mobility",
+              "name": "Global Mobility Tax Planning"
+            }
+          ],
+          "value_map": [
+            {
+              "pillar": "Risk Reduction",
+              "signals": [
+                "Lower audit exposure",
+                "Stronger treaty position"
+              ]
+            },
+            {
+              "pillar": "Efficiency",
+              "signals": [
+                "Faster filings",
+                "Reduced manual remediation"
+              ]
+            }
+          ],
+          "outcomes": [
+            {
+              "id": "audit-drop",
+              "text": "Reduce audit risk by 28%"
+            },
+            {
+              "id": "cost-reduction",
+              "text": "Lower annual tax prep costs by 15%"
+            }
+          ],
+          "case_studies": [
+            {
+              "id": "expat-savings",
+              "persona": "cfo",
+              "headline": "Saved $43,000 in U.S. expat taxes",
+              "summary": "Optimized treaty usage and filing path.",
+              "outcomes": [
+                "audit-drop",
+                "cost-reduction"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "route": "/lawyers/sarah-lee/global-mobility/vflp/gc",
+      "component": "VFLP_GC",
+      "props": {
+        "persona": {
+          "id": "gc"
+        },
+        "lawyer": {
+          "id": "sarah-lee",
+          "name": "Sarah Lee",
+          "title": "Global Mobility Tax Specialist",
+          "bio": "Big4-trained global mobility leader.",
+          "practices": [
+            "global-mobility"
+          ]
+        },
+        "practice": {
+          "id": "global-mobility",
+          "name": "Global Mobility Tax Planning"
+        },
+        "model": {
+          "site": {
+            "firm_name": "WiggMax Tax Law",
+            "theme": "mintsite",
+            "personas": [
+              {
+                "id": "cfo"
+              },
+              {
+                "id": "ceo"
+              },
+              {
+                "id": "gc"
+              },
+              {
+                "id": "tax_director"
+              }
+            ]
+          },
+          "lawyers": [
+            {
+              "id": "john-smith",
+              "name": "John Smith",
+              "title": "International Tax Attorney",
+              "bio": "20 years cross-border experience.",
+              "practices": [
+                "expat-tax",
+                "international-compliance"
+              ]
+            },
+            {
+              "id": "sarah-lee",
+              "name": "Sarah Lee",
+              "title": "Global Mobility Tax Specialist",
+              "bio": "Big4-trained global mobility leader.",
+              "practices": [
+                "global-mobility"
+              ]
+            },
+            {
+              "id": "John-doe",
+              "name": "John Doe",
+              "title": "Global Mobility Tax Specialist",
+              "bio": "Big4-trained global mobility leader.",
+              "practices": [
+                "global-mobility",
+                "international-compliance"
+              ]
+            }
+          ],
+          "practices": [
+            {
+              "id": "expat-tax",
+              "name": "Expat Tax Advisory"
+            },
+            {
+              "id": "international-compliance",
+              "name": "Cross-Border Compliance"
+            },
+            {
+              "id": "global-mobility",
+              "name": "Global Mobility Tax Planning"
+            }
+          ],
+          "value_map": [
+            {
+              "pillar": "Risk Reduction",
+              "signals": [
+                "Lower audit exposure",
+                "Stronger treaty position"
+              ]
+            },
+            {
+              "pillar": "Efficiency",
+              "signals": [
+                "Faster filings",
+                "Reduced manual remediation"
+              ]
+            }
+          ],
+          "outcomes": [
+            {
+              "id": "audit-drop",
+              "text": "Reduce audit risk by 28%"
+            },
+            {
+              "id": "cost-reduction",
+              "text": "Lower annual tax prep costs by 15%"
+            }
+          ],
+          "case_studies": [
+            {
+              "id": "expat-savings",
+              "persona": "cfo",
+              "headline": "Saved $43,000 in U.S. expat taxes",
+              "summary": "Optimized treaty usage and filing path.",
+              "outcomes": [
+                "audit-drop",
+                "cost-reduction"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "route": "/lawyers/sarah-lee/global-mobility/vflp/tax_director",
+      "component": "VFLP_TAX_DIRECTOR",
+      "props": {
+        "persona": {
+          "id": "tax_director"
+        },
+        "lawyer": {
+          "id": "sarah-lee",
+          "name": "Sarah Lee",
+          "title": "Global Mobility Tax Specialist",
+          "bio": "Big4-trained global mobility leader.",
+          "practices": [
+            "global-mobility"
+          ]
+        },
+        "practice": {
+          "id": "global-mobility",
+          "name": "Global Mobility Tax Planning"
+        },
+        "model": {
+          "site": {
+            "firm_name": "WiggMax Tax Law",
+            "theme": "mintsite",
+            "personas": [
+              {
+                "id": "cfo"
+              },
+              {
+                "id": "ceo"
+              },
+              {
+                "id": "gc"
+              },
+              {
+                "id": "tax_director"
+              }
+            ]
+          },
+          "lawyers": [
+            {
+              "id": "john-smith",
+              "name": "John Smith",
+              "title": "International Tax Attorney",
+              "bio": "20 years cross-border experience.",
+              "practices": [
+                "expat-tax",
+                "international-compliance"
+              ]
+            },
+            {
+              "id": "sarah-lee",
+              "name": "Sarah Lee",
+              "title": "Global Mobility Tax Specialist",
+              "bio": "Big4-trained global mobility leader.",
+              "practices": [
+                "global-mobility"
+              ]
+            },
+            {
+              "id": "John-doe",
+              "name": "John Doe",
+              "title": "Global Mobility Tax Specialist",
+              "bio": "Big4-trained global mobility leader.",
+              "practices": [
+                "global-mobility",
+                "international-compliance"
+              ]
+            }
+          ],
+          "practices": [
+            {
+              "id": "expat-tax",
+              "name": "Expat Tax Advisory"
+            },
+            {
+              "id": "international-compliance",
+              "name": "Cross-Border Compliance"
+            },
+            {
+              "id": "global-mobility",
+              "name": "Global Mobility Tax Planning"
+            }
+          ],
+          "value_map": [
+            {
+              "pillar": "Risk Reduction",
+              "signals": [
+                "Lower audit exposure",
+                "Stronger treaty position"
+              ]
+            },
+            {
+              "pillar": "Efficiency",
+              "signals": [
+                "Faster filings",
+                "Reduced manual remediation"
+              ]
+            }
+          ],
+          "outcomes": [
+            {
+              "id": "audit-drop",
+              "text": "Reduce audit risk by 28%"
+            },
+            {
+              "id": "cost-reduction",
+              "text": "Lower annual tax prep costs by 15%"
+            }
+          ],
+          "case_studies": [
+            {
+              "id": "expat-savings",
+              "persona": "cfo",
+              "headline": "Saved $43,000 in U.S. expat taxes",
+              "summary": "Optimized treaty usage and filing path.",
+              "outcomes": [
+                "audit-drop",
+                "cost-reduction"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "route": "/lawyers/John-doe",
+      "component": "LawyerProfile",
+      "props": {
+        "lawyer": {
+          "id": "John-doe",
+          "name": "John Doe",
+          "title": "Global Mobility Tax Specialist",
+          "bio": "Big4-trained global mobility leader.",
+          "practices": [
+            "global-mobility",
+            "international-compliance"
+          ]
+        },
+        "model": {
+          "site": {
+            "firm_name": "WiggMax Tax Law",
+            "theme": "mintsite",
+            "personas": [
+              {
+                "id": "cfo"
+              },
+              {
+                "id": "ceo"
+              },
+              {
+                "id": "gc"
+              },
+              {
+                "id": "tax_director"
+              }
+            ]
+          },
+          "lawyers": [
+            {
+              "id": "john-smith",
+              "name": "John Smith",
+              "title": "International Tax Attorney",
+              "bio": "20 years cross-border experience.",
+              "practices": [
+                "expat-tax",
+                "international-compliance"
+              ]
+            },
+            {
+              "id": "sarah-lee",
+              "name": "Sarah Lee",
+              "title": "Global Mobility Tax Specialist",
+              "bio": "Big4-trained global mobility leader.",
+              "practices": [
+                "global-mobility"
+              ]
+            },
+            {
+              "id": "John-doe",
+              "name": "John Doe",
+              "title": "Global Mobility Tax Specialist",
+              "bio": "Big4-trained global mobility leader.",
+              "practices": [
+                "global-mobility",
+                "international-compliance"
+              ]
+            }
+          ],
+          "practices": [
+            {
+              "id": "expat-tax",
+              "name": "Expat Tax Advisory"
+            },
+            {
+              "id": "international-compliance",
+              "name": "Cross-Border Compliance"
+            },
+            {
+              "id": "global-mobility",
+              "name": "Global Mobility Tax Planning"
+            }
+          ],
+          "value_map": [
+            {
+              "pillar": "Risk Reduction",
+              "signals": [
+                "Lower audit exposure",
+                "Stronger treaty position"
+              ]
+            },
+            {
+              "pillar": "Efficiency",
+              "signals": [
+                "Faster filings",
+                "Reduced manual remediation"
+              ]
+            }
+          ],
+          "outcomes": [
+            {
+              "id": "audit-drop",
+              "text": "Reduce audit risk by 28%"
+            },
+            {
+              "id": "cost-reduction",
+              "text": "Lower annual tax prep costs by 15%"
+            }
+          ],
+          "case_studies": [
+            {
+              "id": "expat-savings",
+              "persona": "cfo",
+              "headline": "Saved $43,000 in U.S. expat taxes",
+              "summary": "Optimized treaty usage and filing path.",
+              "outcomes": [
+                "audit-drop",
+                "cost-reduction"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "route": "/lawyers/John-doe/global-mobility",
+      "component": "PracticePage",
+      "props": {
+        "lawyer": {
+          "id": "John-doe",
+          "name": "John Doe",
+          "title": "Global Mobility Tax Specialist",
+          "bio": "Big4-trained global mobility leader.",
+          "practices": [
+            "global-mobility",
+            "international-compliance"
+          ]
+        },
+        "practice": {
+          "id": "global-mobility",
+          "name": "Global Mobility Tax Planning"
+        },
+        "model": {
+          "site": {
+            "firm_name": "WiggMax Tax Law",
+            "theme": "mintsite",
+            "personas": [
+              {
+                "id": "cfo"
+              },
+              {
+                "id": "ceo"
+              },
+              {
+                "id": "gc"
+              },
+              {
+                "id": "tax_director"
+              }
+            ]
+          },
+          "lawyers": [
+            {
+              "id": "john-smith",
+              "name": "John Smith",
+              "title": "International Tax Attorney",
+              "bio": "20 years cross-border experience.",
+              "practices": [
+                "expat-tax",
+                "international-compliance"
+              ]
+            },
+            {
+              "id": "sarah-lee",
+              "name": "Sarah Lee",
+              "title": "Global Mobility Tax Specialist",
+              "bio": "Big4-trained global mobility leader.",
+              "practices": [
+                "global-mobility"
+              ]
+            },
+            {
+              "id": "John-doe",
+              "name": "John Doe",
+              "title": "Global Mobility Tax Specialist",
+              "bio": "Big4-trained global mobility leader.",
+              "practices": [
+                "global-mobility",
+                "international-compliance"
+              ]
+            }
+          ],
+          "practices": [
+            {
+              "id": "expat-tax",
+              "name": "Expat Tax Advisory"
+            },
+            {
+              "id": "international-compliance",
+              "name": "Cross-Border Compliance"
+            },
+            {
+              "id": "global-mobility",
+              "name": "Global Mobility Tax Planning"
+            }
+          ],
+          "value_map": [
+            {
+              "pillar": "Risk Reduction",
+              "signals": [
+                "Lower audit exposure",
+                "Stronger treaty position"
+              ]
+            },
+            {
+              "pillar": "Efficiency",
+              "signals": [
+                "Faster filings",
+                "Reduced manual remediation"
+              ]
+            }
+          ],
+          "outcomes": [
+            {
+              "id": "audit-drop",
+              "text": "Reduce audit risk by 28%"
+            },
+            {
+              "id": "cost-reduction",
+              "text": "Lower annual tax prep costs by 15%"
+            }
+          ],
+          "case_studies": [
+            {
+              "id": "expat-savings",
+              "persona": "cfo",
+              "headline": "Saved $43,000 in U.S. expat taxes",
+              "summary": "Optimized treaty usage and filing path.",
+              "outcomes": [
+                "audit-drop",
+                "cost-reduction"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "route": "/lawyers/John-doe/global-mobility/vflp/cfo",
+      "component": "VFLP_CFO",
+      "props": {
+        "persona": {
+          "id": "cfo"
+        },
+        "lawyer": {
+          "id": "John-doe",
+          "name": "John Doe",
+          "title": "Global Mobility Tax Specialist",
+          "bio": "Big4-trained global mobility leader.",
+          "practices": [
+            "global-mobility",
+            "international-compliance"
+          ]
+        },
+        "practice": {
+          "id": "global-mobility",
+          "name": "Global Mobility Tax Planning"
+        },
+        "model": {
+          "site": {
+            "firm_name": "WiggMax Tax Law",
+            "theme": "mintsite",
+            "personas": [
+              {
+                "id": "cfo"
+              },
+              {
+                "id": "ceo"
+              },
+              {
+                "id": "gc"
+              },
+              {
+                "id": "tax_director"
+              }
+            ]
+          },
+          "lawyers": [
+            {
+              "id": "john-smith",
+              "name": "John Smith",
+              "title": "International Tax Attorney",
+              "bio": "20 years cross-border experience.",
+              "practices": [
+                "expat-tax",
+                "international-compliance"
+              ]
+            },
+            {
+              "id": "sarah-lee",
+              "name": "Sarah Lee",
+              "title": "Global Mobility Tax Specialist",
+              "bio": "Big4-trained global mobility leader.",
+              "practices": [
+                "global-mobility"
+              ]
+            },
+            {
+              "id": "John-doe",
+              "name": "John Doe",
+              "title": "Global Mobility Tax Specialist",
+              "bio": "Big4-trained global mobility leader.",
+              "practices": [
+                "global-mobility",
+                "international-compliance"
+              ]
+            }
+          ],
+          "practices": [
+            {
+              "id": "expat-tax",
+              "name": "Expat Tax Advisory"
+            },
+            {
+              "id": "international-compliance",
+              "name": "Cross-Border Compliance"
+            },
+            {
+              "id": "global-mobility",
+              "name": "Global Mobility Tax Planning"
+            }
+          ],
+          "value_map": [
+            {
+              "pillar": "Risk Reduction",
+              "signals": [
+                "Lower audit exposure",
+                "Stronger treaty position"
+              ]
+            },
+            {
+              "pillar": "Efficiency",
+              "signals": [
+                "Faster filings",
+                "Reduced manual remediation"
+              ]
+            }
+          ],
+          "outcomes": [
+            {
+              "id": "audit-drop",
+              "text": "Reduce audit risk by 28%"
+            },
+            {
+              "id": "cost-reduction",
+              "text": "Lower annual tax prep costs by 15%"
+            }
+          ],
+          "case_studies": [
+            {
+              "id": "expat-savings",
+              "persona": "cfo",
+              "headline": "Saved $43,000 in U.S. expat taxes",
+              "summary": "Optimized treaty usage and filing path.",
+              "outcomes": [
+                "audit-drop",
+                "cost-reduction"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "route": "/lawyers/John-doe/global-mobility/vflp/ceo",
+      "component": "VFLP_CEO",
+      "props": {
+        "persona": {
+          "id": "ceo"
+        },
+        "lawyer": {
+          "id": "John-doe",
+          "name": "John Doe",
+          "title": "Global Mobility Tax Specialist",
+          "bio": "Big4-trained global mobility leader.",
+          "practices": [
+            "global-mobility",
+            "international-compliance"
+          ]
+        },
+        "practice": {
+          "id": "global-mobility",
+          "name": "Global Mobility Tax Planning"
+        },
+        "model": {
+          "site": {
+            "firm_name": "WiggMax Tax Law",
+            "theme": "mintsite",
+            "personas": [
+              {
+                "id": "cfo"
+              },
+              {
+                "id": "ceo"
+              },
+              {
+                "id": "gc"
+              },
+              {
+                "id": "tax_director"
+              }
+            ]
+          },
+          "lawyers": [
+            {
+              "id": "john-smith",
+              "name": "John Smith",
+              "title": "International Tax Attorney",
+              "bio": "20 years cross-border experience.",
+              "practices": [
+                "expat-tax",
+                "international-compliance"
+              ]
+            },
+            {
+              "id": "sarah-lee",
+              "name": "Sarah Lee",
+              "title": "Global Mobility Tax Specialist",
+              "bio": "Big4-trained global mobility leader.",
+              "practices": [
+                "global-mobility"
+              ]
+            },
+            {
+              "id": "John-doe",
+              "name": "John Doe",
+              "title": "Global Mobility Tax Specialist",
+              "bio": "Big4-trained global mobility leader.",
+              "practices": [
+                "global-mobility",
+                "international-compliance"
+              ]
+            }
+          ],
+          "practices": [
+            {
+              "id": "expat-tax",
+              "name": "Expat Tax Advisory"
+            },
+            {
+              "id": "international-compliance",
+              "name": "Cross-Border Compliance"
+            },
+            {
+              "id": "global-mobility",
+              "name": "Global Mobility Tax Planning"
+            }
+          ],
+          "value_map": [
+            {
+              "pillar": "Risk Reduction",
+              "signals": [
+                "Lower audit exposure",
+                "Stronger treaty position"
+              ]
+            },
+            {
+              "pillar": "Efficiency",
+              "signals": [
+                "Faster filings",
+                "Reduced manual remediation"
+              ]
+            }
+          ],
+          "outcomes": [
+            {
+              "id": "audit-drop",
+              "text": "Reduce audit risk by 28%"
+            },
+            {
+              "id": "cost-reduction",
+              "text": "Lower annual tax prep costs by 15%"
+            }
+          ],
+          "case_studies": [
+            {
+              "id": "expat-savings",
+              "persona": "cfo",
+              "headline": "Saved $43,000 in U.S. expat taxes",
+              "summary": "Optimized treaty usage and filing path.",
+              "outcomes": [
+                "audit-drop",
+                "cost-reduction"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "route": "/lawyers/John-doe/global-mobility/vflp/gc",
+      "component": "VFLP_GC",
+      "props": {
+        "persona": {
+          "id": "gc"
+        },
+        "lawyer": {
+          "id": "John-doe",
+          "name": "John Doe",
+          "title": "Global Mobility Tax Specialist",
+          "bio": "Big4-trained global mobility leader.",
+          "practices": [
+            "global-mobility",
+            "international-compliance"
+          ]
+        },
+        "practice": {
+          "id": "global-mobility",
+          "name": "Global Mobility Tax Planning"
+        },
+        "model": {
+          "site": {
+            "firm_name": "WiggMax Tax Law",
+            "theme": "mintsite",
+            "personas": [
+              {
+                "id": "cfo"
+              },
+              {
+                "id": "ceo"
+              },
+              {
+                "id": "gc"
+              },
+              {
+                "id": "tax_director"
+              }
+            ]
+          },
+          "lawyers": [
+            {
+              "id": "john-smith",
+              "name": "John Smith",
+              "title": "International Tax Attorney",
+              "bio": "20 years cross-border experience.",
+              "practices": [
+                "expat-tax",
+                "international-compliance"
+              ]
+            },
+            {
+              "id": "sarah-lee",
+              "name": "Sarah Lee",
+              "title": "Global Mobility Tax Specialist",
+              "bio": "Big4-trained global mobility leader.",
+              "practices": [
+                "global-mobility"
+              ]
+            },
+            {
+              "id": "John-doe",
+              "name": "John Doe",
+              "title": "Global Mobility Tax Specialist",
+              "bio": "Big4-trained global mobility leader.",
+              "practices": [
+                "global-mobility",
+                "international-compliance"
+              ]
+            }
+          ],
+          "practices": [
+            {
+              "id": "expat-tax",
+              "name": "Expat Tax Advisory"
+            },
+            {
+              "id": "international-compliance",
+              "name": "Cross-Border Compliance"
+            },
+            {
+              "id": "global-mobility",
+              "name": "Global Mobility Tax Planning"
+            }
+          ],
+          "value_map": [
+            {
+              "pillar": "Risk Reduction",
+              "signals": [
+                "Lower audit exposure",
+                "Stronger treaty position"
+              ]
+            },
+            {
+              "pillar": "Efficiency",
+              "signals": [
+                "Faster filings",
+                "Reduced manual remediation"
+              ]
+            }
+          ],
+          "outcomes": [
+            {
+              "id": "audit-drop",
+              "text": "Reduce audit risk by 28%"
+            },
+            {
+              "id": "cost-reduction",
+              "text": "Lower annual tax prep costs by 15%"
+            }
+          ],
+          "case_studies": [
+            {
+              "id": "expat-savings",
+              "persona": "cfo",
+              "headline": "Saved $43,000 in U.S. expat taxes",
+              "summary": "Optimized treaty usage and filing path.",
+              "outcomes": [
+                "audit-drop",
+                "cost-reduction"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "route": "/lawyers/John-doe/global-mobility/vflp/tax_director",
+      "component": "VFLP_TAX_DIRECTOR",
+      "props": {
+        "persona": {
+          "id": "tax_director"
+        },
+        "lawyer": {
+          "id": "John-doe",
+          "name": "John Doe",
+          "title": "Global Mobility Tax Specialist",
+          "bio": "Big4-trained global mobility leader.",
+          "practices": [
+            "global-mobility",
+            "international-compliance"
+          ]
+        },
+        "practice": {
+          "id": "global-mobility",
+          "name": "Global Mobility Tax Planning"
+        },
+        "model": {
+          "site": {
+            "firm_name": "WiggMax Tax Law",
+            "theme": "mintsite",
+            "personas": [
+              {
+                "id": "cfo"
+              },
+              {
+                "id": "ceo"
+              },
+              {
+                "id": "gc"
+              },
+              {
+                "id": "tax_director"
+              }
+            ]
+          },
+          "lawyers": [
+            {
+              "id": "john-smith",
+              "name": "John Smith",
+              "title": "International Tax Attorney",
+              "bio": "20 years cross-border experience.",
+              "practices": [
+                "expat-tax",
+                "international-compliance"
+              ]
+            },
+            {
+              "id": "sarah-lee",
+              "name": "Sarah Lee",
+              "title": "Global Mobility Tax Specialist",
+              "bio": "Big4-trained global mobility leader.",
+              "practices": [
+                "global-mobility"
+              ]
+            },
+            {
+              "id": "John-doe",
+              "name": "John Doe",
+              "title": "Global Mobility Tax Specialist",
+              "bio": "Big4-trained global mobility leader.",
+              "practices": [
+                "global-mobility",
+                "international-compliance"
+              ]
+            }
+          ],
+          "practices": [
+            {
+              "id": "expat-tax",
+              "name": "Expat Tax Advisory"
+            },
+            {
+              "id": "international-compliance",
+              "name": "Cross-Border Compliance"
+            },
+            {
+              "id": "global-mobility",
+              "name": "Global Mobility Tax Planning"
+            }
+          ],
+          "value_map": [
+            {
+              "pillar": "Risk Reduction",
+              "signals": [
+                "Lower audit exposure",
+                "Stronger treaty position"
+              ]
+            },
+            {
+              "pillar": "Efficiency",
+              "signals": [
+                "Faster filings",
+                "Reduced manual remediation"
+              ]
+            }
+          ],
+          "outcomes": [
+            {
+              "id": "audit-drop",
+              "text": "Reduce audit risk by 28%"
+            },
+            {
+              "id": "cost-reduction",
+              "text": "Lower annual tax prep costs by 15%"
+            }
+          ],
+          "case_studies": [
+            {
+              "id": "expat-savings",
+              "persona": "cfo",
+              "headline": "Saved $43,000 in U.S. expat taxes",
+              "summary": "Optimized treaty usage and filing path.",
+              "outcomes": [
+                "audit-drop",
+                "cost-reduction"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "route": "/lawyers/John-doe/international-compliance",
+      "component": "PracticePage",
+      "props": {
+        "lawyer": {
+          "id": "John-doe",
+          "name": "John Doe",
+          "title": "Global Mobility Tax Specialist",
+          "bio": "Big4-trained global mobility leader.",
+          "practices": [
+            "global-mobility",
+            "international-compliance"
+          ]
+        },
+        "practice": {
+          "id": "international-compliance",
+          "name": "Cross-Border Compliance"
+        },
+        "model": {
+          "site": {
+            "firm_name": "WiggMax Tax Law",
+            "theme": "mintsite",
+            "personas": [
+              {
+                "id": "cfo"
+              },
+              {
+                "id": "ceo"
+              },
+              {
+                "id": "gc"
+              },
+              {
+                "id": "tax_director"
+              }
+            ]
+          },
+          "lawyers": [
+            {
+              "id": "john-smith",
+              "name": "John Smith",
+              "title": "International Tax Attorney",
+              "bio": "20 years cross-border experience.",
+              "practices": [
+                "expat-tax",
+                "international-compliance"
+              ]
+            },
+            {
+              "id": "sarah-lee",
+              "name": "Sarah Lee",
+              "title": "Global Mobility Tax Specialist",
+              "bio": "Big4-trained global mobility leader.",
+              "practices": [
+                "global-mobility"
+              ]
+            },
+            {
+              "id": "John-doe",
+              "name": "John Doe",
+              "title": "Global Mobility Tax Specialist",
+              "bio": "Big4-trained global mobility leader.",
+              "practices": [
+                "global-mobility",
+                "international-compliance"
+              ]
+            }
+          ],
+          "practices": [
+            {
+              "id": "expat-tax",
+              "name": "Expat Tax Advisory"
+            },
+            {
+              "id": "international-compliance",
+              "name": "Cross-Border Compliance"
+            },
+            {
+              "id": "global-mobility",
+              "name": "Global Mobility Tax Planning"
+            }
+          ],
+          "value_map": [
+            {
+              "pillar": "Risk Reduction",
+              "signals": [
+                "Lower audit exposure",
+                "Stronger treaty position"
+              ]
+            },
+            {
+              "pillar": "Efficiency",
+              "signals": [
+                "Faster filings",
+                "Reduced manual remediation"
+              ]
+            }
+          ],
+          "outcomes": [
+            {
+              "id": "audit-drop",
+              "text": "Reduce audit risk by 28%"
+            },
+            {
+              "id": "cost-reduction",
+              "text": "Lower annual tax prep costs by 15%"
+            }
+          ],
+          "case_studies": [
+            {
+              "id": "expat-savings",
+              "persona": "cfo",
+              "headline": "Saved $43,000 in U.S. expat taxes",
+              "summary": "Optimized treaty usage and filing path.",
+              "outcomes": [
+                "audit-drop",
+                "cost-reduction"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "route": "/lawyers/John-doe/international-compliance/vflp/cfo",
+      "component": "VFLP_CFO",
+      "props": {
+        "persona": {
+          "id": "cfo"
+        },
+        "lawyer": {
+          "id": "John-doe",
+          "name": "John Doe",
+          "title": "Global Mobility Tax Specialist",
+          "bio": "Big4-trained global mobility leader.",
+          "practices": [
+            "global-mobility",
+            "international-compliance"
+          ]
+        },
+        "practice": {
+          "id": "international-compliance",
+          "name": "Cross-Border Compliance"
+        },
+        "model": {
+          "site": {
+            "firm_name": "WiggMax Tax Law",
+            "theme": "mintsite",
+            "personas": [
+              {
+                "id": "cfo"
+              },
+              {
+                "id": "ceo"
+              },
+              {
+                "id": "gc"
+              },
+              {
+                "id": "tax_director"
+              }
+            ]
+          },
+          "lawyers": [
+            {
+              "id": "john-smith",
+              "name": "John Smith",
+              "title": "International Tax Attorney",
+              "bio": "20 years cross-border experience.",
+              "practices": [
+                "expat-tax",
+                "international-compliance"
+              ]
+            },
+            {
+              "id": "sarah-lee",
+              "name": "Sarah Lee",
+              "title": "Global Mobility Tax Specialist",
+              "bio": "Big4-trained global mobility leader.",
+              "practices": [
+                "global-mobility"
+              ]
+            },
+            {
+              "id": "John-doe",
+              "name": "John Doe",
+              "title": "Global Mobility Tax Specialist",
+              "bio": "Big4-trained global mobility leader.",
+              "practices": [
+                "global-mobility",
+                "international-compliance"
+              ]
+            }
+          ],
+          "practices": [
+            {
+              "id": "expat-tax",
+              "name": "Expat Tax Advisory"
+            },
+            {
+              "id": "international-compliance",
+              "name": "Cross-Border Compliance"
+            },
+            {
+              "id": "global-mobility",
+              "name": "Global Mobility Tax Planning"
+            }
+          ],
+          "value_map": [
+            {
+              "pillar": "Risk Reduction",
+              "signals": [
+                "Lower audit exposure",
+                "Stronger treaty position"
+              ]
+            },
+            {
+              "pillar": "Efficiency",
+              "signals": [
+                "Faster filings",
+                "Reduced manual remediation"
+              ]
+            }
+          ],
+          "outcomes": [
+            {
+              "id": "audit-drop",
+              "text": "Reduce audit risk by 28%"
+            },
+            {
+              "id": "cost-reduction",
+              "text": "Lower annual tax prep costs by 15%"
+            }
+          ],
+          "case_studies": [
+            {
+              "id": "expat-savings",
+              "persona": "cfo",
+              "headline": "Saved $43,000 in U.S. expat taxes",
+              "summary": "Optimized treaty usage and filing path.",
+              "outcomes": [
+                "audit-drop",
+                "cost-reduction"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "route": "/lawyers/John-doe/international-compliance/vflp/ceo",
+      "component": "VFLP_CEO",
+      "props": {
+        "persona": {
+          "id": "ceo"
+        },
+        "lawyer": {
+          "id": "John-doe",
+          "name": "John Doe",
+          "title": "Global Mobility Tax Specialist",
+          "bio": "Big4-trained global mobility leader.",
+          "practices": [
+            "global-mobility",
+            "international-compliance"
+          ]
+        },
+        "practice": {
+          "id": "international-compliance",
+          "name": "Cross-Border Compliance"
+        },
+        "model": {
+          "site": {
+            "firm_name": "WiggMax Tax Law",
+            "theme": "mintsite",
+            "personas": [
+              {
+                "id": "cfo"
+              },
+              {
+                "id": "ceo"
+              },
+              {
+                "id": "gc"
+              },
+              {
+                "id": "tax_director"
+              }
+            ]
+          },
+          "lawyers": [
+            {
+              "id": "john-smith",
+              "name": "John Smith",
+              "title": "International Tax Attorney",
+              "bio": "20 years cross-border experience.",
+              "practices": [
+                "expat-tax",
+                "international-compliance"
+              ]
+            },
+            {
+              "id": "sarah-lee",
+              "name": "Sarah Lee",
+              "title": "Global Mobility Tax Specialist",
+              "bio": "Big4-trained global mobility leader.",
+              "practices": [
+                "global-mobility"
+              ]
+            },
+            {
+              "id": "John-doe",
+              "name": "John Doe",
+              "title": "Global Mobility Tax Specialist",
+              "bio": "Big4-trained global mobility leader.",
+              "practices": [
+                "global-mobility",
+                "international-compliance"
+              ]
+            }
+          ],
+          "practices": [
+            {
+              "id": "expat-tax",
+              "name": "Expat Tax Advisory"
+            },
+            {
+              "id": "international-compliance",
+              "name": "Cross-Border Compliance"
+            },
+            {
+              "id": "global-mobility",
+              "name": "Global Mobility Tax Planning"
+            }
+          ],
+          "value_map": [
+            {
+              "pillar": "Risk Reduction",
+              "signals": [
+                "Lower audit exposure",
+                "Stronger treaty position"
+              ]
+            },
+            {
+              "pillar": "Efficiency",
+              "signals": [
+                "Faster filings",
+                "Reduced manual remediation"
+              ]
+            }
+          ],
+          "outcomes": [
+            {
+              "id": "audit-drop",
+              "text": "Reduce audit risk by 28%"
+            },
+            {
+              "id": "cost-reduction",
+              "text": "Lower annual tax prep costs by 15%"
+            }
+          ],
+          "case_studies": [
+            {
+              "id": "expat-savings",
+              "persona": "cfo",
+              "headline": "Saved $43,000 in U.S. expat taxes",
+              "summary": "Optimized treaty usage and filing path.",
+              "outcomes": [
+                "audit-drop",
+                "cost-reduction"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "route": "/lawyers/John-doe/international-compliance/vflp/gc",
+      "component": "VFLP_GC",
+      "props": {
+        "persona": {
+          "id": "gc"
+        },
+        "lawyer": {
+          "id": "John-doe",
+          "name": "John Doe",
+          "title": "Global Mobility Tax Specialist",
+          "bio": "Big4-trained global mobility leader.",
+          "practices": [
+            "global-mobility",
+            "international-compliance"
+          ]
+        },
+        "practice": {
+          "id": "international-compliance",
+          "name": "Cross-Border Compliance"
+        },
+        "model": {
+          "site": {
+            "firm_name": "WiggMax Tax Law",
+            "theme": "mintsite",
+            "personas": [
+              {
+                "id": "cfo"
+              },
+              {
+                "id": "ceo"
+              },
+              {
+                "id": "gc"
+              },
+              {
+                "id": "tax_director"
+              }
+            ]
+          },
+          "lawyers": [
+            {
+              "id": "john-smith",
+              "name": "John Smith",
+              "title": "International Tax Attorney",
+              "bio": "20 years cross-border experience.",
+              "practices": [
+                "expat-tax",
+                "international-compliance"
+              ]
+            },
+            {
+              "id": "sarah-lee",
+              "name": "Sarah Lee",
+              "title": "Global Mobility Tax Specialist",
+              "bio": "Big4-trained global mobility leader.",
+              "practices": [
+                "global-mobility"
+              ]
+            },
+            {
+              "id": "John-doe",
+              "name": "John Doe",
+              "title": "Global Mobility Tax Specialist",
+              "bio": "Big4-trained global mobility leader.",
+              "practices": [
+                "global-mobility",
+                "international-compliance"
+              ]
+            }
+          ],
+          "practices": [
+            {
+              "id": "expat-tax",
+              "name": "Expat Tax Advisory"
+            },
+            {
+              "id": "international-compliance",
+              "name": "Cross-Border Compliance"
+            },
+            {
+              "id": "global-mobility",
+              "name": "Global Mobility Tax Planning"
+            }
+          ],
+          "value_map": [
+            {
+              "pillar": "Risk Reduction",
+              "signals": [
+                "Lower audit exposure",
+                "Stronger treaty position"
+              ]
+            },
+            {
+              "pillar": "Efficiency",
+              "signals": [
+                "Faster filings",
+                "Reduced manual remediation"
+              ]
+            }
+          ],
+          "outcomes": [
+            {
+              "id": "audit-drop",
+              "text": "Reduce audit risk by 28%"
+            },
+            {
+              "id": "cost-reduction",
+              "text": "Lower annual tax prep costs by 15%"
+            }
+          ],
+          "case_studies": [
+            {
+              "id": "expat-savings",
+              "persona": "cfo",
+              "headline": "Saved $43,000 in U.S. expat taxes",
+              "summary": "Optimized treaty usage and filing path.",
+              "outcomes": [
+                "audit-drop",
+                "cost-reduction"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "route": "/lawyers/John-doe/international-compliance/vflp/tax_director",
+      "component": "VFLP_TAX_DIRECTOR",
+      "props": {
+        "persona": {
+          "id": "tax_director"
+        },
+        "lawyer": {
+          "id": "John-doe",
+          "name": "John Doe",
+          "title": "Global Mobility Tax Specialist",
+          "bio": "Big4-trained global mobility leader.",
+          "practices": [
+            "global-mobility",
+            "international-compliance"
+          ]
+        },
+        "practice": {
+          "id": "international-compliance",
+          "name": "Cross-Border Compliance"
+        },
+        "model": {
+          "site": {
+            "firm_name": "WiggMax Tax Law",
+            "theme": "mintsite",
+            "personas": [
+              {
+                "id": "cfo"
+              },
+              {
+                "id": "ceo"
+              },
+              {
+                "id": "gc"
+              },
+              {
+                "id": "tax_director"
+              }
+            ]
+          },
+          "lawyers": [
+            {
+              "id": "john-smith",
+              "name": "John Smith",
+              "title": "International Tax Attorney",
+              "bio": "20 years cross-border experience.",
+              "practices": [
+                "expat-tax",
+                "international-compliance"
+              ]
+            },
+            {
+              "id": "sarah-lee",
+              "name": "Sarah Lee",
+              "title": "Global Mobility Tax Specialist",
+              "bio": "Big4-trained global mobility leader.",
+              "practices": [
+                "global-mobility"
+              ]
+            },
+            {
+              "id": "John-doe",
+              "name": "John Doe",
+              "title": "Global Mobility Tax Specialist",
+              "bio": "Big4-trained global mobility leader.",
+              "practices": [
+                "global-mobility",
+                "international-compliance"
+              ]
+            }
+          ],
+          "practices": [
+            {
+              "id": "expat-tax",
+              "name": "Expat Tax Advisory"
+            },
+            {
+              "id": "international-compliance",
+              "name": "Cross-Border Compliance"
+            },
+            {
+              "id": "global-mobility",
+              "name": "Global Mobility Tax Planning"
+            }
+          ],
+          "value_map": [
+            {
+              "pillar": "Risk Reduction",
+              "signals": [
+                "Lower audit exposure",
+                "Stronger treaty position"
+              ]
+            },
+            {
+              "pillar": "Efficiency",
+              "signals": [
+                "Faster filings",
+                "Reduced manual remediation"
+              ]
+            }
+          ],
+          "outcomes": [
+            {
+              "id": "audit-drop",
+              "text": "Reduce audit risk by 28%"
+            },
+            {
+              "id": "cost-reduction",
+              "text": "Lower annual tax prep costs by 15%"
+            }
+          ],
+          "case_studies": [
+            {
+              "id": "expat-savings",
+              "persona": "cfo",
+              "headline": "Saved $43,000 in U.S. expat taxes",
+              "summary": "Optimized treaty usage and filing path.",
+              "outcomes": [
+                "audit-drop",
+                "cost-reduction"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "routes": [
+    "/lawyers/john-smith",
+    "/lawyers/john-smith/expat-tax",
+    "/lawyers/john-smith/expat-tax/vflp/cfo",
+    "/lawyers/john-smith/expat-tax/vflp/ceo",
+    "/lawyers/john-smith/expat-tax/vflp/gc",
+    "/lawyers/john-smith/expat-tax/vflp/tax_director",
+    "/lawyers/john-smith/international-compliance",
+    "/lawyers/john-smith/international-compliance/vflp/cfo",
+    "/lawyers/john-smith/international-compliance/vflp/ceo",
+    "/lawyers/john-smith/international-compliance/vflp/gc",
+    "/lawyers/john-smith/international-compliance/vflp/tax_director",
+    "/lawyers/sarah-lee",
+    "/lawyers/sarah-lee/global-mobility",
+    "/lawyers/sarah-lee/global-mobility/vflp/cfo",
+    "/lawyers/sarah-lee/global-mobility/vflp/ceo",
+    "/lawyers/sarah-lee/global-mobility/vflp/gc",
+    "/lawyers/sarah-lee/global-mobility/vflp/tax_director",
+    "/lawyers/John-doe",
+    "/lawyers/John-doe/global-mobility",
+    "/lawyers/John-doe/global-mobility/vflp/cfo",
+    "/lawyers/John-doe/global-mobility/vflp/ceo",
+    "/lawyers/John-doe/global-mobility/vflp/gc",
+    "/lawyers/John-doe/global-mobility/vflp/tax_director",
+    "/lawyers/John-doe/international-compliance",
+    "/lawyers/John-doe/international-compliance/vflp/cfo",
+    "/lawyers/John-doe/international-compliance/vflp/ceo",
+    "/lawyers/John-doe/international-compliance/vflp/gc",
+    "/lawyers/John-doe/international-compliance/vflp/tax_director"
+  ],
+  "timestamp": "2025-12-23T13:38:27.072Z"
+}

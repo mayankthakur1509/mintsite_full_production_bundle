@@ -1,0 +1,15 @@
+name: MintSite Deploy
+on:
+  push:
+    branches: [ main ]
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Install
+        run: npm install
+      - name: Build
+        run: npm run build
+      - name: Publish
+        run: npx wrangler pages publish dist

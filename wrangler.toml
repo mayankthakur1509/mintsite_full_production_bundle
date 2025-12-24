@@ -1,0 +1,19 @@
+name = "mintsite-enterprise"
+main = "worker/_worker.js"
+compatibility_date = "2025-12-23"
+
+[build]
+command = "node compiler/index.js" # builds manifest.json
+
+[vars]
+# Add environment variables here if needed, like RENDERER, SUPABASE, etc.
+[[kv_namespaces]]
+binding = "ACTIONE"       # matches env.ACTIONE in logEvent
+id = "e25aef80cf0f43848ce054d8367185d1"
+
+[[kv_namespaces]]
+binding = "SESSION_STORE" # matches env.SESSION_STORE in your Worker
+id = "88d4022d459c4b75940a88fb19725e66"
+
+[site]
+bucket = "./public"

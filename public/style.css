@@ -1,0 +1,52 @@
+/* Global body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f9f9f9;
+    color: #333;
+}
+
+/* Container wrapper */
+.mintsite-container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 2rem;
+}
+
+/* Hero section */
+.mintsite-hero {
+    text-align: center;
+    padding: 3rem 1rem;
+    background: #b2ebf2;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+}
+
+.mintsite-hero h1 {
+    font-size: 2.5rem;
+    color: #00796b;
+}
+
+.mintsite-hero p {
+    font-size: 1.2rem;
+}
+
+/* Card for lawyers, case studies */
+.mintsite-card {
+    background: #fff;
+    border-radius: 8px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Buttons */
+.mintsite-btn {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    background: #00796b;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+}

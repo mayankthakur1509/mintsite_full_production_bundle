@@ -1,0 +1,8 @@
+case_studies:
+  - id: "expat-savings"
+    persona: "cfo"
+    headline: "Saved $43,000 in U.S. expat taxes"
+    summary: "Optimized treaty usage and filing path."
+    outcomes:
+      - audit-drop
+      - cost-reduction

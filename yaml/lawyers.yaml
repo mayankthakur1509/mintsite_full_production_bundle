@@ -1,0 +1,23 @@
+lawyers:
+  - id: "john-smith"
+    name: "John Smith"
+    title: "International Tax Attorney"
+    bio: "20 years cross-border experience."
+    practices:
+      - expat-tax
+      - international-compliance
+
+  - id: "sarah-lee"
+    name: "Sarah Lee"
+    title: "Global Mobility Tax Specialist"
+    bio: "Big4-trained global mobility leader."
+    practices:
+      - global-mobility
+
+  - id: "John-doe"
+    name: "John Doe"
+    title: "Global Mobility Tax Specialist"
+    bio: "Big4-trained global mobility leader."
+    practices:
+      - global-mobility    
+      - international-compliance

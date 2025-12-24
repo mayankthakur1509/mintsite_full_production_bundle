@@ -1,0 +1,9 @@
+value_map:
+  - pillar: "Risk Reduction"
+    signals:
+      - "Lower audit exposure"
+      - "Stronger treaty position"
+  - pillar: "Efficiency"
+    signals:
+      - "Faster filings"
+      - "Reduced manual remediation"

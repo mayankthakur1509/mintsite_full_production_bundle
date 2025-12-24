@@ -1,0 +1,8 @@
+site:
+  firm_name: "WiggMax Tax Law"
+  theme: "mintsite"
+  personas:
+    - id: cfo
+    - id: ceo
+    - id: gc
+    - id: tax_director
