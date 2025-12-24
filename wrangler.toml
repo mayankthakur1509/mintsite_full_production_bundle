@@ -2,19 +2,23 @@ name = "mintsite-full-production-bundle"
 main = "worker/_worker.js"
 compatibility_date = "2024-12-01"
 
-kv_namespaces = [
-  { binding = "ACTION_E_LOG", id = "fb5f44399b0f43fd92abd8a16b90abb2" },
-  { binding = "SESSION_STORE", id = "88d4022d459c4b75940a88fb19725e66" }
-]
-
 [vars]
 CF_PROJECT_NAME = "mintsite-full-production-bundle"
 RENDER_MODE = "react"
 
 [assets]
-directory = "./dist"    
+directory = "./dist"
 
 [observability]
 enabled = true
 
+kv_namespaces = [
+  { binding = "ACTION_E_LOG", id = "2a60ad97002542bbb6b06480ed21c770" },
+  { binding = "SESSION_STORE", id = "daf67e9652774ee9b3992924f46d9c7e" }
+]
 
+[env.production]
+kv_namespaces = [
+  { binding = "ACTION_E_LOG", id = "2a60ad97002542bbb6b06480ed21c770" },
+  { binding = "SESSION_STORE", id = "daf67e9652774ee9b3992924f46d9c7e" }
+]
