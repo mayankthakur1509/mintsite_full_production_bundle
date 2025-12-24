@@ -1119,7 +1119,7 @@ var require_react_dom_development = __commonJS({
       }
       __name(resolveDispatcher, "resolveDispatcher");
       "undefined" !== typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ && "function" === typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart && __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart(Error());
-      var React18 = require_react(), Internals = {
+      var React15 = require_react(), Internals = {
         d: {
           f: noop,
           r: /* @__PURE__ */ __name(function() {
@@ -1137,7 +1137,7 @@ var require_react_dom_development = __commonJS({
         },
         p: 0,
         findDOMNode: null
-      }, REACT_PORTAL_TYPE = Symbol.for("react.portal"), ReactSharedInternals = React18.__CLIENT_INTERNALS_DO_NOT_USE_OR_WARN_USERS_THEY_CANNOT_UPGRADE;
+      }, REACT_PORTAL_TYPE = Symbol.for("react.portal"), ReactSharedInternals = React15.__CLIENT_INTERNALS_DO_NOT_USE_OR_WARN_USERS_THEY_CANNOT_UPGRADE;
       "function" === typeof Map && null != Map.prototype && "function" === typeof Map.prototype.forEach && "function" === typeof Set && null != Set.prototype && "function" === typeof Set.prototype.clear && "function" === typeof Set.prototype.forEach || console.error(
         "React depends on Map and Set built-in types. Make sure that you load a polyfill in older browsers. https://reactjs.org/link/react-polyfills"
       );
@@ -2593,7 +2593,7 @@ var require_react_dom_server_edge_development = __commonJS({
       __name(checkSelectProp, "checkSelectProp");
       function flattenOptionChildren(children) {
         var content = "";
-        React18.Children.forEach(children, function(child) {
+        React15.Children.forEach(children, function(child) {
           null != child && (content += child, didWarnInvalidOptionChildren || "string" === typeof child || "number" === typeof child || "bigint" === typeof child || (didWarnInvalidOptionChildren = true, console.error(
             "Cannot infer the option value of complex children. Pass a `value` prop or use a plain string as children to <option>."
           )));
@@ -7886,14 +7886,14 @@ var require_react_dom_server_edge_development = __commonJS({
       }
       __name(getPostponedState, "getPostponedState");
       function ensureCorrectIsomorphicReactVersion() {
-        var isomorphicReactPackageVersion = React18.version;
+        var isomorphicReactPackageVersion = React15.version;
         if ("19.2.3" !== isomorphicReactPackageVersion)
           throw Error(
             'Incompatible React versions: The "react" and "react-dom" packages must have the exact same version. Instead got:\n  - react:      ' + (isomorphicReactPackageVersion + "\n  - react-dom:  19.2.3\nLearn more: https://react.dev/warnings/version-mismatch")
           );
       }
       __name(ensureCorrectIsomorphicReactVersion, "ensureCorrectIsomorphicReactVersion");
-      var React18 = require_react(), ReactDOM = require_react_dom(), REACT_ELEMENT_TYPE = Symbol.for("react.transitional.element"), REACT_PORTAL_TYPE = Symbol.for("react.portal"), REACT_FRAGMENT_TYPE = Symbol.for("react.fragment"), REACT_STRICT_MODE_TYPE = Symbol.for("react.strict_mode"), REACT_PROFILER_TYPE = Symbol.for("react.profiler"), REACT_CONSUMER_TYPE = Symbol.for("react.consumer"), REACT_CONTEXT_TYPE = Symbol.for("react.context"), REACT_FORWARD_REF_TYPE = Symbol.for("react.forward_ref"), REACT_SUSPENSE_TYPE = Symbol.for("react.suspense"), REACT_SUSPENSE_LIST_TYPE = Symbol.for("react.suspense_list"), REACT_MEMO_TYPE = Symbol.for("react.memo"), REACT_LAZY_TYPE = Symbol.for("react.lazy"), REACT_SCOPE_TYPE = Symbol.for("react.scope"), REACT_ACTIVITY_TYPE = Symbol.for("react.activity"), REACT_LEGACY_HIDDEN_TYPE = Symbol.for("react.legacy_hidden"), REACT_MEMO_CACHE_SENTINEL = Symbol.for("react.memo_cache_sentinel"), REACT_VIEW_TRANSITION_TYPE = Symbol.for("react.view_transition"), MAYBE_ITERATOR_SYMBOL = Symbol.iterator, isArrayImpl = Array.isArray, jsxPropsParents = /* @__PURE__ */ new WeakMap(), jsxChildrenParents = /* @__PURE__ */ new WeakMap(), CLIENT_REFERENCE_TAG = Symbol.for("react.client.reference"), LocalPromise = Promise, scheduleMicrotask = "function" === typeof queueMicrotask ? queueMicrotask : function(callback) {
+      var React15 = require_react(), ReactDOM = require_react_dom(), REACT_ELEMENT_TYPE = Symbol.for("react.transitional.element"), REACT_PORTAL_TYPE = Symbol.for("react.portal"), REACT_FRAGMENT_TYPE = Symbol.for("react.fragment"), REACT_STRICT_MODE_TYPE = Symbol.for("react.strict_mode"), REACT_PROFILER_TYPE = Symbol.for("react.profiler"), REACT_CONSUMER_TYPE = Symbol.for("react.consumer"), REACT_CONTEXT_TYPE = Symbol.for("react.context"), REACT_FORWARD_REF_TYPE = Symbol.for("react.forward_ref"), REACT_SUSPENSE_TYPE = Symbol.for("react.suspense"), REACT_SUSPENSE_LIST_TYPE = Symbol.for("react.suspense_list"), REACT_MEMO_TYPE = Symbol.for("react.memo"), REACT_LAZY_TYPE = Symbol.for("react.lazy"), REACT_SCOPE_TYPE = Symbol.for("react.scope"), REACT_ACTIVITY_TYPE = Symbol.for("react.activity"), REACT_LEGACY_HIDDEN_TYPE = Symbol.for("react.legacy_hidden"), REACT_MEMO_CACHE_SENTINEL = Symbol.for("react.memo_cache_sentinel"), REACT_VIEW_TRANSITION_TYPE = Symbol.for("react.view_transition"), MAYBE_ITERATOR_SYMBOL = Symbol.iterator, isArrayImpl = Array.isArray, jsxPropsParents = /* @__PURE__ */ new WeakMap(), jsxChildrenParents = /* @__PURE__ */ new WeakMap(), CLIENT_REFERENCE_TAG = Symbol.for("react.client.reference"), LocalPromise = Promise, scheduleMicrotask = "function" === typeof queueMicrotask ? queueMicrotask : function(callback) {
         LocalPromise.resolve(null).then(callback).catch(handleErrorInNextTick);
       }, currentView = null, writtenBytes = 0, textEncoder = new TextEncoder(), assign = Object.assign, hasOwnProperty = Object.prototype.hasOwnProperty, VALID_ATTRIBUTE_NAME_REGEX = RegExp(
         "^[:A-Z_a-z\\u00C0-\\u00D6\\u00D8-\\u00F6\\u00F8-\\u02FF\\u0370-\\u037D\\u037F-\\u1FFF\\u200C-\\u200D\\u2070-\\u218F\\u2C00-\\u2FEF\\u3001-\\uD7FF\\uF900-\\uFDCF\\uFDF0-\\uFFFD][:A-Z_a-z\\u00C0-\\u00D6\\u00D8-\\u00F6\\u00F8-\\u02FF\\u0370-\\u037D\\u037F-\\u1FFF\\u200C-\\u200D\\u2070-\\u218F\\u2C00-\\u2FEF\\u3001-\\uD7FF\\uF900-\\uFDCF\\uFDF0-\\uFFFD\\-.0-9\\u00B7\\u0300-\\u036F\\u203F-\\u2040]*$"
@@ -8543,7 +8543,7 @@ var require_react_dom_server_edge_development = __commonJS({
         "^(aria)-[:A-Z_a-z\\u00C0-\\u00D6\\u00D8-\\u00F6\\u00F8-\\u02FF\\u0370-\\u037D\\u037F-\\u1FFF\\u200C-\\u200D\\u2070-\\u218F\\u2C00-\\u2FEF\\u3001-\\uD7FF\\uF900-\\uFDCF\\uFDF0-\\uFFFD\\-.0-9\\u00B7\\u0300-\\u036F\\u203F-\\u2040]*$"
       ), rARIACamel = RegExp(
         "^(aria)[A-Z][:A-Z_a-z\\u00C0-\\u00D6\\u00D8-\\u00F6\\u00F8-\\u02FF\\u0370-\\u037D\\u037F-\\u1FFF\\u200C-\\u200D\\u2070-\\u218F\\u2C00-\\u2FEF\\u3001-\\uD7FF\\uF900-\\uFDCF\\uFDF0-\\uFFFD\\-.0-9\\u00B7\\u0300-\\u036F\\u203F-\\u2040]*$"
-      ), badVendoredStyleNamePattern = /^(?:webkit|moz|o)[A-Z]/, msPattern$1 = /^-ms-/, hyphenPattern = /-(.)/g, badStyleValueWithSemicolonPattern = /;\s*$/, warnedStyleNames = {}, warnedStyleValues = {}, warnedForNaNValue = false, warnedForInfinityValue = false, matchHtmlRegExp = /["'&<>]/, uppercasePattern = /([A-Z])/g, msPattern = /^ms-/, isJavaScriptProtocol = /^[\u0000-\u001F ]*j[\r\n\t]*a[\r\n\t]*v[\r\n\t]*a[\r\n\t]*s[\r\n\t]*c[\r\n\t]*r[\r\n\t]*i[\r\n\t]*p[\r\n\t]*t[\r\n\t]*:/i, ReactSharedInternals = React18.__CLIENT_INTERNALS_DO_NOT_USE_OR_WARN_USERS_THEY_CANNOT_UPGRADE, ReactDOMSharedInternals = ReactDOM.__DOM_INTERNALS_DO_NOT_USE_OR_WARN_USERS_THEY_CANNOT_UPGRADE, NotPending = Object.freeze({
+      ), badVendoredStyleNamePattern = /^(?:webkit|moz|o)[A-Z]/, msPattern$1 = /^-ms-/, hyphenPattern = /-(.)/g, badStyleValueWithSemicolonPattern = /;\s*$/, warnedStyleNames = {}, warnedStyleValues = {}, warnedForNaNValue = false, warnedForInfinityValue = false, matchHtmlRegExp = /["'&<>]/, uppercasePattern = /([A-Z])/g, msPattern = /^ms-/, isJavaScriptProtocol = /^[\u0000-\u001F ]*j[\r\n\t]*a[\r\n\t]*v[\r\n\t]*a[\r\n\t]*s[\r\n\t]*c[\r\n\t]*r[\r\n\t]*i[\r\n\t]*p[\r\n\t]*t[\r\n\t]*:/i, ReactSharedInternals = React15.__CLIENT_INTERNALS_DO_NOT_USE_OR_WARN_USERS_THEY_CANNOT_UPGRADE, ReactDOMSharedInternals = ReactDOM.__DOM_INTERNALS_DO_NOT_USE_OR_WARN_USERS_THEY_CANNOT_UPGRADE, NotPending = Object.freeze({
         pending: false,
         data: null,
         method: null,
@@ -10277,7 +10277,7 @@ var require_react_dom_server_legacy_browser_development = __commonJS({
       __name(checkSelectProp, "checkSelectProp");
       function flattenOptionChildren(children) {
         var content = "";
-        React18.Children.forEach(children, function(child) {
+        React15.Children.forEach(children, function(child) {
           null != child && (content += child, didWarnInvalidOptionChildren || "string" === typeof child || "number" === typeof child || "bigint" === typeof child || (didWarnInvalidOptionChildren = true, console.error(
             "Cannot infer the option value of complex children. Pass a `value` prop or use a plain string as children to <option>."
           )));
@@ -15478,7 +15478,7 @@ var require_react_dom_server_legacy_browser_development = __commonJS({
         return result;
       }
       __name(renderToStringImpl, "renderToStringImpl");
-      var React18 = require_react(), ReactDOM = require_react_dom(), REACT_ELEMENT_TYPE = Symbol.for("react.transitional.element"), REACT_PORTAL_TYPE = Symbol.for("react.portal"), REACT_FRAGMENT_TYPE = Symbol.for("react.fragment"), REACT_STRICT_MODE_TYPE = Symbol.for("react.strict_mode"), REACT_PROFILER_TYPE = Symbol.for("react.profiler"), REACT_CONSUMER_TYPE = Symbol.for("react.consumer"), REACT_CONTEXT_TYPE = Symbol.for("react.context"), REACT_FORWARD_REF_TYPE = Symbol.for("react.forward_ref"), REACT_SUSPENSE_TYPE = Symbol.for("react.suspense"), REACT_SUSPENSE_LIST_TYPE = Symbol.for("react.suspense_list"), REACT_MEMO_TYPE = Symbol.for("react.memo"), REACT_LAZY_TYPE = Symbol.for("react.lazy"), REACT_SCOPE_TYPE = Symbol.for("react.scope"), REACT_ACTIVITY_TYPE = Symbol.for("react.activity"), REACT_LEGACY_HIDDEN_TYPE = Symbol.for("react.legacy_hidden"), REACT_MEMO_CACHE_SENTINEL = Symbol.for("react.memo_cache_sentinel"), REACT_VIEW_TRANSITION_TYPE = Symbol.for("react.view_transition"), MAYBE_ITERATOR_SYMBOL = Symbol.iterator, isArrayImpl = Array.isArray, jsxPropsParents = /* @__PURE__ */ new WeakMap(), jsxChildrenParents = /* @__PURE__ */ new WeakMap(), CLIENT_REFERENCE_TAG = Symbol.for("react.client.reference"), assign = Object.assign, hasOwnProperty = Object.prototype.hasOwnProperty, VALID_ATTRIBUTE_NAME_REGEX = RegExp(
+      var React15 = require_react(), ReactDOM = require_react_dom(), REACT_ELEMENT_TYPE = Symbol.for("react.transitional.element"), REACT_PORTAL_TYPE = Symbol.for("react.portal"), REACT_FRAGMENT_TYPE = Symbol.for("react.fragment"), REACT_STRICT_MODE_TYPE = Symbol.for("react.strict_mode"), REACT_PROFILER_TYPE = Symbol.for("react.profiler"), REACT_CONSUMER_TYPE = Symbol.for("react.consumer"), REACT_CONTEXT_TYPE = Symbol.for("react.context"), REACT_FORWARD_REF_TYPE = Symbol.for("react.forward_ref"), REACT_SUSPENSE_TYPE = Symbol.for("react.suspense"), REACT_SUSPENSE_LIST_TYPE = Symbol.for("react.suspense_list"), REACT_MEMO_TYPE = Symbol.for("react.memo"), REACT_LAZY_TYPE = Symbol.for("react.lazy"), REACT_SCOPE_TYPE = Symbol.for("react.scope"), REACT_ACTIVITY_TYPE = Symbol.for("react.activity"), REACT_LEGACY_HIDDEN_TYPE = Symbol.for("react.legacy_hidden"), REACT_MEMO_CACHE_SENTINEL = Symbol.for("react.memo_cache_sentinel"), REACT_VIEW_TRANSITION_TYPE = Symbol.for("react.view_transition"), MAYBE_ITERATOR_SYMBOL = Symbol.iterator, isArrayImpl = Array.isArray, jsxPropsParents = /* @__PURE__ */ new WeakMap(), jsxChildrenParents = /* @__PURE__ */ new WeakMap(), CLIENT_REFERENCE_TAG = Symbol.for("react.client.reference"), assign = Object.assign, hasOwnProperty = Object.prototype.hasOwnProperty, VALID_ATTRIBUTE_NAME_REGEX = RegExp(
         "^[:A-Z_a-z\\u00C0-\\u00D6\\u00D8-\\u00F6\\u00F8-\\u02FF\\u0370-\\u037D\\u037F-\\u1FFF\\u200C-\\u200D\\u2070-\\u218F\\u2C00-\\u2FEF\\u3001-\\uD7FF\\uF900-\\uFDCF\\uFDF0-\\uFFFD][:A-Z_a-z\\u00C0-\\u00D6\\u00D8-\\u00F6\\u00F8-\\u02FF\\u0370-\\u037D\\u037F-\\u1FFF\\u200C-\\u200D\\u2070-\\u218F\\u2C00-\\u2FEF\\u3001-\\uD7FF\\uF900-\\uFDCF\\uFDF0-\\uFFFD\\-.0-9\\u00B7\\u0300-\\u036F\\u203F-\\u2040]*$"
       ), illegalAttributeNameCache = {}, validatedAttributeNameCache = {}, unitlessNumbers = new Set(
         "animationIterationCount aspectRatio borderImageOutset borderImageSlice borderImageWidth boxFlex boxFlexGroup boxOrdinalGroup columnCount columns flex flexGrow flexPositive flexShrink flexNegative flexOrder gridArea gridRow gridRowEnd gridRowSpan gridRowStart gridColumn gridColumnEnd gridColumnSpan gridColumnStart fontWeight lineClamp lineHeight opacity order orphans scale tabSize widows zIndex zoom fillOpacity floodOpacity stopOpacity strokeDasharray strokeDashoffset strokeMiterlimit strokeOpacity strokeWidth MozAnimationIterationCount MozBoxFlex MozBoxFlexGroup MozLineClamp msAnimationIterationCount msFlex msZoom msFlexGrow msFlexNegative msFlexOrder msFlexPositive msFlexShrink msGridColumn msGridColumnSpan msGridRow msGridRowSpan WebkitAnimationIterationCount WebkitBoxFlex WebKitBoxFlexGroup WebkitBoxOrdinalGroup WebkitColumnCount WebkitColumns WebkitFlex WebkitFlexGrow WebkitFlexPositive WebkitFlexShrink WebkitLineClamp".split(
@@ -16126,7 +16126,7 @@ var require_react_dom_server_legacy_browser_development = __commonJS({
         "^(aria)-[:A-Z_a-z\\u00C0-\\u00D6\\u00D8-\\u00F6\\u00F8-\\u02FF\\u0370-\\u037D\\u037F-\\u1FFF\\u200C-\\u200D\\u2070-\\u218F\\u2C00-\\u2FEF\\u3001-\\uD7FF\\uF900-\\uFDCF\\uFDF0-\\uFFFD\\-.0-9\\u00B7\\u0300-\\u036F\\u203F-\\u2040]*$"
       ), rARIACamel = RegExp(
         "^(aria)[A-Z][:A-Z_a-z\\u00C0-\\u00D6\\u00D8-\\u00F6\\u00F8-\\u02FF\\u0370-\\u037D\\u037F-\\u1FFF\\u200C-\\u200D\\u2070-\\u218F\\u2C00-\\u2FEF\\u3001-\\uD7FF\\uF900-\\uFDCF\\uFDF0-\\uFFFD\\-.0-9\\u00B7\\u0300-\\u036F\\u203F-\\u2040]*$"
-      ), badVendoredStyleNamePattern = /^(?:webkit|moz|o)[A-Z]/, msPattern$1 = /^-ms-/, hyphenPattern = /-(.)/g, badStyleValueWithSemicolonPattern = /;\s*$/, warnedStyleNames = {}, warnedStyleValues = {}, warnedForNaNValue = false, warnedForInfinityValue = false, matchHtmlRegExp = /["'&<>]/, uppercasePattern = /([A-Z])/g, msPattern = /^ms-/, isJavaScriptProtocol = /^[\u0000-\u001F ]*j[\r\n\t]*a[\r\n\t]*v[\r\n\t]*a[\r\n\t]*s[\r\n\t]*c[\r\n\t]*r[\r\n\t]*i[\r\n\t]*p[\r\n\t]*t[\r\n\t]*:/i, ReactSharedInternals = React18.__CLIENT_INTERNALS_DO_NOT_USE_OR_WARN_USERS_THEY_CANNOT_UPGRADE, ReactDOMSharedInternals = ReactDOM.__DOM_INTERNALS_DO_NOT_USE_OR_WARN_USERS_THEY_CANNOT_UPGRADE, NotPending = Object.freeze({
+      ), badVendoredStyleNamePattern = /^(?:webkit|moz|o)[A-Z]/, msPattern$1 = /^-ms-/, hyphenPattern = /-(.)/g, badStyleValueWithSemicolonPattern = /;\s*$/, warnedStyleNames = {}, warnedStyleValues = {}, warnedForNaNValue = false, warnedForInfinityValue = false, matchHtmlRegExp = /["'&<>]/, uppercasePattern = /([A-Z])/g, msPattern = /^ms-/, isJavaScriptProtocol = /^[\u0000-\u001F ]*j[\r\n\t]*a[\r\n\t]*v[\r\n\t]*a[\r\n\t]*s[\r\n\t]*c[\r\n\t]*r[\r\n\t]*i[\r\n\t]*p[\r\n\t]*t[\r\n\t]*:/i, ReactSharedInternals = React15.__CLIENT_INTERNALS_DO_NOT_USE_OR_WARN_USERS_THEY_CANNOT_UPGRADE, ReactDOMSharedInternals = ReactDOM.__DOM_INTERNALS_DO_NOT_USE_OR_WARN_USERS_THEY_CANNOT_UPGRADE, NotPending = Object.freeze({
         pending: false,
         data: null,
         method: null,
@@ -16618,6 +16618,16 @@ var manifest_default = {
               "global-mobility",
               "international-compliance"
             ]
+          },
+          {
+            id: "test",
+            name: "Test",
+            title: "Global Mobility Tax Specialist",
+            bio: "Big4-trained global mobility leader.",
+            practices: [
+              "global-mobility",
+              "international-compliance"
+            ]
           }
         ],
         practices: [
@@ -16730,6 +16740,16 @@ var manifest_default = {
             {
               id: "John-doe",
               name: "John Doe",
+              title: "Global Mobility Tax Specialist",
+              bio: "Big4-trained global mobility leader.",
+              practices: [
+                "global-mobility",
+                "international-compliance"
+              ]
+            },
+            {
+              id: "test",
+              name: "Test",
               title: "Global Mobility Tax Specialist",
               bio: "Big4-trained global mobility leader.",
               practices: [
@@ -16853,6 +16873,16 @@ var manifest_default = {
             {
               id: "John-doe",
               name: "John Doe",
+              title: "Global Mobility Tax Specialist",
+              bio: "Big4-trained global mobility leader.",
+              practices: [
+                "global-mobility",
+                "international-compliance"
+              ]
+            },
+            {
+              id: "test",
+              name: "Test",
               title: "Global Mobility Tax Specialist",
               bio: "Big4-trained global mobility leader.",
               practices: [
@@ -16985,6 +17015,16 @@ var manifest_default = {
                 "global-mobility",
                 "international-compliance"
               ]
+            },
+            {
+              id: "test",
+              name: "Test",
+              title: "Global Mobility Tax Specialist",
+              bio: "Big4-trained global mobility leader.",
+              practices: [
+                "global-mobility",
+                "international-compliance"
+              ]
             }
           ],
           practices: [
@@ -17105,6 +17145,16 @@ var manifest_default = {
             {
               id: "John-doe",
               name: "John Doe",
+              title: "Global Mobility Tax Specialist",
+              bio: "Big4-trained global mobility leader.",
+              practices: [
+                "global-mobility",
+                "international-compliance"
+              ]
+            },
+            {
+              id: "test",
+              name: "Test",
               title: "Global Mobility Tax Specialist",
               bio: "Big4-trained global mobility leader.",
               practices: [
@@ -17237,6 +17287,16 @@ var manifest_default = {
                 "global-mobility",
                 "international-compliance"
               ]
+            },
+            {
+              id: "test",
+              name: "Test",
+              title: "Global Mobility Tax Specialist",
+              bio: "Big4-trained global mobility leader.",
+              practices: [
+                "global-mobility",
+                "international-compliance"
+              ]
             }
           ],
           practices: [
@@ -17363,6 +17423,16 @@ var manifest_default = {
                 "global-mobility",
                 "international-compliance"
               ]
+            },
+            {
+              id: "test",
+              name: "Test",
+              title: "Global Mobility Tax Specialist",
+              bio: "Big4-trained global mobility leader.",
+              practices: [
+                "global-mobility",
+                "international-compliance"
+              ]
             }
           ],
           practices: [
@@ -17480,6 +17550,16 @@ var manifest_default = {
             {
               id: "John-doe",
               name: "John Doe",
+              title: "Global Mobility Tax Specialist",
+              bio: "Big4-trained global mobility leader.",
+              practices: [
+                "global-mobility",
+                "international-compliance"
+              ]
+            },
+            {
+              id: "test",
+              name: "Test",
               title: "Global Mobility Tax Specialist",
               bio: "Big4-trained global mobility leader.",
               practices: [
@@ -17612,6 +17692,16 @@ var manifest_default = {
                 "global-mobility",
                 "international-compliance"
               ]
+            },
+            {
+              id: "test",
+              name: "Test",
+              title: "Global Mobility Tax Specialist",
+              bio: "Big4-trained global mobility leader.",
+              practices: [
+                "global-mobility",
+                "international-compliance"
+              ]
             }
           ],
           practices: [
@@ -17732,6 +17822,16 @@ var manifest_default = {
             {
               id: "John-doe",
               name: "John Doe",
+              title: "Global Mobility Tax Specialist",
+              bio: "Big4-trained global mobility leader.",
+              practices: [
+                "global-mobility",
+                "international-compliance"
+              ]
+            },
+            {
+              id: "test",
+              name: "Test",
               title: "Global Mobility Tax Specialist",
               bio: "Big4-trained global mobility leader.",
               practices: [
@@ -17864,6 +17964,16 @@ var manifest_default = {
                 "global-mobility",
                 "international-compliance"
               ]
+            },
+            {
+              id: "test",
+              name: "Test",
+              title: "Global Mobility Tax Specialist",
+              bio: "Big4-trained global mobility leader.",
+              practices: [
+                "global-mobility",
+                "international-compliance"
+              ]
             }
           ],
           practices: [
@@ -17990,6 +18100,16 @@ var manifest_default = {
                 "global-mobility",
                 "international-compliance"
               ]
+            },
+            {
+              id: "test",
+              name: "Test",
+              title: "Global Mobility Tax Specialist",
+              bio: "Big4-trained global mobility leader.",
+              practices: [
+                "global-mobility",
+                "international-compliance"
+              ]
             }
           ],
           practices: [
@@ -18102,6 +18222,16 @@ var manifest_default = {
             {
               id: "John-doe",
               name: "John Doe",
+              title: "Global Mobility Tax Specialist",
+              bio: "Big4-trained global mobility leader.",
+              practices: [
+                "global-mobility",
+                "international-compliance"
+              ]
+            },
+            {
+              id: "test",
+              name: "Test",
               title: "Global Mobility Tax Specialist",
               bio: "Big4-trained global mobility leader.",
               practices: [
@@ -18224,6 +18354,16 @@ var manifest_default = {
             {
               id: "John-doe",
               name: "John Doe",
+              title: "Global Mobility Tax Specialist",
+              bio: "Big4-trained global mobility leader.",
+              practices: [
+                "global-mobility",
+                "international-compliance"
+              ]
+            },
+            {
+              id: "test",
+              name: "Test",
               title: "Global Mobility Tax Specialist",
               bio: "Big4-trained global mobility leader.",
               practices: [
@@ -18355,6 +18495,16 @@ var manifest_default = {
                 "global-mobility",
                 "international-compliance"
               ]
+            },
+            {
+              id: "test",
+              name: "Test",
+              title: "Global Mobility Tax Specialist",
+              bio: "Big4-trained global mobility leader.",
+              practices: [
+                "global-mobility",
+                "international-compliance"
+              ]
             }
           ],
           practices: [
@@ -18474,6 +18624,16 @@ var manifest_default = {
             {
               id: "John-doe",
               name: "John Doe",
+              title: "Global Mobility Tax Specialist",
+              bio: "Big4-trained global mobility leader.",
+              practices: [
+                "global-mobility",
+                "international-compliance"
+              ]
+            },
+            {
+              id: "test",
+              name: "Test",
               title: "Global Mobility Tax Specialist",
               bio: "Big4-trained global mobility leader.",
               practices: [
@@ -18605,6 +18765,16 @@ var manifest_default = {
                 "global-mobility",
                 "international-compliance"
               ]
+            },
+            {
+              id: "test",
+              name: "Test",
+              title: "Global Mobility Tax Specialist",
+              bio: "Big4-trained global mobility leader.",
+              practices: [
+                "global-mobility",
+                "international-compliance"
+              ]
             }
           ],
           practices: [
@@ -18730,6 +18900,16 @@ var manifest_default = {
                 "global-mobility",
                 "international-compliance"
               ]
+            },
+            {
+              id: "test",
+              name: "Test",
+              title: "Global Mobility Tax Specialist",
+              bio: "Big4-trained global mobility leader.",
+              practices: [
+                "global-mobility",
+                "international-compliance"
+              ]
             }
           ],
           practices: [
@@ -18843,6 +19023,16 @@ var manifest_default = {
             {
               id: "John-doe",
               name: "John Doe",
+              title: "Global Mobility Tax Specialist",
+              bio: "Big4-trained global mobility leader.",
+              practices: [
+                "global-mobility",
+                "international-compliance"
+              ]
+            },
+            {
+              id: "test",
+              name: "Test",
               title: "Global Mobility Tax Specialist",
               bio: "Big4-trained global mobility leader.",
               practices: [
@@ -18966,6 +19156,16 @@ var manifest_default = {
             {
               id: "John-doe",
               name: "John Doe",
+              title: "Global Mobility Tax Specialist",
+              bio: "Big4-trained global mobility leader.",
+              practices: [
+                "global-mobility",
+                "international-compliance"
+              ]
+            },
+            {
+              id: "test",
+              name: "Test",
               title: "Global Mobility Tax Specialist",
               bio: "Big4-trained global mobility leader.",
               practices: [
@@ -19098,6 +19298,16 @@ var manifest_default = {
                 "global-mobility",
                 "international-compliance"
               ]
+            },
+            {
+              id: "test",
+              name: "Test",
+              title: "Global Mobility Tax Specialist",
+              bio: "Big4-trained global mobility leader.",
+              practices: [
+                "global-mobility",
+                "international-compliance"
+              ]
             }
           ],
           practices: [
@@ -19218,6 +19428,16 @@ var manifest_default = {
             {
               id: "John-doe",
               name: "John Doe",
+              title: "Global Mobility Tax Specialist",
+              bio: "Big4-trained global mobility leader.",
+              practices: [
+                "global-mobility",
+                "international-compliance"
+              ]
+            },
+            {
+              id: "test",
+              name: "Test",
               title: "Global Mobility Tax Specialist",
               bio: "Big4-trained global mobility leader.",
               practices: [
@@ -19350,6 +19570,16 @@ var manifest_default = {
                 "global-mobility",
                 "international-compliance"
               ]
+            },
+            {
+              id: "test",
+              name: "Test",
+              title: "Global Mobility Tax Specialist",
+              bio: "Big4-trained global mobility leader.",
+              practices: [
+                "global-mobility",
+                "international-compliance"
+              ]
             }
           ],
           practices: [
@@ -19476,6 +19706,16 @@ var manifest_default = {
                 "global-mobility",
                 "international-compliance"
               ]
+            },
+            {
+              id: "test",
+              name: "Test",
+              title: "Global Mobility Tax Specialist",
+              bio: "Big4-trained global mobility leader.",
+              practices: [
+                "global-mobility",
+                "international-compliance"
+              ]
             }
           ],
           practices: [
@@ -19593,6 +19833,16 @@ var manifest_default = {
             {
               id: "John-doe",
               name: "John Doe",
+              title: "Global Mobility Tax Specialist",
+              bio: "Big4-trained global mobility leader.",
+              practices: [
+                "global-mobility",
+                "international-compliance"
+              ]
+            },
+            {
+              id: "test",
+              name: "Test",
               title: "Global Mobility Tax Specialist",
               bio: "Big4-trained global mobility leader.",
               practices: [
@@ -19725,6 +19975,16 @@ var manifest_default = {
                 "global-mobility",
                 "international-compliance"
               ]
+            },
+            {
+              id: "test",
+              name: "Test",
+              title: "Global Mobility Tax Specialist",
+              bio: "Big4-trained global mobility leader.",
+              practices: [
+                "global-mobility",
+                "international-compliance"
+              ]
             }
           ],
           practices: [
@@ -19845,6 +20105,16 @@ var manifest_default = {
             {
               id: "John-doe",
               name: "John Doe",
+              title: "Global Mobility Tax Specialist",
+              bio: "Big4-trained global mobility leader.",
+              practices: [
+                "global-mobility",
+                "international-compliance"
+              ]
+            },
+            {
+              id: "test",
+              name: "Test",
               title: "Global Mobility Tax Specialist",
               bio: "Big4-trained global mobility leader.",
               practices: [
@@ -19977,6 +20247,16 @@ var manifest_default = {
                 "global-mobility",
                 "international-compliance"
               ]
+            },
+            {
+              id: "test",
+              name: "Test",
+              title: "Global Mobility Tax Specialist",
+              bio: "Big4-trained global mobility leader.",
+              practices: [
+                "global-mobility",
+                "international-compliance"
+              ]
             }
           ],
           practices: [
@@ -20103,6 +20383,1499 @@ var manifest_default = {
                 "global-mobility",
                 "international-compliance"
               ]
+            },
+            {
+              id: "test",
+              name: "Test",
+              title: "Global Mobility Tax Specialist",
+              bio: "Big4-trained global mobility leader.",
+              practices: [
+                "global-mobility",
+                "international-compliance"
+              ]
+            }
+          ],
+          practices: [
+            {
+              id: "expat-tax",
+              name: "Expat Tax Advisory"
+            },
+            {
+              id: "international-compliance",
+              name: "Cross-Border Compliance"
+            },
+            {
+              id: "global-mobility",
+              name: "Global Mobility Tax Planning"
+            }
+          ],
+          value_map: [
+            {
+              pillar: "Risk Reduction",
+              signals: [
+                "Lower audit exposure",
+                "Stronger treaty position"
+              ]
+            },
+            {
+              pillar: "Efficiency",
+              signals: [
+                "Faster filings",
+                "Reduced manual remediation"
+              ]
+            }
+          ],
+          outcomes: [
+            {
+              id: "audit-drop",
+              text: "Reduce audit risk by 28%"
+            },
+            {
+              id: "cost-reduction",
+              text: "Lower annual tax prep costs by 15%"
+            }
+          ],
+          case_studies: [
+            {
+              id: "expat-savings",
+              persona: "cfo",
+              headline: "Saved $43,000 in U.S. expat taxes",
+              summary: "Optimized treaty usage and filing path.",
+              outcomes: [
+                "audit-drop",
+                "cost-reduction"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      route: "/lawyers/test",
+      component: "LawyerProfile",
+      props: {
+        lawyer: {
+          id: "test",
+          name: "Test",
+          title: "Global Mobility Tax Specialist",
+          bio: "Big4-trained global mobility leader.",
+          practices: [
+            "global-mobility",
+            "international-compliance"
+          ]
+        },
+        model: {
+          site: {
+            firm_name: "WiggMax Tax Law",
+            theme: "mintsite",
+            personas: [
+              {
+                id: "cfo"
+              },
+              {
+                id: "ceo"
+              },
+              {
+                id: "gc"
+              },
+              {
+                id: "tax_director"
+              }
+            ]
+          },
+          lawyers: [
+            {
+              id: "john-smith",
+              name: "John Smith",
+              title: "International Tax Attorney",
+              bio: "20 years cross-border experience.",
+              practices: [
+                "expat-tax",
+                "international-compliance"
+              ]
+            },
+            {
+              id: "sarah-lee",
+              name: "Sarah Lee",
+              title: "Global Mobility Tax Specialist",
+              bio: "Big4-trained global mobility leader.",
+              practices: [
+                "global-mobility"
+              ]
+            },
+            {
+              id: "John-doe",
+              name: "John Doe",
+              title: "Global Mobility Tax Specialist",
+              bio: "Big4-trained global mobility leader.",
+              practices: [
+                "global-mobility",
+                "international-compliance"
+              ]
+            },
+            {
+              id: "test",
+              name: "Test",
+              title: "Global Mobility Tax Specialist",
+              bio: "Big4-trained global mobility leader.",
+              practices: [
+                "global-mobility",
+                "international-compliance"
+              ]
+            }
+          ],
+          practices: [
+            {
+              id: "expat-tax",
+              name: "Expat Tax Advisory"
+            },
+            {
+              id: "international-compliance",
+              name: "Cross-Border Compliance"
+            },
+            {
+              id: "global-mobility",
+              name: "Global Mobility Tax Planning"
+            }
+          ],
+          value_map: [
+            {
+              pillar: "Risk Reduction",
+              signals: [
+                "Lower audit exposure",
+                "Stronger treaty position"
+              ]
+            },
+            {
+              pillar: "Efficiency",
+              signals: [
+                "Faster filings",
+                "Reduced manual remediation"
+              ]
+            }
+          ],
+          outcomes: [
+            {
+              id: "audit-drop",
+              text: "Reduce audit risk by 28%"
+            },
+            {
+              id: "cost-reduction",
+              text: "Lower annual tax prep costs by 15%"
+            }
+          ],
+          case_studies: [
+            {
+              id: "expat-savings",
+              persona: "cfo",
+              headline: "Saved $43,000 in U.S. expat taxes",
+              summary: "Optimized treaty usage and filing path.",
+              outcomes: [
+                "audit-drop",
+                "cost-reduction"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      route: "/lawyers/test/global-mobility",
+      component: "PracticePage",
+      props: {
+        lawyer: {
+          id: "test",
+          name: "Test",
+          title: "Global Mobility Tax Specialist",
+          bio: "Big4-trained global mobility leader.",
+          practices: [
+            "global-mobility",
+            "international-compliance"
+          ]
+        },
+        practice: {
+          id: "global-mobility",
+          name: "Global Mobility Tax Planning"
+        },
+        model: {
+          site: {
+            firm_name: "WiggMax Tax Law",
+            theme: "mintsite",
+            personas: [
+              {
+                id: "cfo"
+              },
+              {
+                id: "ceo"
+              },
+              {
+                id: "gc"
+              },
+              {
+                id: "tax_director"
+              }
+            ]
+          },
+          lawyers: [
+            {
+              id: "john-smith",
+              name: "John Smith",
+              title: "International Tax Attorney",
+              bio: "20 years cross-border experience.",
+              practices: [
+                "expat-tax",
+                "international-compliance"
+              ]
+            },
+            {
+              id: "sarah-lee",
+              name: "Sarah Lee",
+              title: "Global Mobility Tax Specialist",
+              bio: "Big4-trained global mobility leader.",
+              practices: [
+                "global-mobility"
+              ]
+            },
+            {
+              id: "John-doe",
+              name: "John Doe",
+              title: "Global Mobility Tax Specialist",
+              bio: "Big4-trained global mobility leader.",
+              practices: [
+                "global-mobility",
+                "international-compliance"
+              ]
+            },
+            {
+              id: "test",
+              name: "Test",
+              title: "Global Mobility Tax Specialist",
+              bio: "Big4-trained global mobility leader.",
+              practices: [
+                "global-mobility",
+                "international-compliance"
+              ]
+            }
+          ],
+          practices: [
+            {
+              id: "expat-tax",
+              name: "Expat Tax Advisory"
+            },
+            {
+              id: "international-compliance",
+              name: "Cross-Border Compliance"
+            },
+            {
+              id: "global-mobility",
+              name: "Global Mobility Tax Planning"
+            }
+          ],
+          value_map: [
+            {
+              pillar: "Risk Reduction",
+              signals: [
+                "Lower audit exposure",
+                "Stronger treaty position"
+              ]
+            },
+            {
+              pillar: "Efficiency",
+              signals: [
+                "Faster filings",
+                "Reduced manual remediation"
+              ]
+            }
+          ],
+          outcomes: [
+            {
+              id: "audit-drop",
+              text: "Reduce audit risk by 28%"
+            },
+            {
+              id: "cost-reduction",
+              text: "Lower annual tax prep costs by 15%"
+            }
+          ],
+          case_studies: [
+            {
+              id: "expat-savings",
+              persona: "cfo",
+              headline: "Saved $43,000 in U.S. expat taxes",
+              summary: "Optimized treaty usage and filing path.",
+              outcomes: [
+                "audit-drop",
+                "cost-reduction"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      route: "/lawyers/test/global-mobility/vflp/cfo",
+      component: "VFLP_Template",
+      props: {
+        persona: {
+          id: "cfo"
+        },
+        lawyer: {
+          id: "test",
+          name: "Test",
+          title: "Global Mobility Tax Specialist",
+          bio: "Big4-trained global mobility leader.",
+          practices: [
+            "global-mobility",
+            "international-compliance"
+          ]
+        },
+        practice: {
+          id: "global-mobility",
+          name: "Global Mobility Tax Planning"
+        },
+        model: {
+          site: {
+            firm_name: "WiggMax Tax Law",
+            theme: "mintsite",
+            personas: [
+              {
+                id: "cfo"
+              },
+              {
+                id: "ceo"
+              },
+              {
+                id: "gc"
+              },
+              {
+                id: "tax_director"
+              }
+            ]
+          },
+          lawyers: [
+            {
+              id: "john-smith",
+              name: "John Smith",
+              title: "International Tax Attorney",
+              bio: "20 years cross-border experience.",
+              practices: [
+                "expat-tax",
+                "international-compliance"
+              ]
+            },
+            {
+              id: "sarah-lee",
+              name: "Sarah Lee",
+              title: "Global Mobility Tax Specialist",
+              bio: "Big4-trained global mobility leader.",
+              practices: [
+                "global-mobility"
+              ]
+            },
+            {
+              id: "John-doe",
+              name: "John Doe",
+              title: "Global Mobility Tax Specialist",
+              bio: "Big4-trained global mobility leader.",
+              practices: [
+                "global-mobility",
+                "international-compliance"
+              ]
+            },
+            {
+              id: "test",
+              name: "Test",
+              title: "Global Mobility Tax Specialist",
+              bio: "Big4-trained global mobility leader.",
+              practices: [
+                "global-mobility",
+                "international-compliance"
+              ]
+            }
+          ],
+          practices: [
+            {
+              id: "expat-tax",
+              name: "Expat Tax Advisory"
+            },
+            {
+              id: "international-compliance",
+              name: "Cross-Border Compliance"
+            },
+            {
+              id: "global-mobility",
+              name: "Global Mobility Tax Planning"
+            }
+          ],
+          value_map: [
+            {
+              pillar: "Risk Reduction",
+              signals: [
+                "Lower audit exposure",
+                "Stronger treaty position"
+              ]
+            },
+            {
+              pillar: "Efficiency",
+              signals: [
+                "Faster filings",
+                "Reduced manual remediation"
+              ]
+            }
+          ],
+          outcomes: [
+            {
+              id: "audit-drop",
+              text: "Reduce audit risk by 28%"
+            },
+            {
+              id: "cost-reduction",
+              text: "Lower annual tax prep costs by 15%"
+            }
+          ],
+          case_studies: [
+            {
+              id: "expat-savings",
+              persona: "cfo",
+              headline: "Saved $43,000 in U.S. expat taxes",
+              summary: "Optimized treaty usage and filing path.",
+              outcomes: [
+                "audit-drop",
+                "cost-reduction"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      route: "/lawyers/test/global-mobility/vflp/ceo",
+      component: "VFLP_Template",
+      props: {
+        persona: {
+          id: "ceo"
+        },
+        lawyer: {
+          id: "test",
+          name: "Test",
+          title: "Global Mobility Tax Specialist",
+          bio: "Big4-trained global mobility leader.",
+          practices: [
+            "global-mobility",
+            "international-compliance"
+          ]
+        },
+        practice: {
+          id: "global-mobility",
+          name: "Global Mobility Tax Planning"
+        },
+        model: {
+          site: {
+            firm_name: "WiggMax Tax Law",
+            theme: "mintsite",
+            personas: [
+              {
+                id: "cfo"
+              },
+              {
+                id: "ceo"
+              },
+              {
+                id: "gc"
+              },
+              {
+                id: "tax_director"
+              }
+            ]
+          },
+          lawyers: [
+            {
+              id: "john-smith",
+              name: "John Smith",
+              title: "International Tax Attorney",
+              bio: "20 years cross-border experience.",
+              practices: [
+                "expat-tax",
+                "international-compliance"
+              ]
+            },
+            {
+              id: "sarah-lee",
+              name: "Sarah Lee",
+              title: "Global Mobility Tax Specialist",
+              bio: "Big4-trained global mobility leader.",
+              practices: [
+                "global-mobility"
+              ]
+            },
+            {
+              id: "John-doe",
+              name: "John Doe",
+              title: "Global Mobility Tax Specialist",
+              bio: "Big4-trained global mobility leader.",
+              practices: [
+                "global-mobility",
+                "international-compliance"
+              ]
+            },
+            {
+              id: "test",
+              name: "Test",
+              title: "Global Mobility Tax Specialist",
+              bio: "Big4-trained global mobility leader.",
+              practices: [
+                "global-mobility",
+                "international-compliance"
+              ]
+            }
+          ],
+          practices: [
+            {
+              id: "expat-tax",
+              name: "Expat Tax Advisory"
+            },
+            {
+              id: "international-compliance",
+              name: "Cross-Border Compliance"
+            },
+            {
+              id: "global-mobility",
+              name: "Global Mobility Tax Planning"
+            }
+          ],
+          value_map: [
+            {
+              pillar: "Risk Reduction",
+              signals: [
+                "Lower audit exposure",
+                "Stronger treaty position"
+              ]
+            },
+            {
+              pillar: "Efficiency",
+              signals: [
+                "Faster filings",
+                "Reduced manual remediation"
+              ]
+            }
+          ],
+          outcomes: [
+            {
+              id: "audit-drop",
+              text: "Reduce audit risk by 28%"
+            },
+            {
+              id: "cost-reduction",
+              text: "Lower annual tax prep costs by 15%"
+            }
+          ],
+          case_studies: [
+            {
+              id: "expat-savings",
+              persona: "cfo",
+              headline: "Saved $43,000 in U.S. expat taxes",
+              summary: "Optimized treaty usage and filing path.",
+              outcomes: [
+                "audit-drop",
+                "cost-reduction"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      route: "/lawyers/test/global-mobility/vflp/gc",
+      component: "VFLP_Template",
+      props: {
+        persona: {
+          id: "gc"
+        },
+        lawyer: {
+          id: "test",
+          name: "Test",
+          title: "Global Mobility Tax Specialist",
+          bio: "Big4-trained global mobility leader.",
+          practices: [
+            "global-mobility",
+            "international-compliance"
+          ]
+        },
+        practice: {
+          id: "global-mobility",
+          name: "Global Mobility Tax Planning"
+        },
+        model: {
+          site: {
+            firm_name: "WiggMax Tax Law",
+            theme: "mintsite",
+            personas: [
+              {
+                id: "cfo"
+              },
+              {
+                id: "ceo"
+              },
+              {
+                id: "gc"
+              },
+              {
+                id: "tax_director"
+              }
+            ]
+          },
+          lawyers: [
+            {
+              id: "john-smith",
+              name: "John Smith",
+              title: "International Tax Attorney",
+              bio: "20 years cross-border experience.",
+              practices: [
+                "expat-tax",
+                "international-compliance"
+              ]
+            },
+            {
+              id: "sarah-lee",
+              name: "Sarah Lee",
+              title: "Global Mobility Tax Specialist",
+              bio: "Big4-trained global mobility leader.",
+              practices: [
+                "global-mobility"
+              ]
+            },
+            {
+              id: "John-doe",
+              name: "John Doe",
+              title: "Global Mobility Tax Specialist",
+              bio: "Big4-trained global mobility leader.",
+              practices: [
+                "global-mobility",
+                "international-compliance"
+              ]
+            },
+            {
+              id: "test",
+              name: "Test",
+              title: "Global Mobility Tax Specialist",
+              bio: "Big4-trained global mobility leader.",
+              practices: [
+                "global-mobility",
+                "international-compliance"
+              ]
+            }
+          ],
+          practices: [
+            {
+              id: "expat-tax",
+              name: "Expat Tax Advisory"
+            },
+            {
+              id: "international-compliance",
+              name: "Cross-Border Compliance"
+            },
+            {
+              id: "global-mobility",
+              name: "Global Mobility Tax Planning"
+            }
+          ],
+          value_map: [
+            {
+              pillar: "Risk Reduction",
+              signals: [
+                "Lower audit exposure",
+                "Stronger treaty position"
+              ]
+            },
+            {
+              pillar: "Efficiency",
+              signals: [
+                "Faster filings",
+                "Reduced manual remediation"
+              ]
+            }
+          ],
+          outcomes: [
+            {
+              id: "audit-drop",
+              text: "Reduce audit risk by 28%"
+            },
+            {
+              id: "cost-reduction",
+              text: "Lower annual tax prep costs by 15%"
+            }
+          ],
+          case_studies: [
+            {
+              id: "expat-savings",
+              persona: "cfo",
+              headline: "Saved $43,000 in U.S. expat taxes",
+              summary: "Optimized treaty usage and filing path.",
+              outcomes: [
+                "audit-drop",
+                "cost-reduction"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      route: "/lawyers/test/global-mobility/vflp/tax_director",
+      component: "VFLP_Template",
+      props: {
+        persona: {
+          id: "tax_director"
+        },
+        lawyer: {
+          id: "test",
+          name: "Test",
+          title: "Global Mobility Tax Specialist",
+          bio: "Big4-trained global mobility leader.",
+          practices: [
+            "global-mobility",
+            "international-compliance"
+          ]
+        },
+        practice: {
+          id: "global-mobility",
+          name: "Global Mobility Tax Planning"
+        },
+        model: {
+          site: {
+            firm_name: "WiggMax Tax Law",
+            theme: "mintsite",
+            personas: [
+              {
+                id: "cfo"
+              },
+              {
+                id: "ceo"
+              },
+              {
+                id: "gc"
+              },
+              {
+                id: "tax_director"
+              }
+            ]
+          },
+          lawyers: [
+            {
+              id: "john-smith",
+              name: "John Smith",
+              title: "International Tax Attorney",
+              bio: "20 years cross-border experience.",
+              practices: [
+                "expat-tax",
+                "international-compliance"
+              ]
+            },
+            {
+              id: "sarah-lee",
+              name: "Sarah Lee",
+              title: "Global Mobility Tax Specialist",
+              bio: "Big4-trained global mobility leader.",
+              practices: [
+                "global-mobility"
+              ]
+            },
+            {
+              id: "John-doe",
+              name: "John Doe",
+              title: "Global Mobility Tax Specialist",
+              bio: "Big4-trained global mobility leader.",
+              practices: [
+                "global-mobility",
+                "international-compliance"
+              ]
+            },
+            {
+              id: "test",
+              name: "Test",
+              title: "Global Mobility Tax Specialist",
+              bio: "Big4-trained global mobility leader.",
+              practices: [
+                "global-mobility",
+                "international-compliance"
+              ]
+            }
+          ],
+          practices: [
+            {
+              id: "expat-tax",
+              name: "Expat Tax Advisory"
+            },
+            {
+              id: "international-compliance",
+              name: "Cross-Border Compliance"
+            },
+            {
+              id: "global-mobility",
+              name: "Global Mobility Tax Planning"
+            }
+          ],
+          value_map: [
+            {
+              pillar: "Risk Reduction",
+              signals: [
+                "Lower audit exposure",
+                "Stronger treaty position"
+              ]
+            },
+            {
+              pillar: "Efficiency",
+              signals: [
+                "Faster filings",
+                "Reduced manual remediation"
+              ]
+            }
+          ],
+          outcomes: [
+            {
+              id: "audit-drop",
+              text: "Reduce audit risk by 28%"
+            },
+            {
+              id: "cost-reduction",
+              text: "Lower annual tax prep costs by 15%"
+            }
+          ],
+          case_studies: [
+            {
+              id: "expat-savings",
+              persona: "cfo",
+              headline: "Saved $43,000 in U.S. expat taxes",
+              summary: "Optimized treaty usage and filing path.",
+              outcomes: [
+                "audit-drop",
+                "cost-reduction"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      route: "/lawyers/test/international-compliance",
+      component: "PracticePage",
+      props: {
+        lawyer: {
+          id: "test",
+          name: "Test",
+          title: "Global Mobility Tax Specialist",
+          bio: "Big4-trained global mobility leader.",
+          practices: [
+            "global-mobility",
+            "international-compliance"
+          ]
+        },
+        practice: {
+          id: "international-compliance",
+          name: "Cross-Border Compliance"
+        },
+        model: {
+          site: {
+            firm_name: "WiggMax Tax Law",
+            theme: "mintsite",
+            personas: [
+              {
+                id: "cfo"
+              },
+              {
+                id: "ceo"
+              },
+              {
+                id: "gc"
+              },
+              {
+                id: "tax_director"
+              }
+            ]
+          },
+          lawyers: [
+            {
+              id: "john-smith",
+              name: "John Smith",
+              title: "International Tax Attorney",
+              bio: "20 years cross-border experience.",
+              practices: [
+                "expat-tax",
+                "international-compliance"
+              ]
+            },
+            {
+              id: "sarah-lee",
+              name: "Sarah Lee",
+              title: "Global Mobility Tax Specialist",
+              bio: "Big4-trained global mobility leader.",
+              practices: [
+                "global-mobility"
+              ]
+            },
+            {
+              id: "John-doe",
+              name: "John Doe",
+              title: "Global Mobility Tax Specialist",
+              bio: "Big4-trained global mobility leader.",
+              practices: [
+                "global-mobility",
+                "international-compliance"
+              ]
+            },
+            {
+              id: "test",
+              name: "Test",
+              title: "Global Mobility Tax Specialist",
+              bio: "Big4-trained global mobility leader.",
+              practices: [
+                "global-mobility",
+                "international-compliance"
+              ]
+            }
+          ],
+          practices: [
+            {
+              id: "expat-tax",
+              name: "Expat Tax Advisory"
+            },
+            {
+              id: "international-compliance",
+              name: "Cross-Border Compliance"
+            },
+            {
+              id: "global-mobility",
+              name: "Global Mobility Tax Planning"
+            }
+          ],
+          value_map: [
+            {
+              pillar: "Risk Reduction",
+              signals: [
+                "Lower audit exposure",
+                "Stronger treaty position"
+              ]
+            },
+            {
+              pillar: "Efficiency",
+              signals: [
+                "Faster filings",
+                "Reduced manual remediation"
+              ]
+            }
+          ],
+          outcomes: [
+            {
+              id: "audit-drop",
+              text: "Reduce audit risk by 28%"
+            },
+            {
+              id: "cost-reduction",
+              text: "Lower annual tax prep costs by 15%"
+            }
+          ],
+          case_studies: [
+            {
+              id: "expat-savings",
+              persona: "cfo",
+              headline: "Saved $43,000 in U.S. expat taxes",
+              summary: "Optimized treaty usage and filing path.",
+              outcomes: [
+                "audit-drop",
+                "cost-reduction"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      route: "/lawyers/test/international-compliance/vflp/cfo",
+      component: "VFLP_Template",
+      props: {
+        persona: {
+          id: "cfo"
+        },
+        lawyer: {
+          id: "test",
+          name: "Test",
+          title: "Global Mobility Tax Specialist",
+          bio: "Big4-trained global mobility leader.",
+          practices: [
+            "global-mobility",
+            "international-compliance"
+          ]
+        },
+        practice: {
+          id: "international-compliance",
+          name: "Cross-Border Compliance"
+        },
+        model: {
+          site: {
+            firm_name: "WiggMax Tax Law",
+            theme: "mintsite",
+            personas: [
+              {
+                id: "cfo"
+              },
+              {
+                id: "ceo"
+              },
+              {
+                id: "gc"
+              },
+              {
+                id: "tax_director"
+              }
+            ]
+          },
+          lawyers: [
+            {
+              id: "john-smith",
+              name: "John Smith",
+              title: "International Tax Attorney",
+              bio: "20 years cross-border experience.",
+              practices: [
+                "expat-tax",
+                "international-compliance"
+              ]
+            },
+            {
+              id: "sarah-lee",
+              name: "Sarah Lee",
+              title: "Global Mobility Tax Specialist",
+              bio: "Big4-trained global mobility leader.",
+              practices: [
+                "global-mobility"
+              ]
+            },
+            {
+              id: "John-doe",
+              name: "John Doe",
+              title: "Global Mobility Tax Specialist",
+              bio: "Big4-trained global mobility leader.",
+              practices: [
+                "global-mobility",
+                "international-compliance"
+              ]
+            },
+            {
+              id: "test",
+              name: "Test",
+              title: "Global Mobility Tax Specialist",
+              bio: "Big4-trained global mobility leader.",
+              practices: [
+                "global-mobility",
+                "international-compliance"
+              ]
+            }
+          ],
+          practices: [
+            {
+              id: "expat-tax",
+              name: "Expat Tax Advisory"
+            },
+            {
+              id: "international-compliance",
+              name: "Cross-Border Compliance"
+            },
+            {
+              id: "global-mobility",
+              name: "Global Mobility Tax Planning"
+            }
+          ],
+          value_map: [
+            {
+              pillar: "Risk Reduction",
+              signals: [
+                "Lower audit exposure",
+                "Stronger treaty position"
+              ]
+            },
+            {
+              pillar: "Efficiency",
+              signals: [
+                "Faster filings",
+                "Reduced manual remediation"
+              ]
+            }
+          ],
+          outcomes: [
+            {
+              id: "audit-drop",
+              text: "Reduce audit risk by 28%"
+            },
+            {
+              id: "cost-reduction",
+              text: "Lower annual tax prep costs by 15%"
+            }
+          ],
+          case_studies: [
+            {
+              id: "expat-savings",
+              persona: "cfo",
+              headline: "Saved $43,000 in U.S. expat taxes",
+              summary: "Optimized treaty usage and filing path.",
+              outcomes: [
+                "audit-drop",
+                "cost-reduction"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      route: "/lawyers/test/international-compliance/vflp/ceo",
+      component: "VFLP_Template",
+      props: {
+        persona: {
+          id: "ceo"
+        },
+        lawyer: {
+          id: "test",
+          name: "Test",
+          title: "Global Mobility Tax Specialist",
+          bio: "Big4-trained global mobility leader.",
+          practices: [
+            "global-mobility",
+            "international-compliance"
+          ]
+        },
+        practice: {
+          id: "international-compliance",
+          name: "Cross-Border Compliance"
+        },
+        model: {
+          site: {
+            firm_name: "WiggMax Tax Law",
+            theme: "mintsite",
+            personas: [
+              {
+                id: "cfo"
+              },
+              {
+                id: "ceo"
+              },
+              {
+                id: "gc"
+              },
+              {
+                id: "tax_director"
+              }
+            ]
+          },
+          lawyers: [
+            {
+              id: "john-smith",
+              name: "John Smith",
+              title: "International Tax Attorney",
+              bio: "20 years cross-border experience.",
+              practices: [
+                "expat-tax",
+                "international-compliance"
+              ]
+            },
+            {
+              id: "sarah-lee",
+              name: "Sarah Lee",
+              title: "Global Mobility Tax Specialist",
+              bio: "Big4-trained global mobility leader.",
+              practices: [
+                "global-mobility"
+              ]
+            },
+            {
+              id: "John-doe",
+              name: "John Doe",
+              title: "Global Mobility Tax Specialist",
+              bio: "Big4-trained global mobility leader.",
+              practices: [
+                "global-mobility",
+                "international-compliance"
+              ]
+            },
+            {
+              id: "test",
+              name: "Test",
+              title: "Global Mobility Tax Specialist",
+              bio: "Big4-trained global mobility leader.",
+              practices: [
+                "global-mobility",
+                "international-compliance"
+              ]
+            }
+          ],
+          practices: [
+            {
+              id: "expat-tax",
+              name: "Expat Tax Advisory"
+            },
+            {
+              id: "international-compliance",
+              name: "Cross-Border Compliance"
+            },
+            {
+              id: "global-mobility",
+              name: "Global Mobility Tax Planning"
+            }
+          ],
+          value_map: [
+            {
+              pillar: "Risk Reduction",
+              signals: [
+                "Lower audit exposure",
+                "Stronger treaty position"
+              ]
+            },
+            {
+              pillar: "Efficiency",
+              signals: [
+                "Faster filings",
+                "Reduced manual remediation"
+              ]
+            }
+          ],
+          outcomes: [
+            {
+              id: "audit-drop",
+              text: "Reduce audit risk by 28%"
+            },
+            {
+              id: "cost-reduction",
+              text: "Lower annual tax prep costs by 15%"
+            }
+          ],
+          case_studies: [
+            {
+              id: "expat-savings",
+              persona: "cfo",
+              headline: "Saved $43,000 in U.S. expat taxes",
+              summary: "Optimized treaty usage and filing path.",
+              outcomes: [
+                "audit-drop",
+                "cost-reduction"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      route: "/lawyers/test/international-compliance/vflp/gc",
+      component: "VFLP_Template",
+      props: {
+        persona: {
+          id: "gc"
+        },
+        lawyer: {
+          id: "test",
+          name: "Test",
+          title: "Global Mobility Tax Specialist",
+          bio: "Big4-trained global mobility leader.",
+          practices: [
+            "global-mobility",
+            "international-compliance"
+          ]
+        },
+        practice: {
+          id: "international-compliance",
+          name: "Cross-Border Compliance"
+        },
+        model: {
+          site: {
+            firm_name: "WiggMax Tax Law",
+            theme: "mintsite",
+            personas: [
+              {
+                id: "cfo"
+              },
+              {
+                id: "ceo"
+              },
+              {
+                id: "gc"
+              },
+              {
+                id: "tax_director"
+              }
+            ]
+          },
+          lawyers: [
+            {
+              id: "john-smith",
+              name: "John Smith",
+              title: "International Tax Attorney",
+              bio: "20 years cross-border experience.",
+              practices: [
+                "expat-tax",
+                "international-compliance"
+              ]
+            },
+            {
+              id: "sarah-lee",
+              name: "Sarah Lee",
+              title: "Global Mobility Tax Specialist",
+              bio: "Big4-trained global mobility leader.",
+              practices: [
+                "global-mobility"
+              ]
+            },
+            {
+              id: "John-doe",
+              name: "John Doe",
+              title: "Global Mobility Tax Specialist",
+              bio: "Big4-trained global mobility leader.",
+              practices: [
+                "global-mobility",
+                "international-compliance"
+              ]
+            },
+            {
+              id: "test",
+              name: "Test",
+              title: "Global Mobility Tax Specialist",
+              bio: "Big4-trained global mobility leader.",
+              practices: [
+                "global-mobility",
+                "international-compliance"
+              ]
+            }
+          ],
+          practices: [
+            {
+              id: "expat-tax",
+              name: "Expat Tax Advisory"
+            },
+            {
+              id: "international-compliance",
+              name: "Cross-Border Compliance"
+            },
+            {
+              id: "global-mobility",
+              name: "Global Mobility Tax Planning"
+            }
+          ],
+          value_map: [
+            {
+              pillar: "Risk Reduction",
+              signals: [
+                "Lower audit exposure",
+                "Stronger treaty position"
+              ]
+            },
+            {
+              pillar: "Efficiency",
+              signals: [
+                "Faster filings",
+                "Reduced manual remediation"
+              ]
+            }
+          ],
+          outcomes: [
+            {
+              id: "audit-drop",
+              text: "Reduce audit risk by 28%"
+            },
+            {
+              id: "cost-reduction",
+              text: "Lower annual tax prep costs by 15%"
+            }
+          ],
+          case_studies: [
+            {
+              id: "expat-savings",
+              persona: "cfo",
+              headline: "Saved $43,000 in U.S. expat taxes",
+              summary: "Optimized treaty usage and filing path.",
+              outcomes: [
+                "audit-drop",
+                "cost-reduction"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      route: "/lawyers/test/international-compliance/vflp/tax_director",
+      component: "VFLP_Template",
+      props: {
+        persona: {
+          id: "tax_director"
+        },
+        lawyer: {
+          id: "test",
+          name: "Test",
+          title: "Global Mobility Tax Specialist",
+          bio: "Big4-trained global mobility leader.",
+          practices: [
+            "global-mobility",
+            "international-compliance"
+          ]
+        },
+        practice: {
+          id: "international-compliance",
+          name: "Cross-Border Compliance"
+        },
+        model: {
+          site: {
+            firm_name: "WiggMax Tax Law",
+            theme: "mintsite",
+            personas: [
+              {
+                id: "cfo"
+              },
+              {
+                id: "ceo"
+              },
+              {
+                id: "gc"
+              },
+              {
+                id: "tax_director"
+              }
+            ]
+          },
+          lawyers: [
+            {
+              id: "john-smith",
+              name: "John Smith",
+              title: "International Tax Attorney",
+              bio: "20 years cross-border experience.",
+              practices: [
+                "expat-tax",
+                "international-compliance"
+              ]
+            },
+            {
+              id: "sarah-lee",
+              name: "Sarah Lee",
+              title: "Global Mobility Tax Specialist",
+              bio: "Big4-trained global mobility leader.",
+              practices: [
+                "global-mobility"
+              ]
+            },
+            {
+              id: "John-doe",
+              name: "John Doe",
+              title: "Global Mobility Tax Specialist",
+              bio: "Big4-trained global mobility leader.",
+              practices: [
+                "global-mobility",
+                "international-compliance"
+              ]
+            },
+            {
+              id: "test",
+              name: "Test",
+              title: "Global Mobility Tax Specialist",
+              bio: "Big4-trained global mobility leader.",
+              practices: [
+                "global-mobility",
+                "international-compliance"
+              ]
             }
           ],
           practices: [
@@ -20189,26 +21962,30 @@ var manifest_default = {
     "/lawyers/John-doe/international-compliance/vflp/cfo",
     "/lawyers/John-doe/international-compliance/vflp/ceo",
     "/lawyers/John-doe/international-compliance/vflp/gc",
-    "/lawyers/John-doe/international-compliance/vflp/tax_director"
+    "/lawyers/John-doe/international-compliance/vflp/tax_director",
+    "/lawyers/test",
+    "/lawyers/test/global-mobility",
+    "/lawyers/test/global-mobility/vflp/cfo",
+    "/lawyers/test/global-mobility/vflp/ceo",
+    "/lawyers/test/global-mobility/vflp/gc",
+    "/lawyers/test/global-mobility/vflp/tax_director",
+    "/lawyers/test/international-compliance",
+    "/lawyers/test/international-compliance/vflp/cfo",
+    "/lawyers/test/international-compliance/vflp/ceo",
+    "/lawyers/test/international-compliance/vflp/gc",
+    "/lawyers/test/international-compliance/vflp/tax_director"
   ],
-  timestamp: "2025-12-24T07:21:02.450Z"
+  timestamp: "2025-12-24T09:56:32.127Z"
 };
 
 // engine/router.js
-function resolveRoute(pathname, persona) {
-  let p = manifest_default.pages.find((p2) => p2.route === pathname);
-  if (p) return p;
-  const lawyer = pathname.match(/^\/lawyers\/([^\/]+)$/);
-  if (lawyer) {
-    return manifest_default.pages.find((x) => x.route.startsWith(`/lawyers/${lawyer[1]}`));
-  }
-  const v = pathname.match(/^\/lawyers\/([^\/]+)\/([^\/]+)\/vflp\/([^\/]+)$/);
-  if (v) {
-    return manifest_default.pages.find(
-      (x) => x.route === `/lawyers/${v[1]}/${v[2]}/vflp/${v[3]}`
-    );
-  }
-  return null;
+function resolveRoute(pathname, persona = "default") {
+  const page = manifest_default.pages.find((p) => p.route === pathname);
+  if (!page) return null;
+  return {
+    component: page.component,
+    props: page.props
+  };
 }
 __name(resolveRoute, "resolveRoute");
 
@@ -20238,7 +22015,7 @@ __name(logEvent, "logEvent");
 
 // src/renderer/index.js
 init_modules_watch_stub();
-var import_react16 = __toESM(require_react(), 1);
+var import_react13 = __toESM(require_react(), 1);
 var import_server = __toESM(require_server_edge(), 1);
 
 // src/components/AuthorityPage.jsx
@@ -20301,10 +22078,6 @@ function PracticePage({ practice, lawyer }) {
   return /* @__PURE__ */ import_react7.default.createElement("div", null, /* @__PURE__ */ import_react7.default.createElement("h1", null, practice.name), /* @__PURE__ */ import_react7.default.createElement("p", null, "Attorney: ", lawyer.name));
 }
 __name(PracticePage, "PracticePage");
-
-// src/components/VFLP_CEO.jsx
-init_modules_watch_stub();
-var import_react13 = __toESM(require_react(), 1);
 
 // src/components/VFLP_Template.jsx
 init_modules_watch_stub();
@@ -20398,48 +22171,23 @@ function VFLP_Template({ persona, lawyer, practice, model, __mintAction }) {
 }
 __name(VFLP_Template, "VFLP_Template");
 
-// src/components/VFLP_CEO.jsx
-function VFLP_CEO(props) {
-  return /* @__PURE__ */ import_react13.default.createElement(VFLP_Template, { ...props });
-}
-__name(VFLP_CEO, "VFLP_CEO");
-
-// src/components/VFLP_CFO.jsx
-init_modules_watch_stub();
-var import_react14 = __toESM(require_react(), 1);
-function VFLP_CFO(props) {
-  return /* @__PURE__ */ import_react14.default.createElement(VFLP_Template, { ...props });
-}
-__name(VFLP_CFO, "VFLP_CFO");
-
-// src/components/VFLP_GC.jsx
-init_modules_watch_stub();
-var import_react15 = __toESM(require_react(), 1);
-function VFLP_GC(props) {
-  return /* @__PURE__ */ import_react15.default.createElement(VFLP_Template, { ...props });
-}
-__name(VFLP_GC, "VFLP_GC");
-
 // src/renderer/index.js
-var components = {
+var COMPONENT_MAP = {
   AuthorityPage,
   LawyerProfile,
   PracticePage,
-  VFLP_CEO,
-  VFLP_CFO,
-  VFLP_GC
-  // VFLP_TAX_DIRECTOR
+  VFLP_Template
 };
 var renderer = {
-  render: /* @__PURE__ */ __name(async (componentName, props) => {
-    const Component = components[componentName];
+  async render(componentName, props) {
+    const Component = COMPONENT_MAP[componentName];
     if (!Component) {
-      return `<h1>Component ${componentName} not found</h1>`;
+      throw new Error(`\u274C Unknown component: ${componentName}`);
     }
-    return import_server.default.renderToString(
-      import_react16.default.createElement(Component, props)
+    return (0, import_server.renderToString)(
+      import_react13.default.createElement(Component, props)
     );
-  }, "render")
+  }
 };
 
 // engine/intentScorer.js
@@ -20580,7 +22328,7 @@ function detectDrift(signals) {
   const recent = signals.slice(-3);
   const personas = new Set(recent.map((s) => s.persona));
   const practices = new Set(recent.map((s) => s.practice));
-  const components2 = recent.map((s) => s.component);
+  const components = recent.map((s) => s.component);
   if (personas.size > 1) {
     return {
       type: "PERSONA_DRIFT",
@@ -20593,11 +22341,11 @@ function detectDrift(signals) {
       detail: [...practices]
     };
   }
-  const last = components2[components2.length - 1];
+  const last = components[components.length - 1];
   if (!last.startsWith("VFLP")) {
     return {
       type: "INTENT_COOLING",
-      detail: components2
+      detail: components
     };
   }
   return null;
